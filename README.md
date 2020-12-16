@@ -1,6 +1,8 @@
 # JACDAC Module Development Kit (MDK)
 
-The [JACDAC](https://aka.ms/jacdac) Module Development Kit (MDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own JACDAC modules. A JACDAC _module_ communicates with other modules over the JACDAC bus using the JACDAC [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/). A module has one (or more) [JACDAC edge connectors](./connector) for connecting it to other modules using JACDAC _cables_. It may supply power to the bus and/or consume power from the bus. 
+The [JACDAC](https://aka.ms/jacdac) Module Development Kit (MDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own JACDAC [modules](https://microsoft.github.io/jacdac-ts/devices/). 
+
+A JACDAC _module_ communicates with other modules over the JACDAC bus using the JACDAC [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/). A module has one (or more) [JACDAC edge connectors](./connector) for connecting it to other modules using JACDAC _cables_. It may supply power to the bus and/or consume power from the bus. 
 
 A common realization of a JACDAC module is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a specific set of components (sensors and/or actuators). The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/) advertised over the JACDAC bus.
 
