@@ -3,6 +3,9 @@
 This repository contains information to build modules for [JACDAC](https://aka.ms/jacdac).
 
 * [JACDAC Connector](./connector)
+* building firmware is covered in README.md of [jacdac-stm32x0](https://github.com/microsoft/jacdac-stm32x0)
+  (other MCUs are currently not supported)
+* adding new services is covered in README.md of [jacdac-c](https://github.com/microsoft/jacdac-c)
 
 ## Contributing
 
