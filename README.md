@@ -4,17 +4,17 @@ The [JACDAC](https://aka.ms/jacdac) Module Development Kit (MDK) is for 3rd part
 
 A JACDAC _module_ communicates with other modules over the JACDAC bus using the JACDAC [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/). A module has one (or more) [JACDAC edge connectors](./connector) for connecting it to other modules using JACDAC _cables_. It may supply power to the bus and/or consume power from the bus. 
 
-A common realization of a JACDAC module is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a specific set of components (sensors and/or actuators). The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/) advertised over the JACDAC bus.
+A common realization of a JACDAC module is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators), chosen by the 3rd party. The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/), advertised over the JACDAC bus.
 
 The JACDAC MDK supports 3rd parties in the following steps:
-1.	choosing hardware components and incorporating them into the JACDAC [module design](./module_design);
+1.	choosing on-board components and adding them to the JACDAC [module design](./module_design);
 2.	identifying the [services](https://microsoft.github.io/jacdac-ts/services/) to represent the chosen components;
-3.	building the necessary firmware to expose the components on the JACDAC bus (see the README of [https://github.com/microsoft/jacdac-stm32x0])
+3.	building the firmware to expose the components on the JACDAC bus (see https://github.com/microsoft/jacdac-stm32x0);
 4.	validating the module;
 5.	manufacturing the module;
 6.	adding the module to the JACDAC catalog;  
 
-Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the JACDAC bootloader service, which allows updating of the module’s firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./module_design) and [firwmare](https://github.com/microsoft/jacdac-stm32x0) already present and tested, which will greatly simplify the above steps.
+Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the JACDAC bootloader service, which allows updating of the module’s firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./module_design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
 
 ## More information
 
