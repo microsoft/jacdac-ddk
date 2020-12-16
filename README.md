@@ -2,7 +2,7 @@
 
 This repository contains information to build modules for JACDAC.
 
-* [JACDAC Edge Connector](./connector/README.md)
+* [JACDAC Edge Connector](./connector)
 
 ## Contributing
 

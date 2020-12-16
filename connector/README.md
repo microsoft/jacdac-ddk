@@ -1,3 +1,3 @@
-# JACDAC Connector
+# JACDAC Edge Connector
 
 ...
