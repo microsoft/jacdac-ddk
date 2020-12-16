@@ -1,5 +1,9 @@
 # JACDAC Module Development
 
+This repository contains information to build modules for JACDAC.
+
+* [JACDAC Edge Connector](./connector/README)
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
