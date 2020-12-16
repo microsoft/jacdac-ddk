@@ -1,6 +1,6 @@
 # JACDAC Module Development
 
-This repository contains information to build modules for JACDAC.
+This repository contains information to build modules for [JACDAC](https://aka.ms/jacdac).
 
 * [JACDAC Connector](./connector)
 
