@@ -20,7 +20,7 @@ Our current hardware/firmware design and implementation targets the STM32x0 fami
 
 - debugging tools and tips
 - adding new services is covered in README.md of [jacdac-c](https://github.com/microsoft/jacdac-c)
-- detailed JACDAC requirements, for those who which to pursue realizations of JACDAC modules using other MCUs or alternatives to MCU.
+- detailed JACDAC requirements, for those who wish to pursue realizations of JACDAC modules using other MCUs or alternatives to MCUs.
 
 ## Contributing
 
