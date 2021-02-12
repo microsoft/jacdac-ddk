@@ -12,7 +12,7 @@ The JACDAC MDK supports 3rd parties in the following steps:
 3.	[building the firmware](https://github.com/microsoft/jacdac-stm32x0) to expose the components on the JACDAC bus;
 4.	[validating](./module_validation) the module;
 5.	[manufacturing](./module_manufacture) the module;
-6.	adding the module to the JACDAC catalog;  
+6.	[submitting](./module_submit) the module to the JACDAC catalog;  
 
 Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the JACDAC bootloader service, which allows updating of the module’s firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./module_design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
 
