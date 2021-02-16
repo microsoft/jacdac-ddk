@@ -11,7 +11,7 @@ This is because the cable (see below) has contacts only on one side, and has to 
 
 You can put a via towards the end of pin 2, and use the space in the bottom to connect 1 with 3, for example as in the picture below.
 
-![Routing sample of Jacdac connector](routing-sample.png)
+<img src="/microsoft/jacdac-mdk/raw/main/connector/routing-sample.png" alt="Routing sample of Jacdac connector" height="300">
 
 ## Cable
 
