@@ -1,26 +1,26 @@
-# JACDAC Module Development Kit (MDK)
+# Jacdac Module Development Kit (MDK)
 
-The [JACDAC](https://aka.ms/jacdac) Module Development Kit (MDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own JACDAC [modules](https://microsoft.github.io/jacdac-ts/devices/). 
+The [Jacdac](https://aka.ms/jacdac) Module Development Kit (MDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own Jacdac [modules](https://microsoft.github.io/jacdac-ts/devices/). 
 
-A JACDAC _module_ communicates with other modules over the JACDAC bus using the JACDAC [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/). A module has one (or more) [JACDAC edge connectors](./connector) for connecting it to other modules using JACDAC _cables_. It may supply power to the bus and/or consume power from the bus. 
+A Jacdac _module_ communicates with other modules over the Jacdac bus using the Jacdac [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/). A module has one (or more) [Jacdac edge connectors](./connector) for connecting it to other modules using Jacdac _cables_. It may supply power to the bus and/or consume power from the bus. 
 
-A common realization of a JACDAC module is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators), chosen by the 3rd party. The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/), advertised over the JACDAC bus.
+A common realization of a Jacdac module is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators), chosen by the 3rd party. The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/), advertised over the Jacdac bus.
 
-The JACDAC MDK supports 3rd parties in the following steps:
-1.	choosing on-board components and adding them to the JACDAC [module design](./module_design);
+The Jacdac MDK supports 3rd parties in the following steps:
+1.	choosing on-board components and adding them to the Jacdac [module design](./module_design);
 2.	identifying the [services](https://microsoft.github.io/jacdac-ts/services/) to represent the chosen components;
-3.	[building the firmware](https://github.com/microsoft/jacdac-stm32x0) to expose the components on the JACDAC bus;
+3.	[building the firmware](https://github.com/microsoft/jacdac-stm32x0) to expose the components on the Jacdac bus;
 4.	[validating](./module_validation) the module;
 5.	[manufacturing](./module_manufacture) the module;
-6.	[submitting](./module_submit) the module to the JACDAC catalog;  
+6.	[submitting](./module_submit) the module to the Jacdac catalog;  
 
-Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the JACDAC bootloader service, which allows updating of the module’s firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./module_design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
+Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the Jacdac bootloader service, which allows updating of the module’s firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./module_design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
 
 ## More information
 
 - debugging tools and tips
 - adding new services is covered in README.md of [jacdac-c](https://github.com/microsoft/jacdac-c)
-- detailed JACDAC requirements, for those who wish to pursue realizations of JACDAC modules using other MCUs or alternatives to MCUs.
+- detailed Jacdac requirements, for those who wish to pursue realizations of Jacdac modules using other MCUs or alternatives to MCUs.
 
 ## Contributing
 
