@@ -19,15 +19,15 @@ Our current hardware/firmware design and implementation targets the STM32x0 fami
 
 ## Jacdac devices: client/host architecture
 
-A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _host_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/service architectures. 
+A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _host_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/server architectures. 
 
 ### Jacdac brains
 
-A Jacdac _brain_ is a Jacdac device that runs application code that makes use of a set of services available on the Jacdac bus to achieve some end-user scenario.  For example, a brain might be a programmable robot brick that has a set of built-in servos and uses Jacdac to allow the brick to be extended with Jacdac modules providing new capabilities (light and sound detection, distance estimation, etc.)
+A Jacdac _brain_ is a Jacdac device that runs application/client code that makes use of a set of services available on the Jacdac bus to achieve some end-user scenario.  For example, a brain might be a programmable robot brick that has a set of built-in servos and uses Jacdac to allow the brick to be extended with Jacdac modules providing new capabilities (light and sound detection, distance estimation, etc.)
 
 ### Jacdac modules
 
-A Jacdac _module_ can be thought of as very small server that makes a set of sensors/actuators available to other Jacdac devices on the bus. In the most straightforward implementation, a module is a small printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators). The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-docs/services/), advertised over the Jacdac bus.  What distinguishes a module from Jacdac devices (such as brains) is that a module does not execute application code. It simply serves up a abstract interface by which one can program against the sensors/actuators on that module.  
+A Jacdac _module_ can be thought of as very small server that makes a set of sensors/actuators available to other Jacdac devices on the bus. In the most straightforward implementation, a module is a small printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators). The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-docs/services/), advertised over the Jacdac bus.  What distinguishes a module from Jacdac devices (such as brains) is that a module usually does not execute application code.
 
 ## Contributing
 
