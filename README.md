@@ -28,12 +28,6 @@ A Jacdac _brain_ is a Jacdac device that runs application code that makes use of
 
 A Jacdac _module_ can be thought of as very small server that makes a set of sensors/actuators available to other Jacdac devices on the bus. In the most straightforward implementation, a module is a small printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators). The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-docs/services/), advertised over the Jacdac bus.  What distinguishes a module from Jacdac devices (such as brains) is that a module does not execute application code. It simply serves up a abstract interface by which one can program against the sensors/actuators on that module.  
 
-## More information
-
-- debugging tools and tips
-- adding new services is covered in README.md of [jacdac-c](https://github.com/microsoft/jacdac-c)
-- detailed Jacdac requirements, for those who wish to pursue realizations of Jacdac modules using other MCUs or alternatives to MCUs.
-
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
