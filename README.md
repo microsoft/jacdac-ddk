@@ -20,7 +20,7 @@ Our current hardware/firmware design and implementation targets the STM32x0 fami
 
 A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _host_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/service architectures. 
 
-## Jacdac brains
+### Jacdac brains
 
 A Jacdac _brain_ is a Jacdac device that runs application code that makes use of a set of services available on the Jacdac bus to achieve some end-user scenario.  For example, a brain might be a programmable robot brick that has a set of built-in servos and uses Jacdac to allow the brick to be extended with Jacdac modules providing new capabilities (light and sound detection, distance estimation, etc.)
 
