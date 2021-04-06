@@ -1,20 +1,32 @@
-# Jacdac Module Development Kit (MDK)
+# Jacdac Device Development Kit (DDK)
 
-The [Jacdac](https://aka.ms/jacdac) Module Development Kit (MDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own Jacdac [modules](https://microsoft.github.io/jacdac-ts/devices/). 
+The [Jacdac](https://aka.ms/jacdac) Device Development Kit (DDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own Jacdac [devices](https://microsoft.github.io/jacdac-ts/devices/). A Jacdac device has at least the following two features:
+- it has a [Jacdac edge connectors](./connector) that allows it to be connected to a Jacdac bus using Jacdac _cables_
+- it implements the Jacdac [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/) so as to communicate over the bus via the connector.  
+A Jacdac device may supply power to the bus and/or consume power from the bus. 
 
-A Jacdac _module_ communicates with other modules over the Jacdac bus using the Jacdac [protocol](https://microsoft.github.io/jacdac-ts/reference/protocol/). A module has one (or more) [Jacdac edge connectors](./connector) for connecting it to other modules using Jacdac _cables_. It may supply power to the bus and/or consume power from the bus. 
-
-A common realization of a Jacdac module is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators), chosen by the 3rd party. The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/), advertised over the Jacdac bus.
-
-The Jacdac MDK supports 3rd parties in the following steps:
-1.	choosing on-board components and adding them to the Jacdac [module design](./module_design);
+The DDK is intended to support designs in creating a variety of Jacdac devices. 
+The Jacdac DDK supports 3rd parties in the following steps:
+1.	choosing on-board components and adding them to the Jacdac [hardware design](./design);
 2.	identifying the [services](https://microsoft.github.io/jacdac-ts/services/) to represent the chosen components;
 3.	[building the firmware](https://github.com/microsoft/jacdac-stm32x0) to expose the components on the Jacdac bus;
-4.	[validating](./module_validation) the module;
-5.	[manufacturing](./module_manufacture) the module;
-6.	[submitting](./module_submit) the module to the Jacdac catalog;  
+4.	[validating](./validation) the hardware;
+5.	[manufacturing](./manufacture) the hardware;
+6.	[submitting](./submission) the hardware to the Jacdac catalog;  
 
-Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the Jacdac bootloader service, which allows updating of the module’s firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./module_design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
+Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the Jacdac bootloader service, which allows updating of the MCU's firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
+
+## Jacdac devices: client/host architecture
+
+A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _host_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/service architectures. 
+
+## Jacdac brains
+
+A Jacdac _brain_ is a Jacdac device that runs application code that makes use of a set of services available on the Jacdac bus to achieve some end-user scenario.  For example, a brain might be a programmable robot brick that has a set of built-in servos and uses Jacdac to allow the brick to be extended with Jacdac modules providing new capabilities (light and sound detection, distance estimation, etc.)
+
+### Jacdac modules
+
+A Jacdac _module_ can be thought of as very small server that makes a set of sensors/actuators available to other Jacdac devices on the bus. In the most straightforward implementation, a module is a small printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a set of **on-board components** (sensors and/or actuators). The MCU firmware exposes these components via [services](https://microsoft.github.io/jacdac-ts/services/), advertised over the Jacdac bus.  What distinguishes a module from Jacdac devices (such as brains) is that a module does not execute application code. It simply serves up a abstract interface by which one can program against the sensors/actuators on that module.  
 
 ## More information
 
