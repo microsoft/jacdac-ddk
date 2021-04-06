@@ -3,6 +3,7 @@
 The [Jacdac](https://aka.ms/jacdac) Device Development Kit (DDK) is for 3rd party hardware designers, firmware developers and manufacturers who wish to create their own Jacdac [devices](https://microsoft.github.io/jacdac-docs/devices/). A Jacdac device has at least the following two features:
 - it has a [Jacdac edge connectors](./connector) that allows it to be connected to a Jacdac bus using Jacdac _cables_
 - it implements the Jacdac [protocol](https://microsoft.github.io/jacdac-docs/reference/protocol/) so as to communicate over the bus via the connector.  
+
 A Jacdac device may supply power to the bus and/or consume power from the bus. 
 
 The DDK is intended to support designs in creating a variety of Jacdac devices. 

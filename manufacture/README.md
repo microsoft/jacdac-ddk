@@ -1,3 +1,3 @@
-# JACDAC Module Manufacturing
+# JACDAC Hardware Manufacturing
 
 
