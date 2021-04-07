@@ -16,9 +16,9 @@ The Jacdac DDK supports 3rd parties in the following steps:
 
 Our current hardware/firmware design and implementation targets the STM32x0 family of MCUs, including support for the Jacdac bootloader service, which allows updating of the MCU's firmware. We strongly encourage you to take advantage of the [STM32x0-based hardware design](./design) and [firmware](https://github.com/microsoft/jacdac-stm32x0), which will greatly simplify the above steps.
 
-## Jacdac devices: client/host architecture
+## Jacdac devices: client/server architecture
 
-A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _host_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/server architectures. 
+A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _server_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/server architectures. 
 
 ### Jacdac brains
 
