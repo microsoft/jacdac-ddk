@@ -5,7 +5,6 @@ The [Jacdac](https://aka.ms/jacdac) Device Development Kit (DDK) is for 3rd part
 - it implements the Jacdac [protocol](https://microsoft.github.io/jacdac-docs/reference/protocol/) so as to communicate over the bus via the connector.  
 - it may supply power to the bus and/or consume power from the bus. 
 
-The DDK is intended to support designs in creating a variety of Jacdac devices. 
 The Jacdac DDK supports 3rd parties in the following steps:
 1.	choosing on-board components and adding them to the Jacdac [hardware design](./design);
 2.	identifying the [services](https://microsoft.github.io/jacdac-docs/services/) to represent the chosen components;
@@ -18,7 +17,7 @@ Our current hardware/firmware design and implementation targets the STM32x0 fami
 
 ## Jacdac devices: client/server architecture
 
-A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _server_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, much like in client/server architectures. 
+A key idea behind Jacdac is to enable a separation of concerns between the worlds of _client_ (application) code and the _server_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are the abstractions by which this separation is achieved, as in client/server architectures. 
 
 ### Jacdac brains
 
