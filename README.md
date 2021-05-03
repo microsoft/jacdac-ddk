@@ -11,9 +11,11 @@ Additionally, Jacdac devices may supply power to the bus and/or consume power fr
 
 A common realization of a Jacdac device is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a specific set of components including sensors, actuators, network interfaces and/or power supplies. 
 
-## Jacdac architecture and terminology
+## Jacdac motivation and terminology
 
-A key idea behind Jacdac is a separation of concerns between the worlds of _client_ (application) code and  _server_ (firmware) code that interface with sensors/actuators. The Jacdac protocol and services are abstractions that achieve this separation, creating a client/server architecture. 
+Jacdac is a bus-based plug-and-play hardware and software stack for microcontrollers and their peripherals such as sensors and actuators. Jacdac is primarily designed for “modular electronics” scenarios that support rapid prototyping, creative exploration, making and learning through physical computing. Jacdac is designed to be cheap, flexible and extensible.
+
+Architecturally, a key idea behind Jacdac is a separation of concerns between the worlds of _client_ code (applications) and  _server_ firmware that interfaces with sensors/actuators. The Jacdac protocol and services are abstractions that achieve this separation, creating a client/server architecture. This architecture naturally results in the following categories of Jacdac device:
 
 ### Jacdac brains
 
@@ -30,6 +32,8 @@ The Jacdac bus supports power delivery in addition to communications. Jacdac dev
 ### Jacdaptors
 
 Jacdac can provide a convenient way to add functionality to existing electronics prototyping platforms including micro:bit, Raspberry Pi and Arduino. This requires suitable firmware to be developed and a physical layer adaptor that providing a suitable electrical interface to a Jacdac connector. We call this a _Jacdaptor_. 
+
+A USB Jacdaptor allows a Jacdac bus to be connected to a laptop or desktop. WebUSB allows browser-based applications to connect to the Jacdac bus. 
 
 ## Key elements of the Jacdac DDK
 
