@@ -52,18 +52,40 @@ From a power perspective, Jacdac devices fall into one of four catgeories:
 
 The simplest Jacdac scenario involves a single power provider device connected directly to a pure power consumer device. An example is a [MakeCode Arcade gaming device](https://arcade.makecode.com/hardware) connected to a Jacdac temperature sensor. The power provider will continuously deliver power to the Jacdac bus, and when the power consumer is connected it will power up and start signalling its presence. Any number of additional pure power consumers and/or power independent devices may be connected to the bus, as long as the power provider can deliver enough current to operate them all. 
 
-In order to provide a certain level of safety, the power available on the bus is limited. This means that all power providers (including dynamically powered devices) must limit the current they deliver to the bus. _Low current power providers_ may supply up to 100mA, _full current power providers_ may supply up to 900mA and _high current hub providers_ may supply up to 900mA per Jacdac PCB edge connector. If the current available is not sufficent to meet the aggregate load of power consumers on the bus, then the bus voltage will fall and device operation will become unreliable. Jacdac includes provision for user feedback that aims to make this condition easy to detect, understand and debug.
+In order to provide a certain level of safety, the power available on the bus is limited. This means that all power providers (including dynamically powered devices) must limit the current they deliver to the bus. _Low current power providers_ may supply up to 100mA, _high current power providers_ may supply up to 900mA and _high current hub providers_ may supply up to 900mA per Jacdac PCB edge connector. If the current available is not sufficent to meet the aggregate load of power consumers on the bus, then the bus voltage will fall and device operation will become unreliable. Jacdac includes provision for user feedback that aims to make this condition easy to detect, understand and debug.
 
-Full and high current Jacdac power providers must contain an MCU that implements the Jacdac power provision service which ensures that only one such provider is active at any one time. This limits the current available on any one part of the Jacdac bus to 900mA. Although Jacdac power providers are typically active by default - to ensure power is successfully delivered to pure power consumers - the Jacdac power provision service will quickly detect if another provider is also active and one will be disabled; most likely it will move into power independent operation but it could instead become a power consumer. 
+High current Jacdac power providers must contain an MCU that implements the Jacdac power provision service which ensures that only one such provider is active at any one time. This limits the current available on any one part of the Jacdac bus to 900mA. Although Jacdac power providers are typically active by default - to ensure power is successfully delivered to pure power consumers - the Jacdac power provision service will quickly detect if another provider is also active and one will be disabled; most likely it will move into power independent operation but it could instead become a power consumer. 
 
 ### Power provider current limiting
 
+Do not use a polyfuse. 
 
+### Bus voltage range
+
+The nominal 5V bus voltage and 900mA bus current limit allow commonly available USB power delivery parts to be used for Jacdac. In particular, 5V power adapters, 5V power packs, 5V current limiting ICs and 5V DC-DC converters are all commodity items. Note that high current providers do not have to provie 900mA, it may for example be cheaper to implement a 500mA power provider. 
+
+Note that any current flowing through the Jacdac bus will result in a voltage drop between the points of power provision and consumption, and any ground return current will cause a similar voltage drop. For example, When 500mA flows through a 250mm single-hop cable with 0.1Ω resistance (including contact resistance at both ends), this results in 50mV drop in each direction, i.e. the power consumer sees 100mV less than is being provided. Additional hubs and cables will further reduce the margin. 
+
+However, this is not a problem because Jacdac devices must be capable of operating when the potential between JD_POWER and GND falls to 3.7V. We expect the logic of a Jacdac device to operate at 3.3V (or lower). A low dropout linear regulator provides the cheapest and simplest implementation, but alternatively a DC-DC converter can be used for improved efficiency. 
 
 ## Data communications
 
-## Module design
+### Half duplex asynchronous serial protocol
 
-## Building Jacdac into finished devices
+### EMC requirements
 
-## MCU commissioning
+### Over- and under-voltage protection
+
+### ESD protection
+
+## Device design
+
+### Status LED
+
+### Current consumption
+
+### MCU commissioning
+
+### Mounting holes
+
+### Building Jacdac into finished devices
