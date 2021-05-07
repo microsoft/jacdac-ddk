@@ -42,7 +42,7 @@ A USB Jacdaptor allows a Jacdac bus to be connected to a laptop or desktop. WebU
 The Jacdac DDK supports 3rd party module development via the following steps:
 1.	choosing on-board components and incorporating them in a [Jacdac hardware design](./design);
 2.	identifying the [services](https://microsoft.github.io/jacdac-docs/services/) to represent the chosen components;
-3.	building [Jacdac firmware](https://github.com/microsoft/jacdac-stm32x0) to expose the components on the Jacdac bus;
+3.	building [Jacdac firmware](./firmware) to expose the components on the Jacdac bus;
 4.	[validating](./validation) the hardware;
 5.	[manufacturing](./manufacture) the hardware;
 6.	[submitting](./submission) the finalised device to the Jacdac catalog;  
