@@ -1,4 +1,4 @@
-# JACDAC Hardware Design
+# Jacdac Hardware Design
 
 ## Overview
 

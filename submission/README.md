@@ -1,3 +1,3 @@
-# JACDAC Hardware Submission
+# Jacdac Hardware Submission
 
 TBD

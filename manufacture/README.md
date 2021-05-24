@@ -1,3 +1,3 @@
-# JACDAC Hardware Manufacturing
+# Jacdac Hardware Manufacturing
 
 
