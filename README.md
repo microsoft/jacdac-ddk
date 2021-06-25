@@ -15,7 +15,7 @@ A common realization of a Jacdac device is a printed circuit board (PCB) that in
 
 Jacdac is a bus-based plug-and-play hardware and software stack for microcontrollers and their peripherals such as sensors and actuators. Jacdac is primarily designed for “modular electronics” scenarios that support rapid prototyping, creative exploration, making and learning through physical computing. Jacdac is designed to be cheap, flexible and extensible.
 
-Architecturally, a key idea behind Jacdac is a separation of concerns between the worlds of _client_ code (applications) and  _server_ firmware that interfaces with sensors/actuators. The Jacdac protocol and services are abstractions that achieve this separation, creating a client/server architecture. This architecture naturally results in the following categories of Jacdac device:
+Architecturally, a key idea behind Jacdac is a separation of concerns between the worlds of _client_ code (applications) and  _server_ firmware that interfaces with sensors/actuators. The Jacdac protocol and services are abstractions that achieve this separation, creating a client/server architecture. This architecture naturally results in the following categories of Jacdac devices:
 
 ### Jacdac brains
 
@@ -23,11 +23,11 @@ A Jacdac _brain_ is a Jacdac device that runs application/client code that makes
 
 ### Jacdac modules
 
-A Jacdac _module_ can be thought of as very small server that makes one or more sensors and/or actuators available to other Jacdac devices on the bus. In the most straightforward implementation, a module is a small PCB that includes an MCU connected to an on-board sensor or actuator. The MCU firmware exposes this component via [services](https://microsoft.github.io/jacdac-docs/services/) advertised over the Jacdac bus. What distinguishes a module from a Jacdac brain is that a module usually does not execute application code.
+A Jacdac _module_ can be thought of as a very small server that makes one or more sensors and/or actuators available to other Jacdac devices on the bus. In the most straightforward implementation, a module is a small PCB that includes an MCU connected to an on-board sensor or actuator. The MCU firmware exposes this component via [services](https://microsoft.github.io/jacdac-docs/services/) advertised over the Jacdac bus. What distinguishes a module from a Jacdac brain is that a module usually does not execute application code.
 
 ### Jacdac power supplies
 
-The Jacdac bus supports power delivery in addition to communications. Jacdac devices may be designed to consume power from the bus, to provide power to the bus, to be independently powered, or to alternatve between these modes. Typically, Jacdac modules such as basic sensors and actuators will be bus-powered which makes them simple to design and to use. Jacdac brains may also be bus-powered, but in some cases they will be designed to be the power source for the Jacdac bus; a good example of this is the programmable robot base mentioned above. If none of the brains or modules on the bus provide power, on in scenarios where additional power is required, a _Jacdac power supply_ will be required and must be plugged into the bus.
+The Jacdac bus supports power delivery in addition to communications. Jacdac devices may be designed to consume power from the bus, to provide power to the bus, to be independently powered, or to alternatve between these modes. Typically, Jacdac modules such as basic sensors and actuators will be bus-powered which makes them simple to design and to use. Jacdac brains may also be bus-powered, but in some cases they will be designed to be the power source for the Jacdac bus; a good example of this is the programmable robot base mentioned above. If none of the brains or modules on the bus provide power, or in scenarios where additional power is required, a _Jacdac power supply_ will be required and must be plugged into the bus.
 
 ### Jacdaptors
 
