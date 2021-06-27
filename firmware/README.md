@@ -7,11 +7,11 @@ We provide the following repositories which help you build firmware for your Jac
 * [Jacdac spec](https://github.com/microsoft/jacdac) repository has pre-generated 
   [C header files](https://github.com/microsoft/jacdac/tree/main/dist/c)
   (JSON, TypeScript, and Python are also available there)
-* [Jacdac-C](https://github.com/microsoft/jacdac-c) contains a platoform-agnostic C99 implementation
-  of Jacdac protocol and a number [I2C drivers](https://github.com/microsoft/jacdac-c/tree/main/drivers)
+* [Jacdac-C](https://github.com/microsoft/jacdac-c) contains a platform-agnostic C99 implementation
+  of the Jacdac protocol and a number of [I2C drivers](https://github.com/microsoft/jacdac-c/tree/main/drivers)
   and [servers](https://github.com/microsoft/jacdac-c/tree/main/services);
   this includes Jacdac spec as submodule
-* [Jacdac for STM32x0](https://github.com/microsoft/jacdac-stm32x0) contains platform-specific implementation of
+* [Jacdac for STM32x0](https://github.com/microsoft/jacdac-stm32x0) contains a platform-specific implementation of
   the Single Wire Serial protocol, as well as I2C, SPI, pins, etc. that are used by Jacdac-C;
   this works with STM32G0xx and STM32F0xx series of MCUs
 * [Jacdac MSR Modules](https://github.com/microsoft/jacdac-msr-modules) ties all of the above together
