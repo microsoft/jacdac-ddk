@@ -9,7 +9,7 @@ The [Jacdac](https://aka.ms/jacdac) Device Development Kit (DDK) is for 3rd part
 
 Additionally, Jacdac devices may supply power to the bus and/or consume power from the bus. 
 
-A common realization of a Jacdac device is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a specific set of components including sensors, actuators, network interfaces and/or power supplies. 
+A common  realization of a Jacdac device is a printed circuit board (PCB) that includes a microcontroller unit (MCU) connected to a specific set of components including sensors, actuators, network interfaces and/or power supplies. 
 
 ## Jacdac motivation and terminology
 
