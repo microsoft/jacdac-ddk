@@ -2,19 +2,25 @@
 
 ## PCB Edge Connector
 
-Drawings:
+Please refer to the latest [technical drawing of the Jacdac PCB edge connector](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf) for full details. Note how the Jacdac electrical contacts are shorter on the bottom side of the PCB because they must not connect electrically to the adjacent plated through-holes. 
 
-* [PCB Edge connector JD-PEC-01 rev_01](JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-01_rev_01.pdf)
+[![Jacdac PCB edge connector technical drawing](../connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.png)](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf)
+
 
 Note that the order of pins is the same on top and bottom, or in other words pin 1 on top is above pin 3 on bottom, and vice versa.
 This is because the cable (see below) has contacts only on one side, and has to work when plugged in upside-down.
+The connection between pin 2 on the top and pin 2 on the bottom is made with a single via as shown in the drawing, whereas the other connections are made with short traces within the connector footprint. The trace connecting the JD_PWR pins should be as short as possible and at least 0.29mm (0.012") wide.
 
-You can put a via towards the end of pin 2, and use the space in the bottom to connect 1 with 3, for example as in the picture below.
+## PCB edge connector libraries
 
-<img src="routing-sample.png" alt="Routing sample of Jacdac connector" height="300">
+Ready-made libraries for some popular electronics CAD tools are available here.
+
 
 ## Cable
 
-Drawings:
+The first manufacturer of Jacdac cable connectors and cable assemblies is [Dongguan Yuliang Electronics](http://dgyuliang.net/) who are also known by their [Cylconn](http://www.cylconn.com/) brand. 
 
-* [Cable terminal Yuliang-2020-11-28](JACDAC-Connector-by-Yuliang-2020-11-28.pdf)
+[![Jacdac cable aseembly technical drawing](../connector/JACDAC-Connector-by-Yuliang-2020-11-28-page2.png)](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC-Connector-by-Yuliang-2020-11-28.pdf)
+
+[![Jacdac cable aseembly technical drawing](../connector/JACDAC-Connector-by-Yuliang-2020-11-28-page1.png)](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC-Connector-by-Yuliang-2020-11-28.pdf)
+)
