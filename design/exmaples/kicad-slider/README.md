@@ -1,11 +1,11 @@
 # Example Slider Module for Jacdac, in KiCad
 
+
+This is an example / reference Jacdac module built in [KiCad](https://www.kicad.org/), an open-source PCB design suite.
+
 | Schematic | Board |
 | --- | --- |
 | ![schematic](docs/schematic.png) | Front side <br /> ![front](docs/slider-render-front.jpg) <br /><br /> Back side <br /> ![back](docs/slider-render-back.jpg) |
-
-
-This is an example / reference Jacdac module built in [KiCad](https://www.kicad.org/), an open-source PCB design suite.
 
 
 ## Structure overview
