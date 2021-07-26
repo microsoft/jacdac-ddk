@@ -1,7 +1,7 @@
 # Example Slider Module for Jacdac, in KiCad
 
 
-This is an example / reference Jacdac module built in [KiCad](https://www.kicad.org/), an open-source PCB design suite.
+This is an example / reference Jacdac module for a slider potentiometer built in [KiCad](https://www.kicad.org/), an open-source PCB design suite.
 
 | Schematic | Board |
 | --- | --- |
