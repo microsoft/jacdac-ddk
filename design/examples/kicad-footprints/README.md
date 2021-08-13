@@ -4,7 +4,7 @@
 ## Library
 
 This library contains these footprints:
-- Jacdac PCB edge connector (constructed to the [JD-PEC-01 spec](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-01_rev_01.pdf)) and a recommended pre-routed version (implementing suggested routing from the [JD-PEC-02 spec](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf)).
+- Jacdac PCB edge connector, including a version with recommended pre-routing, constructed to the [JD-PEC-02 spec](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf) spec.
   - The pre-routed version uses pads to implementing the routing. When using this on a board, you may get ratlines despite overlapping copper. To resolve, just route traces over it.
 - Jacdac mounting holes, including ones with silk patterns for power, ground, data, and ground pin 1.
 - [HackConnect programming header](https://arcade.makecode.com/hardware/dbg), which while not required for Jacdac modules, is used on the MSR example modules.
