@@ -35,6 +35,8 @@ Rename columns as follows:
 - `Value` -> `Comment`
 - Other columns can be left as-is
 
+*Note: this was built against an older JLCPCB sample BoM file which used the column name `LCSC Part #`, instead of the `JLCPCB Part #` by a newer sample BoM.*
+
 ### Positions
 In the layout editor, go to File menu > Fabrication Outputs > Footprint Position (.pos) File...
 Since JLC does one layer only, select "Separate files for front and back".
