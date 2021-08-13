@@ -27,7 +27,7 @@ Gerbers can be generated with the typical KiCad flow.
 ### Part numbers
 In the schematic, we added a `LCSC` field to all components, containing the JLCPCB part numbers.
 To generate the pick-and-place parts: in the schematic editor, go to Tools menu > Generate Bill of Materials..., run bom2grouped_csv, which produces a `slider.csv` in the project directory.
-This should have a LCSC column with the JLC part numbers.
+This should have an LCSC column with the JLC part numbers.
 
 Rename columns as follows:
 - `Reference` -> `Designators`
