@@ -472,7 +472,7 @@ P 1200 2050
 F 0 "J1" H 1257 2617 50  0000 C CNN
 F 1 "Conn_Jacdac_CardEdge" H 1257 2526 50  0000 C CNN
 F 2 "Connector_Jacdac:JD-PEC-02_Prerouted" H 1200 1950 50  0001 C CNN
-F 3 "https://arcade.makecode.com/hardware/dbg" V 850 800 50  0001 C CNN
+F 3 "https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf" V 850 800 50  0001 C CNN
 	1    1200 2050
 	1    0    0    -1  
 $EndComp
@@ -483,7 +483,7 @@ P 2700 2050
 F 0 "J3" H 2757 2617 50  0000 C CNN
 F 1 "Conn_Jacdac_CardEdge" H 2757 2526 50  0000 C CNN
 F 2 "Connector_Jacdac:JD-PEC-02_Prerouted" H 2700 1950 50  0001 C CNN
-F 3 "https://arcade.makecode.com/hardware/dbg" V 2350 800 50  0001 C CNN
+F 3 "https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf" V 2350 800 50  0001 C CNN
 	1    2700 2050
 	1    0    0    -1  
 $EndComp
