@@ -1,0 +1,6 @@
+# ignore KiCad temporary files
+fp-info-cache
+*.sch-bak
+*.kicad_pcb-bak
+*-cache.lib
+*.bck
