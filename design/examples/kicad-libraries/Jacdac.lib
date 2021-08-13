@@ -31,7 +31,7 @@ ENDDEF
 DEF Conn_Jacdac_CardEdge J 0 40 Y Y 1 F N
 F0 "J" -100 550 50 H V R CNN
 F1 "Conn_Jacdac_CardEdge" -100 450 50 H V R BNN
-F2 "Connector_Jacdac:JD-PEC-01_Prerouted" 0 -450 50 H I C CNN
+F2 "Connector_Jacdac:JD-PEC-02_Prerouted" 0 -450 50 H I C CNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
  PinHeader?2x05?P1.27mm*

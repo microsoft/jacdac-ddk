@@ -1024,7 +1024,7 @@
       (net 1 GND))
   )
 
-  (module Connector_Jacdac:JD-PEC-01_Prerouted (layer B.Cu) (tedit 60F1CBDA) (tstamp 60C539E2)
+  (module Connector_Jacdac:JD-PEC-02_Prerouted (layer B.Cu) (tedit 60F1CBDA) (tstamp 60C539E2)
     (at 100 71 180)
     (descr "Jacdac edge connector with pre-routed connections between top and bottom layers. 0.29mm power and 0.22mm (~8 mil) data trace width, and 0.155mm (~6 mil) power and 0.25mm data trace clearance.")
     (path /60BEAC77)
@@ -1095,7 +1095,7 @@
       (net 3 JD_PWR))
   )
 
-  (module Connector_Jacdac:JD-PEC-01_Prerouted (layer B.Cu) (tedit 60F1CBDA) (tstamp 60C539B4)
+  (module Connector_Jacdac:JD-PEC-02_Prerouted (layer B.Cu) (tedit 60F1CBDA) (tstamp 60C539B4)
     (at 100 125)
     (descr "Jacdac edge connector with pre-routed connections between top and bottom layers. 0.29mm power and 0.22mm (~8 mil) data trace width, and 0.155mm (~6 mil) power and 0.25mm data trace clearance.")
     (path /60BEA288)
