@@ -1,4 +1,4 @@
-# Jacdac Hardware Design
+# Jacdac Electronics Reference Designs
 
 <details open>
 <summary>
