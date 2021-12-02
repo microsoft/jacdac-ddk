@@ -1,3 +1,0 @@
-# Jacdac Hardware Submission
-
-TBD
