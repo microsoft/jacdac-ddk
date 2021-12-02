@@ -7,8 +7,8 @@
 This repository contains the schematics, footprints, part libraries and cable blueprints
 necessary to manufacture [Jacdac devices](https://microsoft.github.io/jacdac-docs/devices/) using [Jacdac](https://aka.ms/jacdac).
 
--   [Jacdac specification](https://microsoft.github.com/jacdac-docs/reference/)
--   [Hardware specification](https://microsoft.github.com/jacdac-docs/reference/hardware-specification/)
+-   [Jacdac specification](https://microsoft.github.io/jacdac-docs/reference/)
+-   [Hardware specification](https://microsoft.github.io/jacdac-docs/reference/hardware-specification/)
 
 ## Contributing
 
