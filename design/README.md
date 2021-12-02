@@ -1,21 +1,108 @@
 # Jacdac Hardware Design
 
-<details open>
+# Electrical 
+<details closed>
+
 <summary>
 
-## Physical interconnect
+## User feedback
 
 </summary>
 
-### True bus architecture
+### Status LED
 
-At the electrical level, Jacdac relies on a 3-wire bus for power delivery and data transfer. One wire is used for ground (GND), one for data (JD_DATA) and one for power (JD_PWR). In the simplest configurations, all devices on the Jacdac bus are connected directly to these three wires. 
+All Jacdac modules should have a status LED indicates [module and bus status](https://microsoft.github.io/jacdac-docs/reference/led-status/) to the user. This can be a single colour orange LED or a three-colour RGB LED. 
 
-### Purpose-built connector
+The status LED may be disabled by the user to reduce current consumption. RGB LEDs may also put into a mode where the colour is controlled by the user.
 
-Jacdac leverages a purpose-built, [Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) open-IP [connector standard](https://github.com/microsoft/jacdac-ddk/tree/main/connector#cable) that is optimized for cost, performance and user experience. One mating half of the connector takes the form of a three-conductor edge connector profile that is incorporated into the PCB design of Jacdac devices. The other mating half may be implemented in different ways, but should present a mating and unmating force of 5-15N and each of the three electrical connections it provides should have a contact resistance of 30 mΩ or less and a current capacity of 1A DC continuous. These characteristics should be consistent for a lifetime of at least 1500 mate/unmate cycles. 
+</details>
 
-![jacdac module and cable picture](https://github.com/microsoft/jacdac-docs/blob/main/src/pages/images/cablepluggingintomodule.png?raw=true)
+<details closed>
+<summary>
+
+## Signalling
+
+</summary>
+
+Data transmission occurs on JD_DATA using a single-wire half duplex asynchronous serial protocol we call Jacdac single wire serial (SWS). Data bytes are 10 bits long and are composed of 1 start bit, 8 data bits, and 1 stop bit. Jacdac devices must only communicate at 1 Mbaud and when no data is being transmitted, the bus must read as a logical one. 
+
+Many MCU UARTs support single-wire half duplex communications, but if necessesary the UART transmit and receive pins can be connected together externally.
+
+For more details please refer to the [Single wire protocol section](https://microsoft.github.io/jacdac-docs/reference/protocol/#single-wire-serial-sws) of the [Jacdac protocol specification](https://microsoft.github.io/jacdac-docs/reference/protocol/).
+
+The native Jacdac SWS signal uses 3.3V logic where a logial one is nominally 3.3V and a logical zero is nominally 0V. 
+
+To interface a microcontroller to the Jacdac bus data signal (JD_DATA) use the following circuit:
+![Jacdac bus interface](Jacdac_electrical_interface.png)
+
+In the above schematic, the ESD diodes protect against potential static discharges directly onto the Jacdac PCB edge connector. Many alternative ESD didoes are suitable but we require ultra-low capacitance. The low-pass filter formed by FB1, C1 and R1 reduces unwanted electromagnetic emissions. R1 also limits JD_DATA current, and D1 products the microcontroller in case of unexpected voltages on the bus. 
+
+Note that when power is shared over the Jacdac bus, current flowing between devices will result in voltage drops. The current is limited to 1A but there may be several potentially long cables between a power provider and a power consumer resulting in an end-to-end resistance of several hundred mΩ and hence a voltage drop of severl hundred mV in each direction (i.e. both on JD_PWR and on the GND return path).
+
+</details>
+
+<details closed>
+<summary>
+
+## Power supply sharing
+
+</summary>
+
+In addition to providing data communications, Jacdac supports the sharing of power between devices. 
+
+### Power supply sharing options
+From a power perspective, Jacdac devices fall into one of four catgeories:
+- **Independently powered:** A device that communicates on the Jacdac bus without providing power or consuming power. It must have a bus independent power source of some kind – e.g. a battery or a USB-micro socket for external power – from which it operates.
+- **Pure power provider:** A pure power provider is a device that is capable of supplying power to the Jacdac bus. The current available to the bus must be limited by circuitry in the power provider, and power providers capable of supplying more than 100mA must contain an MCU that implements the Jacdac power provision service.
+- **Pure power consumer:** A power consumer always draws power from the Jacdac bus; the bus is its only power source. An absolute maximum current of 1A may be drawn from the bus, but due power provision tolerance a single module should draw no more than 900mA. If a device sometimes or always requires more than this it must be implemented as a power independent device or as a power provider. 
+- **Dynamically powered device:** Some Jacdac devices may be able to operate as either a power consumer, power independent device and/or power provider. For example, a device with a bus independent power source may use that power source when it’s available but switch to using the Jacdac bus as a power source otherwise. We refer to these as dynamically powered Jacdac devices.
+
+### Overview of Jacdac power sharing
+
+The simplest Jacdac scenario involves a single power provider device connected directly to a pure power consumer device. An example is a [MakeCode Arcade gaming device](https://arcade.makecode.com/hardware) connected to a Jacdac temperature sensor. The power provider will continuously deliver power to the Jacdac bus, and when the power consumer is connected it will power up and start signalling its presence. Any number of additional pure power consumers and/or power independent devices may be connected to the bus, as long as the power provider can deliver enough current to operate them all. 
+
+In order to provide a certain level of safety, the power available on the bus is limited. This means that all power providers (including dynamically powered devices) must limit the current they deliver to the bus. The side-effect of this current limiting means that if the aggregate load of power consumers on the bus cannot be met, the bus voltage will fall and device operation will become unreliable. Jacdac includes provision for user feedback that aims to make this condition easy to detect, understand and debug.
+
+There are two types of power provider:
+
+- **Low current power providers** may supply up to 100mA at 5V, i.e. 0.5W. This may either be on a single PCB edge connector or shared across several PCB edge connectors.
+- **High current power providers** may supply up to 1A at 5V, i.e. 5W. High current hub providers may supply up to 1A per Jacdac PCB edge connector. High current Jacdac power providers must contain an MCU that implements the Jacdac power provision service which ensures that only one such provider is active at any one time. This limits the current available on any one part of the Jacdac bus to 1A. 
+
+By default Jacdac power providers are active (i.e. actively providing power) when they are first connected. This ensures that power is successfully delivered to pure power consumers. The Jacdac power provision service will quickly detect if more than one high current provider is active at the same time and will cause one to be disabled; most likely it will move into power independent operation but it could instead become a power consumer. 
+
+### Power provider current limiting
+
+As mentioned above, power providers **must** incorporate current limiting. We recommend the use of one of the many readily-available low-cost single-chip current limiters that operate at up to 5.5V. 
+
+Current limiters specify a tolerance on their output current - please ensure that the **maximum** output current does not exceed 100mA or 1A (for low current and high current providers respectively). This often means settin the typical current to a value like 75mA or 900mA, which might result in as little as 50mA or 800mA in some cases. But it is important that the **maximum** current specification is not exceeded. 
+
+**Resettable polyfuses are not suitable** for current limiting because they have a relatively large 'on' resistance, a larger threshold current tolerance and do not switch on or off cleanly. This is very confusing for the user. You must use a silicon current limiter.
+
+### Bus voltage range
+
+The nominal 5V bus voltage and maximum 1A bus current limit allow commonly available USB power delivery parts to be used for Jacdac. In particular, 5V power adapters, 5V power packs, 5V current limiting ICs and 5V DC-DC converters are all commodity items. Note that high current providers do not have to provie 1A, it may for example be cheaper to implement a 500mA power provider. 
+
+Note that any current flowing through the Jacdac bus will result in a voltage drop between the points of power provision and consumption, and any ground return current will cause a similar voltage drop. For example, a 300mm single-hop cable will have up to 100mΩ resistance (including contact resistance at both ends), which at 1A results in a 100mV drop on JD_PWR between power provider and power consumer, and a 100mV 'rise' on the GND return path, i.e. the power consuming device sees 200mV less than is being provided at the source. Additional hubs and cables will further reduce the margin. 
+
+### Power consumers
+
+A power consumer may draw an absolute maximum of 1A from the Jacdac bus, however we recommend a maximum consumption of 900mA given that 5W power providers may not consistently provide the full 1A. 
+
+To accomodate voltage drops, Jacdac devices must be capable of operating when the potential between JD_PWR and GND falls to 3.7V. Since we expect the logic of a Jacdac device to operate at 3.3V (or lower), a low dropout linear regulator is the cheapest and simplest way to regulate JD_PWR to power a device from the bus. Alternatively a DC-DC converter can be used for improved efficiency. 
+
+</details>
+
+---
+
+# Electro-mech
+
+<details closed>
+
+<summary>
+
+## Jacdac PCB edge connector
+
+</summary>
 
 ### PCB edge connector in detail
 
@@ -52,148 +139,106 @@ The first manufacturer of Jacdac cable connectors and cable assemblies is [Dongg
 
 </details>
 
----
-
-<details open>
+<details closed>
 <summary>
 
-## Jacdac physical topology 
+## Multiple connectors 
 
 </summary>
 
-As mentioned [above](#user-content-true-bus-architecture), in the simplest configurations all devices on a Jacdac bus are connected directly to the three Jacdac signal wires. This is easy to achieve with just two devices - they are simply connected together using a single cable. Jacdac supports two mechanisms for connecting more than two devices to the same Jacdac bus:
-- Jacdac devices may include more than one Jacdac PCB edge connector. For example, a device may have a connector at each end of the PCB to enable "daisy-chaining", or may have several Jacdac PCB edge connectors to allow direct connection to more than two other devices.
-- Jacdac hubs may be used. These are simply double-sided PCBs with mutiple Jacdac PCB edge connectors, wired to connect all JD_DATA signals together, all JD_PWR signals together and all GND signals together. They need contain no electronic components.
+In the simplest configurations all devices on a Jacdac bus are connected directly to the three Jacdac signal wires. This is easy to achieve with just two devices - they are simply connected together using a single cable. Jacdac supports two mechanisms for connecting more than two devices to the same Jacdac bus:
+- **Daisy-chaining**: Jacdac devices may have a connector at each end of the PCB to enable end-to-end "daisy-chaining".
+- **Hub devices**: Jacdac devices may include several Jacdac PCB edge connectors to allow direct connection to more than two other devices.
+- **Decidated hubs**: Jacdac hubs are simply double-sided PCBs with mutiple Jacdac PCB edge connectors, wired to connect all JD_DATA signals together, all JD_PWR signals together and all GND signals together. They need contain no electronic components.
 
 ![several Jacdac modules connected together](https://github.com/microsoft/jacdac-docs/blob/main/src/pages/images/manymodulestogether.png?raw=true)
 
 </details>
 
----
-
-<details open>
+<details closed>
 <summary>
 
-## Power sharing
-
-In addition to providing data communications, Jacdac also supports the sharing of power between devices. 
+## Mounting holes
 
 </summary>
 
-### Power sharing terminology
-From a power perspective, Jacdac devices fall into one of four catgeories:
-- **Independently powered:** A device that communicates on the Jacdac bus without providing power or consuming power. It must have a bus independent power source of some kind – e.g. a battery or a USB-micro socket for external power – from which it operates.
-- **Pure power provider:** A pure power provider is a device that is capable of supplying power to the Jacdac bus. The current available to the bus must be limited by circuitry in the power provider, and power providers capable of supplying more than 100mA must contain an MCU that implements the Jacdac power provision service.
-- **Pure power consumer:** A power consumer always draws power from the Jacdac bus; the bus is its only power source. An absolute maximum current of 1A may be drawn from the bus, but due power provision tolerance a single module should draw no more than 900mA. If a device sometimes or always requires more than this it must be implemented as a power independent device or as a power provider. 
-- **Dynamically powered device:** Some Jacdac devices may be able to operate as either a power consumer, power independent device and/or power provider. For example, a device with a bus independent power source may use that power source when it’s available but switch to using the Jacdac bus as a power source otherwise. We refer to these as dynamically powered Jacdac devices.
+Where Jacdac modules include mounting holes, we recommend that these be plated-through hole (PTH) and electrically connected to the Jacdac bus signals JD_PWR, JD_DATA and GND. This provides additional mechanisms for connecting modules together instead of the PCB edge connector, including the use of metal screws, threaded stand-off pillars, 'banana' style jack plugs and soldering. 
 
-### Overview of Jacdac power sharing
+If PTHs are used, we recommend the use of four holes, one in each 'corner' of the module. Two of these must be connected to the GND net, and the other two connected to JD_DATA and JD_PWR. We suggest that the latter two are located adjacent to the Jacdac PCB edge connector so that the traces that connect the PTH to the edge connector fingers can be short and therefore share a common ESD diode. If the JD_DATA and JD_PWR PTHs are more than 10-15mm from the PCB edge connector, we recommend additional ESD protection. 
 
-The simplest Jacdac scenario involves a single power provider device connected directly to a pure power consumer device. An example is a [MakeCode Arcade gaming device](https://arcade.makecode.com/hardware) connected to a Jacdac temperature sensor. The power provider will continuously deliver power to the Jacdac bus, and when the power consumer is connected it will power up and start signalling its presence. Any number of additional pure power consumers and/or power independent devices may be connected to the bus, as long as the power provider can deliver enough current to operate them all. 
+One of the two PTHs connected to GND should be designated as 'mounting hole 1' and have a silkscreen mark on the top layer of the board only to indicate this. See below.
 
-In order to provide a certain level of safety, the power available on the bus is limited. This means that all power providers (including dynamically powered devices) must limit the current they deliver to the bus. The side-effect of this current limiting means that if the aggregate load of power consumers on the bus cannot be met, the bus voltage will fall and device operation will become unreliable. Jacdac includes provision for user feedback that aims to make this condition easy to detect, understand and debug.
+We recommend the use of 3mm holes as per the spec below, although we have also found 2mm holes useful if a small module size is important. Many of our reference designs use 2mm holes.
 
-There are two types of power provider:
+### Four 3mm plated-through holes
 
-- **Low current power providers** may supply up to 100mA, either on a single PCB edge connector or shared across several PCB edge connectors.
-- **High current power providers** may supply up to 1A. High current hub providers may supply up to 1A per Jacdac PCB edge connector. High current Jacdac power providers must contain an MCU that implements the Jacdac power provision service which ensures that only one such provider is active at any one time. This limits the current available on any one part of the Jacdac bus to 1A. 
+Use holes with a finished diameter of 3.2mm, annular copper ring of 4.5mm diameter & copper/component keepout of 7.0mm. The keepout is necessary to ensure that screw heads and the bodies of standoffs do not interfere with any components on the PCB or short any traces near the hole. 
 
-By default Jacdac power providers are active (i.e. actively providing power) when they are first connected. This ensures that power is successfully delivered to pure power consumers. The Jacdac power provision service will quickly detect if more than one high current provider is active at the same time and will cause one to be disabled; most likely it will move into power independent operation but it could instead become a power consumer. 
+The mounting holes must be on 5mm pitch. This allows the modules to be mounted on a pre-drilled/perforated plate that has holes every 5mm in each direction. 
 
-### Power provider current limiting
+### Four 2mm plated-through holes
 
-As mentioned above, power providers **must** incorporate current limiting. We recommend the use of one of the many readily-available low-cost single-chip current limiters that operate at up to 1A and up to 5.5V. 
+Use holes with a finished diameter of 2.1mm, annular copper ring of 3.0mm diameter & copper/component keepout of 5.0mm. The keepout is necessary to ensure that screw heads and the bodies of standoffs do not interfere with any components on the PCB or short any traces near the hole. 
 
-Current limiters specify a tolerance on their output current - please ensure that the **maximum** output current does not exceed 100mA or 1A (for low current and high current providers respectively). This often means settin the typical current to a value like 75mA or 900mA, which might result in as little as 50mA or 800mA in some cases. But it is important that the **maximum** current specification is not exceeded. 
-
-Resettable polyfuses are not suitable for current limiting because they have a relatively large 'on' resistance, a larger threshold current tolerance and do not switch on or off cleanly. Use a silicon current limiter.
-
-### Bus voltage range
-
-The nominal 5V bus voltage and maximum 1A bus current limit allow commonly available USB power delivery parts to be used for Jacdac. In particular, 5V power adapters, 5V power packs, 5V current limiting ICs and 5V DC-DC converters are all commodity items. Note that high current providers do not have to provie 1A, it may for example be cheaper to implement a 500mA power provider. 
-
-Note that any current flowing through the Jacdac bus will result in a voltage drop between the points of power provision and consumption, and any ground return current will cause a similar voltage drop. For example, a 300mm single-hop cable will have up to 100mΩ resistance (including contact resistance at both ends), which at 1A results in a 100mV drop on JD_PWR between power provider and power consumer, and a 100mV 'rise' on the GND return path, i.e. the power consuming device sees 200mV less than is being provided at the source. Additional hubs and cables will further reduce the margin. 
-
-To accomodate voltage drops, Jacdac devices must be capable of operating when the potential between JD_PWR and GND falls to 3.7V. Since we expect the logic of a Jacdac device to operate at 3.3V (or lower), a low dropout linear regulator is the cheapest and simplest way to regulate JD_PWR to power a device from the bus. Alternatively a DC-DC converter can be used for improved efficiency. 
+The mounting holes must be on 2.5mm pitch. This allows the modules to be mounted on a pre-drilled/perforated plate that has holes every 2.5mm in each direction. 
 
 </details>
 
 ---
 
-<details open>
+# Mechanical 
+
+<details closed>
 <summary>
 
-## Data communications
+## Module labelling
 
 </summary>
 
-### Client/server architecture
+All modules should include silkscreen that allows a user to easily and uniquely identify the module, and its version number.
 
-Unlike many other embedded systems communications protocols, Jacdac inherently supports a distrbiuted systems architecture made up of one or more clients and one or more servers.
+Modules may optionally include a QR code printed on the silkscreen. The QR code should follow the format **TODO: here** so that the embedded URL takes the user to the appropriate place in the [Jacdac device catalog](https://microsoft.github.io/jacdac-docs/devices/).
 
-A Jacdac server is simply a device that presents a service on the bus - for example a push button or a temperature sensor. So servers are often relatively impoverished devices - we have a reference implementation of a button module based on a ~$0.03 MCU. A server might provide multiple different services, for example a combined temperature and humidity sensor could provide two separate services, one for temperature and another for humidity. Multiple similar servers - for example multiple buttons - may be connected to the same bus.
+</details>
 
-A Jacdac client is a device that consumes one or more services. Often a client can be reconfigured or re-programmed to alter its behavior to suit a particular application. There may be mutliple clients on the same Jacdac bus, in which case they may consume exactly the same set of services or different combinations of services. Sometimes a client will also provide services itself. This architecture is naturally composable and scalable, following the same principles used in established client/server solutions.
+<details closed>
+<summary>
 
-So with Jacdac there is no notion of a bus 'controller', 'host', 'primary' or 'leader'. There is no need to assign roles when building a system with Jacdac, sensors and actuators will naturally provide services which are consumed by one or more clients.
+## Standard module sizes and shapes
 
-Jacdac supports service advertisement and discovery. For more information please refer to the full [Jacdac protocol specification](https://microsoft.github.io/jacdac-docs/reference/protocol/).
+</summary>
 
-### Single wire serial
+To make it easier for users to recognize Jacdac modules and for manufacturers to design Jacdac modules, we provide guidelines for a small number of standard form factors.
 
-Data transmission occurs on JD_DATA using a single-wire half duplex asynchronous serial protocol. A logical one is represented on the wire as 3.3V and a logical zero as 0V. Data bytes are 10 bits long and are composed of 1 start bit, 8 data bits, and 1 stop bit. Jacdac devices must only communicate at 1 Mbaud and when no data is being transmitted, the bus must read as a logical one (3.3V). 
+### Cute form factor
 
-Many MCU UARTs support single-wire half duplex communications, but if necessesary the UART transmit and receive pins can be connected together externally.
+Most of our module reference designs use what we call a 'cute' form factor: they are small and have rounded board edges with mounting holes often protruding from the board edge. 
 
-For more details please refer to the [Single wire protocol section](https://microsoft.github.io/jacdac-docs/reference/protocol/#single-wire-serial-sws) of the [Jacdac protocol specification](https://microsoft.github.io/jacdac-docs/reference/protocol/).
+TODO: include render of cute module
 
-Note that Jacdac can also run on different physical layers, for example it can run over USB and over http. 
+To keep module size as small as possible, the cute form factor uses four 2.1mm holes on a 2.5mm pitch and often components are mounted on both sides of the PCB.
 
-### Device identifiers
+### Enclosure-compatible form factor
 
-Every Jacdac device requires a unique 64 bit _device identifier_. Many modern microcontrollers (MCUs) include a factory-programmed unique hardware ID, and this is ideal for creating the Jacdac device identifier - through hashing if needed. 
-If this is not possible, another option is to flash a randomly generated 64 bit number during device production. Finally, the unique device identifier may be generated at first run using genuine randomness and stored in flash or EEPROM. Please refer to [Device identity](https://microsoft.github.io/jacdac-docs/reference/protocol#device-identity) in the [Jacdac protocol specification](https://microsoft.github.io/jacdac-docs/reference/protocol/) for more details.
-
-### EMC requirements
-
-### Over- and under-voltage protection
-
-When power is shared over the Jacdac bus, current flowing between devices will result in voltage drops. The current is limited to 1A but there may be several potentially long cables between a power provider and a power consumer resulting in an end-to-end resistance of several hundred mΩ and hence a voltage drop of severl hundred mV in each direction (i.e. both on JD_PWR and on the GND return path).
-
-### ESD protection
+We are also working on the specifications for an 'enclosure-compatible' module form factor. This is designed to make it easier to build cheap enclosures for individual modules, or for groups of modules that constitute a working device. This will use four 3.2mm holes, will have straight board edges, and will require a component keepout/clearance band around the board outline. Full details will be published in due course.
 
 </details>
 
 ---
 
-<details open>
+# Manufacturing
 
+<details closed>
 <summary>
 
-## Device design
+## Programming and testing 
 
 </summary>
 
-### Jacdac bus interface
-
-![Jacdac bus interface](Jacdac_electrical_interface.png)
-
-
-
-### Status LED
-
-All Jacdac modules should have a status LED indicates [module and bus status](https://microsoft.github.io/jacdac-docs/reference/led-status/) to the user. This can be a single colour orange LED or a three-colour RGB LED. RGB LEDs may also put into a mode where the colour is controlled by the user, and status LEDs may also be disabled by the user to reduce current consumption.
-
-### Current consumption
-
-### MCU commissioning
+### Hack connect   
 
 The MCU can be programmed before being fitted to the device PCB, or can be programmed in-circuit. In the latter case we suggest the use of a [hack-connect](https://arcade.makecode.com/hardware/dbg#:~:text=Hack--,connect,-XS).
 
-
-### Mounting holes
-
-### Building Jacdac into finished devices
-
 </details>
 
+---
