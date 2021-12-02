@@ -197,7 +197,9 @@ The mounting holes must be on 2.5mm pitch. This allows the modules to be mounted
 
 All modules should include silkscreen that allows a user to easily and uniquely identify the module, and its version number.
 
-Modules may optionally include a QR code printed on the silkscreen. The QR code should follow the format **TODO: here** so that the embedded URL takes the user to the appropriate place in the [Jacdac device catalog](https://microsoft.github.io/jacdac-docs/devices/).
+Modules may optionally include a QR code printed on the silkscreen. The QR code should point to **short url** that redirects to the product information. If your device is registered, you can redirect to [Jacdac device catalog](https://microsoft.github.io/jacdac-docs/devices/) device page.
+
+To generate the QR Code for various CAD programs, you can use the [Jacdac Device QR Code generator](https://microsoft.github.io/jacdac-docs/tools/device-qr-code/).
 
 </details>
 
