@@ -1,0 +1,24 @@
+*.PcbDoc.Zip
+*.SchDoc.Zip
+*.PrjPCB.Zip
+*.OutJob.Zip
+*.SchDocPreview
+*.PrjPCB.htm
+*.PcbDoc.htm
+*.PrjPCBStructure
+*.Dat
+*.LOG
+*.log
+Project Logs*
+Status Report.Txt
+Design Rule Check*
+History
+_Previews
+__Previews
+
+# for LT Spice
+*.log
+*.raw
+*.net
+!*.lib
+!*.LIB

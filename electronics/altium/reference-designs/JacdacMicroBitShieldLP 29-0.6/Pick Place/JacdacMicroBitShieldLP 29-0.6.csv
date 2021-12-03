@@ -1,0 +1,46 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacDapters\Altium\JacdacMicroBitShieldLP 29\.\JacdacMicroBitShieldLP 29-0.6\Pick Place\JacdacMicroBitShieldLP 29-0.6.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       03/12/21
+Time:       19:26
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Center-X(mm)","Center-Y(mm)","Rotation"
+"C1","TopLayer","-25.2750","13.5500","180"
+"C2","TopLayer","-17.2383","9.1302","90"
+"C4","TopLayer","-22.5705","10.8797","90"
+"C7","TopLayer","-13.7426","9.3049","180"
+"C9","TopLayer","-12.9250","13.8000","0"
+"C12","TopLayer","-11.2358","9.3132","0"
+"D1","TopLayer","-30.0250","12.8500","0"
+"D2","TopLayer","-32.8230","7.3095","0"
+"D3","TopLayer","-9.1304","7.4360","0"
+"D4","TopLayer","-20.9250","7.3750","0"
+"D5","TopLayer","-19.1250","7.3750","180"
+"D6","TopLayer","-31.0000","7.3000","180"
+"D7","TopLayer","-7.3000","7.5000","180"
+"D8","TopLayer","-7.8000","10.9000","90"
+"FB1","TopLayer","-27.6000","11.9000","90"
+"J1","TopLayer","-31.7972","19.9343","0"
+"J2","TopLayer","-55.6053","4.7068","180"
+"J3","TopLayer","-43.7293","4.7068","180"
+"J4","TopLayer","-19.9773","4.7068","180"
+"J5","TopLayer","-31.8533","4.7068","180"
+"J6","TopLayer","-8.1013","4.7068","180"
+"J11","TopLayer","-36.8026","11.4347","0"
+"L1","TopLayer","-24.9188","9.9192","270"
+"MH1","TopLayer","-3.0930","14.1940","90"
+"MH2","TopLayer","-60.5930","14.1940","90"
+"MH3","TopLayer","-60.5930","9.1960","90"
+"MH4","TopLayer","-3.0930","9.1960","90"
+"R1","TopLayer","-27.5000","13.6250","0"
+"R2","TopLayer","-19.4250","13.1250","0"
+"R3","TopLayer","-17.5247","12.0813","270"
+"R7","TopLayer","-14.6895","12.0022","270"
+"U4","TopLayer","-19.9065","10.3797","90"
+"U5","TopLayer","-11.8184","11.7338","180"
