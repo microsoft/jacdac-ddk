@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Jacdac)(type Legacy)(uri ${KIPRJMOD}/../kicad-libraries/Jacdac.lib)(options "")(descr ""))
-  (lib (name Jacdac_Misc)(type Legacy)(uri ${KIPRJMOD}/../kicad-libraries/Jacdac_Misc.lib)(options "")(descr ""))
-)
