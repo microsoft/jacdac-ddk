@@ -1,0 +1,38 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacdacModules\STM32F\JacdacRHTemp 18\.\JacdacRHTemp 18-1.2\Pick Place\JacdacRHTemp 18-1.2.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       03/12/21
+Time:       14:06
+Revision:   Not in VersionControl
+Variant:    JLCPCB
+Units used: mm
+
+"Designator","Layer","Center-X(mm)","Center-Y(mm)","Rotation"
+"C1","TopLayer","3.5121","7.5653","90"
+"C2","TopLayer","-3.8814","11.5125","270"
+"C3","TopLayer","-3.8814","13.5500","90"
+"C4","TopLayer","-3.9500","15.8000","270"
+"C5","BottomLayer","-0.7750","15.6500","0"
+"D1","TopLayer","2.3245","11.5250","0"
+"D2","TopLayer","-3.5090","5.6831","0"
+"D3","TopLayer","2.3826","5.5349","0"
+"D6","TopLayer","0.0000","5.6250","180"
+"FB1","TopLayer","2.0247","7.3764","90"
+"J1","BottomLayer","0.0200","-2.2375","0"
+"J6","TopLayer","2.8118","15.5300","180"
+"MH1","TopLayer","2.5000","20.0500","0"
+"MH2","TopLayer","-2.5000","20.0500","0"
+"MH3","TopLayer","2.5000","2.5500","90"
+"MH4","TopLayer","-2.5000","2.5500","0"
+"R1","TopLayer","3.0226","9.1708","0"
+"R2","TopLayer","-0.0750","17.2000","180"
+"R3","TopLayer","-0.1000","15.9000","180"
+"R4","TopLayer","-2.1250","7.8750","180"
+"R5","TopLayer","-2.0250","5.9750","90"
+"R6","TopLayer","-0.2750","7.3500","180"
+"U1","TopLayer","-1.6500","12.7250","90"
+"U2","BottomLayer","-0.6750","11.1500","90"
+"U3","TopLayer","-2.2750","16.2000","90"

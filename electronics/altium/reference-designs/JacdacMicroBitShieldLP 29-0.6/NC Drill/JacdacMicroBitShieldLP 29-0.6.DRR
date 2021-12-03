@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacDacMicroBitShieldLP 29.PcbDoc   03/12/2021  19:25:51
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacMicroBitShieldLP 29-0.6-RoundHoles.TXT
+ASCII SlotHoles File : JacdacMicroBitShieldLP 29-0.6-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             32        PTH        7.60inch (193.09mm)
+T2      24mil (0.6mm)                                             Slot              2         PTH        4.65inch (118.02mm)
+T3      28mil (0.71mm)                                            Round             15        PTH        2.07inch (52.58mm)
+T4      43mil (1.1mm)                                             Round             4         PTH        0.30inch (7.62mm)
+T5      83mil (2.1mm)                                             Round             4         PTH        2.66inch (67.50mm)
+T6      28mil (0.7mm)                                             Slot              10        NPTH       4.47inch (113.59mm)
+T7      45mil (1.15mm)                                            Round             2         NPTH       2.35inch (59.69mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              69
+
+Total Processing Time (hh:mm:ss) : 00:00:00
