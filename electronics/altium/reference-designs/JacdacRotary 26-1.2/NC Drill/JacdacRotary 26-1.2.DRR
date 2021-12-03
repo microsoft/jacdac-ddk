@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacRotary 26.PcbDoc   03/12/2021  16:14:41
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacRotary 26-1.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacRotary 26-1.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             20        PTH        2.46inch (62.36mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.27inch (6.76mm)
+T3      28mil (0.71mm)                                            Round             3         PTH        0.10inch (2.54mm)
+T4      47mil (1.2mm)                                             Round             5         PTH        0.96inch (24.50mm)
+T5      83mil (2.1mm)                                             Round             4         PTH        1.57inch (39.95mm)
+T6      28mil (0.7mm)                                             Slot              2         NPTH       0.46inch (11.74mm)
+T7      59mil (1.5mm)                                             Slot              2         NPTH       1.04inch (26.44mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              41
+
+Total Processing Time (hh:mm:ss) : 00:00:00

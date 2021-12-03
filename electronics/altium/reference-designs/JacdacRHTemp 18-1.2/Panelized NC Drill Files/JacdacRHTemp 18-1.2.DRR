@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacRHTemp 18.PcbDoc   03/12/2021  14:03:42
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacRHTemp 18-1.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacRHTemp 18-1.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             168       PTH        32.52inch (826.03mm)
+T2      26mil (0.66mm)                                            Round             70        PTH        11.61inch (294.81mm)
+T3      28mil (0.71mm)                                            Round             42        PTH        11.58inch (294.13mm)
+T4      83mil (2.1mm)                                             Round             56        PTH        21.34inch (542.00mm)
+T5      118mil (3mm)                                              Round             6         PTH        13.54inch (343.98mm)
+T6      20mil (0.5mm)                                             Round             448       NPTH       21.25inch (539.77mm)
+T7      28mil (0.7mm)                                             Slot              28        NPTH       18.68inch (474.60mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              818
+
+Total Processing Time (hh:mm:ss) : 00:00:01
