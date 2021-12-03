@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacG0Button 40.PcbDoc   03/12/2021  20:30:07
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacG0Button 40-0.3-RoundHoles.TXT
+ASCII SlotHoles File : JacdacG0Button 40-0.3-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             204       PTH        35.24inch (895.20mm)
+T2      26mil (0.66mm)                                            Round             60        PTH        11.21inch (284.71mm)
+T3      28mil (0.71mm)                                            Round             36        PTH        11.03inch (280.25mm)
+T4      83mil (2.1mm)                                             Round             48        PTH        20.11inch (510.85mm)
+T5      118mil (3mm)                                              Round             6         PTH        14.52inch (368.74mm)
+T6      20mil (0.5mm)                                             Round             312       NPTH       17.03inch (432.59mm)
+T7      28mil (0.7mm)                                             Slot              24        NPTH       24.06inch (611.17mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              690
+
+Total Processing Time (hh:mm:ss) : 00:00:01

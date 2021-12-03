@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacG0Button 40.PcbDoc   03/12/2021  20:25:28
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacG0Button 40-0.3-RoundHoles.TXT
+ASCII SlotHoles File : JacdacG0Button 40-0.3-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             17        PTH        1.78inch (45.15mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.22inch (5.49mm)
+T3      28mil (0.71mm)                                            Round             3         PTH        0.10inch (2.54mm)
+T4      83mil (2.1mm)                                             Round             4         PTH        1.18inch (30.00mm)
+T5      28mil (0.7mm)                                             Slot              2         NPTH       0.46inch (11.74mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              31
+
+Total Processing Time (hh:mm:ss) : 00:00:00
