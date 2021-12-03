@@ -13,7 +13,7 @@ necessary to manufacture [Jacdac devices](https://microsoft.github.io/jacdac-doc
 ## Repository structure
 
 -   `/connector`: contains the specification of the Jacdac PCB connector and cable
--   `/design`: folder with schematics, parts libraries for various CAD software
+-   `/electronics`: folder with schematics, footprints, parts libraries, reference designs for various CAD software
 
 ## Contributing
 
