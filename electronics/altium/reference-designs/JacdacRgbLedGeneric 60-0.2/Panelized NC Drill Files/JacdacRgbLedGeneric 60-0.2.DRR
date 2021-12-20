@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacRgbLedGeneric 60.PcbDoc   20/12/2021  19:24:11
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacRgbLedGeneric 60-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacRgbLedGeneric 60-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             156       PTH        34.20inch (868.59mm)
+T2      26mil (0.66mm)                                            Round             60        PTH        13.73inch (348.74mm)
+T3      28mil (0.71mm)                                            Round             36        PTH        11.34inch (287.97mm)
+T4      30mil (0.75mm)                                            Round             24        PTH        13.40inch (340.35mm)
+T5      37mil (0.95mm)                                            Round             24        PTH        14.34inch (364.35mm)
+T6      43mil (1.1mm)                                             Round             48        PTH        12.19inch (309.69mm)
+T7      83mil (2.1mm)                                             Round             48        PTH        31.35inch (796.35mm)
+T8      118mil (3mm)                                              Round             6         PTH        19.24inch (488.58mm)
+T9      20mil (0.5mm)                                             Round             240       NPTH       18.60inch (472.53mm)
+T10     28mil (0.7mm)                                             Slot              24        NPTH       24.09inch (611.86mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              666
+
+Total Processing Time (hh:mm:ss) : 00:00:01
