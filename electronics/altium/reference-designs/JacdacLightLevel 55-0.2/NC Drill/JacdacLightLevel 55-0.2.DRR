@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacLightLevel 55.PcbDoc   10/11/2021  15:23:27
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacLightLevel 55-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacLightLevel 55-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             16        PTH        2.31inch (58.79mm)
+T2      26mil (0.65mm)                                            Round             2         PTH        0.13inch (3.40mm)
+T3      28mil (0.71mm)                                            Round             6         PTH        0.72inch (18.28mm)
+T4      83mil (2.1mm)                                             Round             4         PTH        1.77inch (45.00mm)
+T5      28mil (0.7mm)                                             Slot              4         NPTH       2.33inch (59.09mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              32
+
+Total Processing Time (hh:mm:ss) : 00:00:00

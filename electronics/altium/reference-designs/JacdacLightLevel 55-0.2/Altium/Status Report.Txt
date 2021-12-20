@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:23:42 On 10/11/2021
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [JLCPCB] of Project [JacdacLightLevel 55.PrjPCB]
+   Generated File[BOM (complete design) JacdacLightLevel 55-0.2.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:23:45 On 10/11/2021
