@@ -1,0 +1,21 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 18:11:22 On 20/12/2021
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacAccelerometer 30.PrjPCB]
+   Generated File[JacdacAccelerometer 30.OutJob]
+   Generated File[JacdacAccelerometer 30.PcbDoc]
+   Generated File[JacdacAccelerometer 30.PrjPCB]
+   Generated File[JacdacAccelerometer 30.PrjPCBStructure]
+   Generated File[JacdacAccelerometer 30.PrjPCBVariants]
+   Generated File[JacdacAccelerometer 30.SchDoc]
+   Generated File[Panelized JacdacAccelelerometer.PcbDoc]
+   Generated File[Status Report.Txt]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 18:11:22 On 20/12/2021

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 20:57:37 On 08/11/2021
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [JacdacAccelerometer 30.PrjPCB]
+   Generated File[BOM (complete design) JacdacAccelerometer 30-1.1.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 20:57:38 On 08/11/2021

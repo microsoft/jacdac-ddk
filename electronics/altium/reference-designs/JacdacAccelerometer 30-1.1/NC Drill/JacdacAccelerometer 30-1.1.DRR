@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacAccelelerometer.PcbDoc   08/11/2021  20:59:09
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacAccelerometer 30-1.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacAccelerometer 30-1.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             220       PTH        41.76inch (1060.74mm)
+T2      26mil (0.66mm)                                            Round             50        PTH        11.73inch (297.97mm)
+T3      28mil (0.71mm)                                            Round             60        PTH        16.69inch (424.02mm)
+T4      83mil (2.1mm)                                             Round             40        PTH        24.89inch (632.30mm)
+T5      118mil (3mm)                                              Round             6         PTH        15.57inch (395.60mm)
+T6      20mil (0.5mm)                                             Round             260       NPTH       18.79inch (477.29mm)
+T7      28mil (0.7mm)                                             Slot              40        NPTH       38.33inch (973.47mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              676
+
+Total Processing Time (hh:mm:ss) : 00:00:01
