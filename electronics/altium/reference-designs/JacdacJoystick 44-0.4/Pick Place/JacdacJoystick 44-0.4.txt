@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacdacModules\PADAUK\JacdacJoystick 44\.\JacdacJoystick 44-0.4\Pick Place\JacdacJoystick 44-0.4.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       21/12/21
+Time:       19:14
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         BottomLayer -3.2158      -3.5031      0        
+C2         BottomLayer 5.7750       -4.2750      0        
+C3         BottomLayer 4.3559       0.2257       180      
+C4         BottomLayer -3.6500      1.5000       90       
+D1         BottomLayer 1.2700       -5.7360      90       
+D2         BottomLayer -1.5500      9.1750       0        
+D3         BottomLayer 1.5338       9.1638       180      
+D4         BottomLayer 7.3610       -6.9108      180      
+D5         BottomLayer -4.8000      -8.6250      90       
+D6         TopLayer    0.0000       9.0750       180      
+FB1        BottomLayer -2.6888      -5.7211      90       
+J1         TopLayer    0.0000       -12.5125     180      
+J2         TopLayer    0.0000       12.4875      0        
+MH1        TopLayer    7.7250       9.9996       180      
+MH2        TopLayer    -7.5000      10.0000      90       
+MH3        TopLayer    -7.5000      -10.0000     180      
+MH4        TopLayer    7.5000       -10.0000     0        
+R1         BottomLayer -1.0500      -4.5250      270      
+R2         BottomLayer -1.5000      6.8000       180      
+SW1        TopLayer    -0.7600      -1.1725      270      
+U1         BottomLayer 5.0750       -2.0500      180      
+U2         BottomLayer -0.1000      1.6750       270      
