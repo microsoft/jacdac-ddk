@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacAccessSwitchInput 34.PcbDoc   15/11/2021  14:36:21
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacAccessSwitchInput 34-1.4-RoundHoles.TXT
+ASCII SlotHoles File : JacdacAccessSwitchInput 34-1.4-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             17        PTH        1.64inch (41.60mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.22inch (5.49mm)
+T3      28mil (0.71mm)                                            Round             3         PTH        0.10inch (2.54mm)
+T4      83mil (2.1mm)                                             Round             4         PTH        1.57inch (40.00mm)
+T5      28mil (0.7mm)                                             Slot              2         NPTH       0.46inch (11.74mm)
+T6      67mil (1.7mm)                                             Round             2         NPTH       0.28inch (7.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              33
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,262 @@
+*************************************************************
+FileName = JacdacAccessSwitchInput 34-1.4.GBR
+AutoAperture = True
+*************************************************************
+Generating : Board Outline
+      File : JacdacAccessSwitchInput 34-1.4.GM11
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Route Tool Path
+      File : JacdacAccessSwitchInput 34-1.4.GM4
+
+    Adding Layer      : Route Tool Path
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Fabrication notes
+      File : JacdacAccessSwitchInput 34-1.4.GM3
+
+    Adding Layer      : Fabrication notes
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D12
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : JacdacAccessSwitchInput 34-1.4.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D12
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : JacdacAccessSwitchInput 34-1.4.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D49
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : JacdacAccessSwitchInput 34-1.4.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D36
+    D37
+    D39
+    D40
+    D41
+    D50
+    D51
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : JacdacAccessSwitchInput 34-1.4.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : JacdacAccessSwitchInput 34-1.4.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : JacdacAccessSwitchInput 34-1.4.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : JacdacAccessSwitchInput 34-1.4.GD1
+
+    Adding Layer      : Board Outline
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D12
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : JacdacAccessSwitchInput 34-1.4.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D16
+    D17
+    D18
+    D19
+    D21
+    D22
+    D23
+    D24
+    D29
+    D30
+    D38
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : JacdacAccessSwitchInput 34-1.4.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D38
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+

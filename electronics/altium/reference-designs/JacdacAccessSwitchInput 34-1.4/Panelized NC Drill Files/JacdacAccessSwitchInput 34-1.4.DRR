@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacAccessSwitchInput 34.PcbDoc   15/11/2021  14:32:13
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacAccessSwitchInput 34-1.4-RoundHoles.TXT
+ASCII SlotHoles File : JacdacAccessSwitchInput 34-1.4-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             204       PTH        37.11inch (942.56mm)
+T2      26mil (0.66mm)                                            Round             60        PTH        13.01inch (330.41mm)
+T3      28mil (0.71mm)                                            Round             36        PTH        12.60inch (320.02mm)
+T4      83mil (2.1mm)                                             Round             48        PTH        27.08inch (687.94mm)
+T5      118mil (3mm)                                              Round             6         PTH        16.23inch (412.27mm)
+T6      20mil (0.5mm)                                             Round             290       NPTH       21.36inch (542.45mm)
+T7      28mil (0.7mm)                                             Slot              24        NPTH       21.54inch (546.99mm)
+T8      67mil (1.7mm)                                             Round             24        NPTH       14.11inch (358.44mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              692
+
+Total Processing Time (hh:mm:ss) : 00:00:01

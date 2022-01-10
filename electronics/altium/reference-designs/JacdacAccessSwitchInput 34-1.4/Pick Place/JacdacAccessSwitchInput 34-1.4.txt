@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacdacModules\STM32F\JacdacAccessSwitchInput 34\.\JacdacAccessSwitchInput 34-1.4\Pick Place\JacdacAccessSwitchInput 34-1.4.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/11/21
+Time:       14:36
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         TopLayer    -2.1000      2.2750       90       
+C2         TopLayer    3.3750       2.7500       270      
+C3         TopLayer    -0.8250      3.1500       90       
+C5         TopLayer    -1.2000      4.6250       0        
+D1         TopLayer    -6.2500      8.9600       90       
+D2         TopLayer    1.7770       0.4467       180      
+D3         TopLayer    -1.6451      0.4467       0        
+D6         BottomLayer 0.0000       1.4970       0        
+FB1        TopLayer    -3.1500      2.0750       90       
+J1         TopLayer    0.0000       -2.2375      180      
+J3         BottomLayer -0.1000      19.1250      270      
+J6         TopLayer    5.2703       8.3161       180      
+MH1        TopLayer    6.2500       16.5500      0        
+MH2        TopLayer    -6.2500      16.5500      90       
+MH3        TopLayer    -6.2500      1.5500       0        
+MH4        TopLayer    6.2500       1.5500       180      
+R1         TopLayer    -3.6500      4.2500       0        
+R4         TopLayer    3.8500       5.1750       90       
+R5         TopLayer    5.0943       5.2851       90       
+R6         TopLayer    -5.1396      5.8699       90       
+U1         TopLayer    1.3374       3.4359       90       
+U2         TopLayer    -1.1000      9.1750       270      
