@@ -9,6 +9,8 @@ necessary to manufacture [Jacdac devices](https://microsoft.github.io/jacdac-doc
 
 -   [Jacdac specification](https://microsoft.github.io/jacdac-docs/reference/)
 -   [Hardware specification](https://microsoft.github.io/jacdac-docs/reference/hardware-specification/)
+-   Discussions at https://github.com/microsoft/jacdac/discussions
+-   Issues are tracked on https://github.com/microsoft/jacdac/issues
 
 ## Repository structure
 
