@@ -154,25 +154,25 @@ Nick Garner - TeleSense</description>
 </package>
 <package name="LGA-14-2.5_3">
 <description>LGA-14 2.5mm x 3.0mm</description>
-<circle x="-1.15" y="-1.25" radius="0.1" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="-1.5" x2="1.3" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.3" y1="-1.5" x2="1.3" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.3" y1="1.5" x2="-1.3" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.3" y1="1.5" x2="-1.3" y2="-1.5" width="0.127" layer="51"/>
-<smd name="1" x="-0.75" y="-1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="2" x="-0.25" y="-1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="3" x="0.25" y="-1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="4" x="0.75" y="-1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="5" x="0.9125" y="-0.5" dx="0.52" dy="0.32" layer="1" rot="R180"/>
-<smd name="6" x="0.9125" y="0" dx="0.52" dy="0.32" layer="1" rot="R180"/>
-<smd name="7" x="0.9125" y="0.5" dx="0.52" dy="0.32" layer="1" rot="R180"/>
-<smd name="8" x="0.75" y="1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="9" x="0.25" y="1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="10" x="-0.25" y="1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="11" x="-0.75" y="1.16" dx="0.52" dy="0.32" layer="1" rot="R90"/>
-<smd name="12" x="-0.9125" y="0.5" dx="0.52" dy="0.32" layer="1" rot="R180"/>
-<smd name="13" x="-0.9125" y="0" dx="0.52" dy="0.32" layer="1" rot="R180"/>
-<smd name="14" x="-0.9125" y="-0.5" dx="0.52" dy="0.32" layer="1" rot="R180"/>
+<circle x="-1.25" y="1.15" radius="0.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.3" x2="-1.5" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.3" x2="1.5" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.3" x2="1.5" y2="1.3" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.3" x2="-1.5" y2="1.3" width="0.127" layer="51"/>
+<smd name="1" x="-1.16" y="0.75" dx="0.52" dy="0.32" layer="1"/>
+<smd name="2" x="-1.16" y="0.25" dx="0.52" dy="0.32" layer="1"/>
+<smd name="3" x="-1.16" y="-0.25" dx="0.52" dy="0.32" layer="1"/>
+<smd name="4" x="-1.16" y="-0.75" dx="0.52" dy="0.32" layer="1"/>
+<smd name="5" x="-0.5" y="-0.9125" dx="0.52" dy="0.32" layer="1" rot="R90"/>
+<smd name="6" x="0" y="-0.9125" dx="0.52" dy="0.32" layer="1" rot="R90"/>
+<smd name="7" x="0.5" y="-0.9125" dx="0.52" dy="0.32" layer="1" rot="R90"/>
+<smd name="8" x="1.16" y="-0.75" dx="0.52" dy="0.32" layer="1"/>
+<smd name="9" x="1.16" y="-0.25" dx="0.52" dy="0.32" layer="1"/>
+<smd name="10" x="1.16" y="0.25" dx="0.52" dy="0.32" layer="1"/>
+<smd name="11" x="1.16" y="0.75" dx="0.52" dy="0.32" layer="1"/>
+<smd name="12" x="0.5" y="0.9125" dx="0.52" dy="0.32" layer="1" rot="R90"/>
+<smd name="13" x="0" y="0.9125" dx="0.52" dy="0.32" layer="1" rot="R90"/>
+<smd name="14" x="-0.5" y="0.9125" dx="0.52" dy="0.32" layer="1" rot="R90"/>
 <text x="2.184" y="0.01" size="1" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="SOP65P640X120-20N">
