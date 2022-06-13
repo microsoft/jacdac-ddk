@@ -1,7 +1,7 @@
 # Jacdac library and reference design
 
 Notes:
-* there are tDocu layer lines indicating keepout areas as per the EC30 spec;
+* there are tDocu layer lines indicating keepout areas as per the [EC30 spec](https://microsoft.github.io/jacdac-docs/ddk/design/ec30/);
   that keepout applies to components not traces
 * the traces connecting power nets (GND and JD5V/JD_PWR) between multiple Jacdac
   connectors and mounting holes have to be at least 12mil (up to 1A can flow through them)
