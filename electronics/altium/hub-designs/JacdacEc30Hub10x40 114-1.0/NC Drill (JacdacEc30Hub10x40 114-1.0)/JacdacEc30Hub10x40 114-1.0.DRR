@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacEc30Hub10x40 114.PcbDoc   13/06/2022  12:32:45
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacEc30Hub10x40 114-1.0-RoundHoles.TXT
+ASCII SlotHoles File : JacdacEc30Hub10x40 114-1.0-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             20        PTH        66.95mm (2.64inch)
+T2      0.71mm (28mil)                                            Round             18        PTH        57.44mm (2.26inch)
+T3      1.1mm (43mil)                                             Round             3         PTH        5.08mm (0.20inch)
+T4      3.08mm (121mil)                                           Round             4         PTH        60.00mm (2.36inch)
+T5      0.7mm (28mil)                                             Slot              12        NPTH       175.40mm (6.91inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              57
+
+Total Processing Time (hh:mm:ss) : 00:00:00

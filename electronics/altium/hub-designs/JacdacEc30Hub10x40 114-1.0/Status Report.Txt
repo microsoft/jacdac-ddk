@@ -1,0 +1,13 @@
+Output: NC Drill
+Type  : NC Drill
+From  : PCB Document [JacdacEc30Hub10x40 114.PcbDoc]
+   Generated File[JacdacEc30Hub10x40 114-1.0-RoundHoles.TXT]
+   Generated File[JacdacEc30Hub10x40 114-1.0-SlotHoles.TXT]
+   Generated File[JacdacEc30Hub10x40 114-1.0.LDP]
+   Generated File[JacdacEc30Hub10x40 114-1.0.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:32:45 On 13/06/2022

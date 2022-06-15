@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacEdgeConnectorRef 101.PcbDoc   14/06/2022  12:40:58
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacEdgeConnectorRef 101-1.0-RoundHoles.TXT
+ASCII SlotHoles File : JacdacEdgeConnectorRef 101-1.0-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T2      0.71mm (28mil)                                            Round             3         PTH        2.54mm (0.10inch)
+T3      0.7mm (28mil)                                             Slot              2         NPTH       11.45mm (0.45inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              6
+
+Total Processing Time (hh:mm:ss) : 00:00:00

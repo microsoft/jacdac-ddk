@@ -1,0 +1,21 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 20:50:10 On 13/06/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacEc30Template20x20 80.PrjPCB]
+   Generated File[JacdacEc30Template20x20 80-0.7 AAAABH.txt]
+   Generated File[JacdacEc30Template20x20 80-1.0 AAAABJ.txt]
+   Generated File[JacdacEc30Template20x20 80.OutJob]
+   Generated File[JacdacEc30Template20x20 80.PcbDoc]
+   Generated File[JacdacEc30Template20x20 80.PcbDwf]
+   Generated File[JacdacEc30Template20x20 80.PrjPCB]
+   Generated File[JacdacEc30Template20x20 80.PrjPCBStructure]
+   Generated File[JacdacEc30Template20x20 80.SchDoc]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 20:50:10 On 13/06/2022
