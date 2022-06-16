@@ -52,6 +52,15 @@ There are many footprint-compatible SOT23-5 LDOs. These parts have all have acti
 
 LDOs with active-high ENABLE will be fine too of course, as long as the design is updated accordingly.
 
+## Current limiters 
 
+For low-current (100mA max) power provision, we have used the following footprint-compatible parts:
 
-
+| Manufacturer | Part number | Supplier | Order Number | Comments |
+| :-- | :-- | :-- | :-- | :-- |
+| TI | [TPS2335](https://www.ti.com/lit/ds/symlink/tps2553.pdf) |  | |  |
+|  | [TPS2335-1](https://www.ti.com/lit/ds/symlink/tps2553.pdf) |  | | latch-off |
+| Diodes Inc | [AP2553](https://www.diodes.com/assets/Datasheets/products_inactive_data/AP255x.pdf) |  | | active discharge; not recommended for new designs |
+| Diodes Inc | [AP2553A](https://www.diodes.com/assets/Datasheets/products_inactive_data/AP255x.pdf) |  | | latch-off and active discharge; not recommended for new designs |
+| Diodes Inc | [AP22652](https://www.diodes.com/assets/Datasheets/AP22652_53_52A_53A.pdf) |  | | active discharge; not recommended for new designs |
+| Micrel/Microchip | [MIC2090](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC2090_1.pdf) | | |
