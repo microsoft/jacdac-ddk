@@ -27,9 +27,9 @@ For power delivery a higher-current Schottky diode with a very low forward volta
 | Part Number | Vf @100mA | Vf @1A | Ir @ Vr |
 | :-- | :-- | :-- | :-- | 
 | On Semi [MBR120VLSF](https://www.onsemi.com/download/data-sheet/pdf/mbr120vlsft1-d.pdf) | 275mV (max) | 340mV (max) | 100µA (max) @ 10V; 600µA (max) @ 20V |
-| MCC Semi [MBRX120LF-TP](https://www.mccsemi.com/pdf/Products/MBRX120LF(SOD-123).pdf) | 230mV (typ) | 360mV (typ) | 1mA (max) @ 20V |
-| Rohm [RBS1MM40ATR](https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rbs1mm40atr-e.pdf) | 240mV | 380mV (max) | 400µA (max) @ 20V |
 | Nexperia [PMEG2010ER](https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf) | 250mV (max) | 340mV (max) | 1mA (max) @ 20V |
+| Rohm [RBS1MM40ATR](https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rbs1mm40atr-e.pdf) | 240mV | 380mV (max) | 400µA (max) @ 20V |
+| MCC Semi [MBRX120LF-TP](https://www.mccsemi.com/pdf/Products/MBRX120LF(SOD-123).pdf) | 230mV (typ) | 360mV (typ) | 1mA (max) @ 20V |
 | Nexperia [PMEG2010AEH/AET](https://assets.nexperia.com/documents/data-sheet/PMEG2010AEH_PMEG2010AET.pdf) | 290mV (max) | 430mV (max) | 80µA (max) @ 10V |
 | Nexperia [PMEG2010EH/EJ/ET](https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf) | 330mV (max) | 500mV (max) | 40µA @ 10V; 200µA @ 20V |
 
