@@ -12,7 +12,7 @@ Please also refer to discussions at https://github.com/microsoft/jacdac/discussi
 
 -   `/connector`: specification of the Jacdac PCB connector, cable connector and cable assemblies;
 -   `/ec30`: specification of the Jacdac EC30 device form factor;
--   `/electronics`: reference implementations of different types of device in the form of schematics, layouts and parts libraries for various electronics CAD packages; and
+-   `/electronics`: reference materials and implementations of different types of device in the form of schematics, layouts and parts libraries for various electronics CAD packages; and
 -   `/graphics`: image files that might be useful for device design, packaging and/or marketing materials.
 
 
