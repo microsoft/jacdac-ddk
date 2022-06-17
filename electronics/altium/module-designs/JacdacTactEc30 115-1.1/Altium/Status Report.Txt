@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:16:54 On 13/05/2021
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [JacdacButton 10.PrjPCB]
+   Generated File[BOM (complete design) JacdacButton 10-1.2.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:16:55 On 13/05/2021

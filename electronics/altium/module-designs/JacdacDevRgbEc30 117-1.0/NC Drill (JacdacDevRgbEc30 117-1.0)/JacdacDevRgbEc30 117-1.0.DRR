@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacDevRgbEc30 117.PcbDoc   13/06/2022  20:17:16
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacDevRgbEc30 117-1.0-RoundHoles.TXT
+ASCII SlotHoles File : JacdacDevRgbEc30 117-1.0-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             40        PTH        4.33inch (110.07mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.22inch (5.49mm)
+T3      28mil (0.71mm)                                            Round             6         PTH        0.89inch (22.48mm)
+T4      43mil (1.1mm)                                             Round             10        PTH        1.00inch (25.40mm)
+T5      121mil (3.08mm)                                           Round             4         PTH        2.36inch (60.00mm)
+T6      28mil (0.7mm)                                             Slot              4         NPTH       2.61inch (66.20mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              69
+
+Total Processing Time (hh:mm:ss) : 00:00:01

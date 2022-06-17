@@ -1,0 +1,20 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 20:17:41 On 13/06/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacDevRgbEc30 117.PrjPCB]
+   Generated File[JacdacDevRgbEc30 117-1.0 AAAABR 0.3mm.txt]
+   Generated File[JacdacDevRgbEc30 117.BomDoc]
+   Generated File[JacdacDevRgbEc30 117.OutJob]
+   Generated File[JacdacDevRgbEc30 117.PcbDoc]
+   Generated File[JacdacDevRgbEc30 117.PrjPCB]
+   Generated File[JacdacDevRgbEc30 117.PrjPCBStructure]
+   Generated File[JacdacDevRgbEc30 117.SchDoc]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 20:17:41 On 13/06/2022

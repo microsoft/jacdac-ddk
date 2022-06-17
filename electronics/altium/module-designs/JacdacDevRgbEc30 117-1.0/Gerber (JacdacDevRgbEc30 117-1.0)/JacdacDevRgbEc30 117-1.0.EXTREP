@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: JacdacDevRgbEc30 117-1.0.GBR   13/06/2022  20:17:14
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM3                Fabrication notes                       
+.GM11               Board Outline                           
+.GM15               Top Assy                                
+.GM16               Bottom Assy                             
+.GD1                Drill Drawing                           
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------
