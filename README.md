@@ -1,7 +1,5 @@
 # Jacdac Device Development Kit (DDK) Reference Materials
 
-**Partner Preview: Jacdac is currently in preview. If you would like to join as a pre-release test partner, please email jacdac-tap@microsoft.com.**
-
 ## Introduction
 
 This repository contains reference materials for creators of [Jacdac](https://aka.ms/jacdac) devices. More specifically, it has technical drawings, part libraries and device designs (schematics and layout files). In conjunction with the [Jacdac device design documentation](https://microsoft.github.io/jacdac-docs/ddk/) and our [Jacdac firmware repositories](https://microsoft.github.io/jacdac-docs/ddk/firmware/), these materials form the Jacdac device design kit (DDK). The DDK contains everything necessary to design and manufacture [Jacdac devices](https://microsoft.github.io/jacdac-docs/devices/).
@@ -11,10 +9,8 @@ Please also refer to discussions at https://github.com/microsoft/jacdac/discussi
 ## Repository structure
 
 -   `/connector`: specification of the Jacdac PCB connector, cable connector and cable assemblies;
--   `/ec30`: specification of the Jacdac EC30 device form factor;
 -   `/electronics`: reference materials and implementations of different types of device in the form of schematics, layouts and parts libraries for various electronics CAD packages; and
 -   `/graphics`: image files that might be useful for device design, packaging and/or marketing materials.
-
 
 ## Contributing to Jacdac
 
