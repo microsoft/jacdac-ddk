@@ -4,7 +4,7 @@
 ## Library
 
 The EAGLE Jacdac library (```Jacdac.lbr```) contains the following footprints:
-- Jacdac PCB edge connector with three different outline variants follwing the spec [JD-PEC-02 spec](https://github.com/microsoft/jacdac-ddk/blob/main/connector/JACDAC_PCB_Edge_Connector_Drawing_JD-PEC-02_rev_05.pdf).
+- Jacdac PCB edge connector with three different outline variants follwing the spec [JD-PEC-02 spec](https://aka.ms/jacdac-edge-connector).
   - These footprints doesn't come pre-routed. The pre-routed versions can be found as EAGLE design blocks [here](https://github.com/microsoft/jacdac-ddk/tree/main/design/examples/eagle-designblocks).
   - Set the grid to 0.25mm for the INNIE and OUTIE variants and 0.01 for the ANY variant to continue the outline shape. The width of the outline is 0.05 for all variants.
 - Jacdac mounting holes
