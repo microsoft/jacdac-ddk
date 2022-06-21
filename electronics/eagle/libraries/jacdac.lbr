@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -126,17 +126,17 @@ Nick Garner - TeleSense</description>
 </package>
 <package name="JD-EDGE-OUTIE">
 <description>&lt;h3&gt;Jacdac connector&lt;/h3&gt;</description>
-<wire x1="-4.25" y1="-6" x2="-3.27" y2="-5" width="0.01" layer="20" curve="90" cap="flat"/>
-<wire x1="-3.27" y1="-5" x2="-3.27" y2="-0.8" width="0.01" layer="20"/>
-<wire x1="-3.27" y1="-0.8" x2="-2.47" y2="0" width="0.01" layer="20" curve="-90"/>
-<wire x1="-2.47" y1="0" x2="2.47" y2="0" width="0.01" layer="20"/>
-<wire x1="2.47" y1="0" x2="3.27" y2="-0.8" width="0.01" layer="20" curve="-90"/>
-<wire x1="3.27" y1="-5" x2="4.25" y2="-6" width="0.01" layer="20" curve="90"/>
+<wire x1="-4.25" y1="-6" x2="-3.3" y2="-5" width="0.01" layer="20" curve="90" cap="flat"/>
+<wire x1="-3.3" y1="-5" x2="-3.3" y2="-0.8" width="0.01" layer="20"/>
+<wire x1="-3.3" y1="-0.8" x2="-2.5" y2="0" width="0.01" layer="20" curve="-90"/>
+<wire x1="-2.5" y1="0" x2="2.5" y2="0" width="0.01" layer="20"/>
+<wire x1="2.5" y1="0" x2="3.3" y2="-0.8" width="0.01" layer="20" curve="-90"/>
+<wire x1="3.3" y1="-5" x2="4.25" y2="-6" width="0.01" layer="20" curve="90"/>
 <wire x1="0" y1="0.09" x2="0" y2="-0.04" width="0.01" layer="21"/>
 <wire x1="-0.05" y1="0" x2="0.04" y2="0" width="0.01" layer="21"/>
-<wire x1="3.27" y1="-0.8" x2="3.27" y2="-5" width="0.01" layer="20"/>
-<wire x1="-3.27" y1="-5.25" x2="-3.27" y2="-5" width="0.01" layer="20"/>
-<wire x1="3.27" y1="-5.25" x2="3.27" y2="-5" width="0.01" layer="20"/>
+<wire x1="3.3" y1="-0.8" x2="3.3" y2="-5" width="0.01" layer="20"/>
+<wire x1="-3.3" y1="-5.2" x2="-3.3" y2="-5" width="0.01" layer="20"/>
+<wire x1="3.3" y1="-5.2" x2="3.3" y2="-5" width="0.01" layer="20"/>
 <wire x1="-4.75" y1="-5.65" x2="-4.75" y2="7.75" width="0.127" layer="51"/>
 <wire x1="-4.75" y1="7.75" x2="-4.75" y2="7.85" width="0.127" layer="51"/>
 <wire x1="4.75" y1="-5.65" x2="4.75" y2="7.75" width="0.127" layer="51"/>
@@ -172,9 +172,9 @@ Nick Garner - TeleSense</description>
 <smd name="4" x="1.27" y="-2.4" dx="0.9" dy="3.45" layer="16" roundness="80" rot="R180" cream="no"/>
 <smd name="5" x="0" y="-2.4" dx="0.9" dy="3.45" layer="16" roundness="80" rot="R180" cream="no"/>
 <smd name="6" x="-1.27" y="-2.65" dx="0.9" dy="2.95" layer="16" roundness="80" rot="R180" cream="no"/>
-<pad name="P$1" x="-1.27" y="-5.45" drill="0.6" diameter="1.1"/>
-<pad name="P$2" x="0" y="-5.45" drill="0.6" diameter="1.1"/>
-<pad name="P$3" x="1.27" y="-5.45" drill="0.6" diameter="1.1"/>
+<pad name="P$1" x="-1.27" y="-5.45" drill="0.71" diameter="1.1"/>
+<pad name="P$2" x="0" y="-5.45" drill="0.71" diameter="1.1"/>
+<pad name="P$3" x="1.27" y="-5.45" drill="0.71" diameter="1.1"/>
 <pad name="P$4" x="0" y="-2.35" drill="0.3048" diameter="0.5588"/>
 <text x="-0.107" y="0.664" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0.36" y="1.29" size="0.2" layer="51" font="vector" rot="R90">Use 0.25mm grid for board outline.
