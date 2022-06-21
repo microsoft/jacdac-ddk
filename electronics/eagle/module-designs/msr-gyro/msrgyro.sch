@@ -982,17 +982,17 @@ Nick Garner - TeleSense</description>
 </package>
 <package name="JD-EDGE-OUTIE">
 <description>&lt;h3&gt;Jacdac connector&lt;/h3&gt;</description>
-<wire x1="-4.25" y1="-6" x2="-3.27" y2="-5" width="0.01" layer="20" curve="90" cap="flat"/>
-<wire x1="-3.27" y1="-5" x2="-3.27" y2="-0.8" width="0.01" layer="20"/>
-<wire x1="-3.27" y1="-0.8" x2="-2.47" y2="0" width="0.01" layer="20" curve="-90"/>
-<wire x1="-2.47" y1="0" x2="2.47" y2="0" width="0.01" layer="20"/>
-<wire x1="2.47" y1="0" x2="3.27" y2="-0.8" width="0.01" layer="20" curve="-90"/>
-<wire x1="3.27" y1="-5" x2="4.25" y2="-6" width="0.01" layer="20" curve="90"/>
+<wire x1="-4.25" y1="-5.9" x2="-3.3" y2="-4.9" width="0.01" layer="20" curve="90" cap="flat"/>
+<wire x1="-3.3" y1="-4.9" x2="-3.3" y2="-0.8" width="0.01" layer="20"/>
+<wire x1="-3.3" y1="-0.8" x2="-2.5" y2="0" width="0.01" layer="20" curve="-90"/>
+<wire x1="-2.5" y1="0" x2="2.5" y2="0" width="0.01" layer="20"/>
+<wire x1="2.5" y1="0" x2="3.3" y2="-0.8" width="0.01" layer="20" curve="-90"/>
+<wire x1="3.3" y1="-4.9" x2="4.25" y2="-5.9" width="0.01" layer="20" curve="90"/>
 <wire x1="0" y1="0.09" x2="0" y2="-0.04" width="0.01" layer="21"/>
 <wire x1="-0.05" y1="0" x2="0.04" y2="0" width="0.01" layer="21"/>
-<wire x1="3.27" y1="-0.8" x2="3.27" y2="-5" width="0.01" layer="20"/>
-<wire x1="-3.27" y1="-5.25" x2="-3.27" y2="-5" width="0.01" layer="20"/>
-<wire x1="3.27" y1="-5.25" x2="3.27" y2="-5" width="0.01" layer="20"/>
+<wire x1="3.3" y1="-0.8" x2="3.3" y2="-4.9" width="0.01" layer="20"/>
+<wire x1="-3.3" y1="-5.2" x2="-3.3" y2="-4.9" width="0.01" layer="20"/>
+<wire x1="3.3" y1="-5.2" x2="3.3" y2="-4.9" width="0.01" layer="20"/>
 <wire x1="-4.75" y1="-5.65" x2="-4.75" y2="7.75" width="0.127" layer="51"/>
 <wire x1="-4.75" y1="7.75" x2="-4.75" y2="7.85" width="0.127" layer="51"/>
 <wire x1="4.75" y1="-5.65" x2="4.75" y2="7.75" width="0.127" layer="51"/>
@@ -1012,28 +1012,18 @@ Nick Garner - TeleSense</description>
 <wire x1="2.15" y1="-3.7" x2="2.5" y2="-4.05" width="0.01" layer="20" curve="90"/>
 <wire x1="2.5" y1="-4.05" x2="2.85" y2="-3.7" width="0.01" layer="20" curve="90"/>
 <wire x1="2.85" y1="-3.7" x2="2.85" y2="-3" width="0.01" layer="20"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="-4.25" y1="-6" x2="-5" y2="-6" width="0.05" layer="51"/>
-<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.05" layer="51" curve="-90"/>
-<wire x1="-7" y1="-1.5" x2="-7.5" y2="-1.5" width="0.05" layer="51"/>
-<wire x1="-6" y1="-2.5" x2="-7" y2="-1.5" width="0.05" layer="51" curve="90"/>
-<wire x1="4.25" y1="-6" x2="5" y2="-6" width="0.05" layer="51"/>
-<wire x1="5" y1="-6" x2="6" y2="-5" width="0.05" layer="51" curve="90"/>
-<wire x1="6" y1="-5" x2="6" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="6" y1="-2.5" x2="7" y2="-1.5" width="0.05" layer="51" curve="-90"/>
-<wire x1="7" y1="-1.5" x2="7.5" y2="-1.5" width="0.05" layer="51"/>
 <smd name="1" x="1.27" y="-3.25" dx="0.9" dy="4.1" layer="1" roundness="80" cream="no"/>
 <smd name="2" x="0" y="-3" dx="0.9" dy="4.6" layer="1" roundness="80" cream="no"/>
 <smd name="3" x="-1.27" y="-3" dx="0.9" dy="4.6" layer="1" roundness="80" cream="no"/>
 <smd name="4" x="1.27" y="-2.4" dx="0.9" dy="3.45" layer="16" roundness="80" rot="R180" cream="no"/>
 <smd name="5" x="0" y="-2.4" dx="0.9" dy="3.45" layer="16" roundness="80" rot="R180" cream="no"/>
 <smd name="6" x="-1.27" y="-2.65" dx="0.9" dy="2.95" layer="16" roundness="80" rot="R180" cream="no"/>
-<pad name="P$1" x="-1.27" y="-5.45" drill="0.6" diameter="1.1"/>
-<pad name="P$2" x="0" y="-5.45" drill="0.6" diameter="1.1"/>
-<pad name="P$3" x="1.27" y="-5.45" drill="0.6" diameter="1.1"/>
+<pad name="P$1" x="-1.27" y="-5.45" drill="0.71" diameter="1.1"/>
+<pad name="P$2" x="0" y="-5.45" drill="0.71" diameter="1.1"/>
+<pad name="P$3" x="1.27" y="-5.45" drill="0.71" diameter="1.1"/>
 <pad name="P$4" x="0" y="-2.35" drill="0.3048" diameter="0.5588"/>
 <text x="-0.107" y="0.664" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
-<text x="0.36" y="1.29" size="0.2" layer="51" font="vector" rot="R90">Use 0.25mm grid for board outline.
+<text x="0.36" y="1.29" size="0.2" layer="51" font="vector" rot="R90">Use 0.5mm grid for board outline.
 Use 12mil+ trace for GND and JD_PWR
 between Jacdac connectors and mounting holes.</text>
 <polygon width="0.05" layer="42">
@@ -1064,6 +1054,14 @@ between Jacdac connectors and mounting holes.</text>
 <vertex x="-2.8" y="0.15"/>
 <vertex x="-3.4" y="-0.45"/>
 </polygon>
+<wire x1="-4.25" y1="-5.9" x2="-5" y2="-5.9" width="0.01" layer="20"/>
+<wire x1="-5" y1="-5.9" x2="-6" y2="-4.9" width="0.01" layer="20" curve="-90"/>
+<wire x1="-6" y1="-4.9" x2="-6" y2="-2.5" width="0.01" layer="20"/>
+<wire x1="-6" y1="-2.5" x2="-7" y2="-1.5" width="0.01" layer="20" curve="90"/>
+<wire x1="4.25" y1="-5.9" x2="5" y2="-5.9" width="0.01" layer="20"/>
+<wire x1="5" y1="-5.9" x2="6" y2="-4.9" width="0.01" layer="20" curve="90"/>
+<wire x1="6" y1="-4.9" x2="6" y2="-2.5" width="0.01" layer="20"/>
+<wire x1="6" y1="-2.5" x2="7" y2="-1.5" width="0.01" layer="20" curve="-90"/>
 </package>
 <package name="SOT23-3-W">
 <wire x1="-0.8" y1="1.5" x2="-0.8" y2="0.2" width="0.05" layer="51"/>
