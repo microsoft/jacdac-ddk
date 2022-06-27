@@ -14,4 +14,4 @@ Notes:
 * try to keep the trace from JD pin to FB1 short to improve EMC
 * ESD protection diodes may not be necessary for prototyping
 
-
+The `gerber.zip` file(s) contain exported Gerber layers as well as BOM and PNP files suitable for JLCPCB.
