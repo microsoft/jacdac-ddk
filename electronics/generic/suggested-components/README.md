@@ -33,6 +33,7 @@ For power delivery a higher-current Schottky diode with a very low forward volta
 | Nexperia [PMEG2010AEH/AET](https://assets.nexperia.com/documents/data-sheet/PMEG2010AEH_PMEG2010AET.pdf) | 290mV (max) | 430mV (max) | 80µA (max) @ 10V |
 | Nexperia [PMEG2010EH/EJ/ET](https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf) | 330mV (max) | 500mV (max) | 40µA @ 10V; 200µA @ 20V |
 | Rohm [RB161MM-20TR](https://www.mouser.co.uk/datasheet/2/348/rb161mm_20tr_e-1870160.pdf) | 210mV (typ) | 310mV (typ), 350mV (max) | 170µA @ 10V; 280µA @ 20V |
+| Yangzhou Yangjie [B5817W](https://datasheet.lcsc.com/lcsc/2008071906_Yangzhou-Yangjie-Elec-Tech-B5817WS_C699102.pdf) |  325mV (?) | 450mV (?) | 200µA @ 20V |
 
 
 ## Ideal diodes
