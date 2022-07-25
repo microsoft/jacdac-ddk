@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacCableExtender 38.PcbDoc   02/02/2022  15:15:12
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacCableExtender 38-1.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacCableExtender 38-1.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             4         PTH        0.44inch (11.16mm)
+T2      28mil (0.71mm)                                            Slot              3         PTH        0.28inch (7.15mm)
+T3      28mil (0.7mm)                                             Slot              4         NPTH       1.34inch (34.14mm)
+T4      55mil (1.4mm)                                             Round             2         NPTH       0.26inch (6.60mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              13
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,19 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:24:35 On 02/02/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacCableExtender 38.PrjPCB]
+   Generated File[JacdacCableExtender 38-1.1.zip]
+   Generated File[JacdacCableExtender 38.OutJob]
+   Generated File[JacdacCableExtender 38.PcbDoc]
+   Generated File[JacdacCableExtender 38.PrjPCB]
+   Generated File[JacdacCableExtender 38.PrjPCBStructure]
+   Generated File[JacdacCableExtender 38.SchDoc]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 15:24:35 On 02/02/2022
