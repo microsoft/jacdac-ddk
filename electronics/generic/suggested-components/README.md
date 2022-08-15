@@ -74,3 +74,40 @@ For low-current (100mA max) power provision, we have used the following footprin
 | Diodes Inc | [AP2553A](https://www.diodes.com/assets/Datasheets/products_inactive_data/AP255x.pdf) |  | | latch-off and active discharge; not recommended for new designs |
 | Diodes Inc | [AP22652](https://www.diodes.com/assets/Datasheets/AP22652_53_52A_53A.pdf) |  | | active discharge; not recommended for new designs |
 | Micrel/Microchip | [MIC2090](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC2090_1.pdf) | | |
+
+## SMT push buttons / tact switches
+
+These are used on some devices for reset and/or for enabling over-the-bus firmware updates:
+
+| Manufacturer | Part number | Supplier | Order Number | Comments |
+| :-- | :-- | :-- | :-- | :-- |
+| USAKRO | UK-B0267-SP25Y | LCSC | C493283 | 250g force, white button |
+| Korean Hroparts Elec| K2-1808SN-A4SW-01 | LCSC | C92589 | 250g force |
+| C&K | PTS810 SJM 250 SMTR LFS | Digikey | CKN10502CT-ND | 160g force, gray button |
+| C&K | PTS810 SJG 250 SMTR LFS | Digikey | CKN10502CT-ND | 400g force, blue button |
+
+## USB type C connectors
+
+Some brains and other Jacdac power providers have USB type C connectors. 
+
+| Manufacturer | Part number | Supplier | Order Number | Comments |
+| :-- | :-- | :-- | :-- | :-- |
+| GCT | USB4105-GF-A | Digikey |  2073-USB4105-GF-ATR-ND | 16 pin (8 dummy) SMT with 0.95mm TH mounting lugs |
+|  |  | Farnell | 3588205 or 3588199 | |
+|  |  | Mouser | 640-USB4105-GF-A | |
+| GCT | USB4105-GF-A-060 | Farnell |  3777659 or 3777664 | 16 pin (8 dummy) SMT with 0.6mm TH mounting lugs |
+|  |  | Mouser | 640-USB4105-GF-A-060 | |
+| GCT | USB4105-GF-A-120 | Farnell |  3777660 or 3777665 | 16 pin (8 dummy) SMT with 1.2mm TH mounting lugs |
+|  |  | Mouser | 640-USB4105-GF-A-060 | |
+
+| Korean Hroparts Elec | TYPE-C-31-M-12 | LCSC | C165948 | 16 pin (8 dummy) SMT with 1.0mm TH mounting lugs |
+
+
+## Crystals
+
+Some brains require external crystals.
+
+| Manufacturer | Part number | Supplier | Order Number | Comments |
+| :-- | :-- | :-- | :-- | :-- |
+| Multicomp | MCSJK-7U-12.00-12-10-80-B-10 | Farnell |  2853916 | 12MHz 3.2x2.5mm 12pF |
+
