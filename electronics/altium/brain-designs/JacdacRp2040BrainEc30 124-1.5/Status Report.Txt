@@ -1,0 +1,25 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:38:28 On 16/11/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacRp2040BrainEc30 124.PrjPCB]
+   Generated File[BC857 variants at LCSC.xlsx]
+   Generated File[JacdacRp2040BrainEc30 124 snapshot with PADAUK.SchDoc]
+   Generated File[JacdacRp2040BrainEc30 124.BomDoc]
+   Generated File[JacdacRp2040BrainEc30 124.OutJob]
+   Generated File[JacdacRp2040BrainEc30 124.PcbDoc]
+   Generated File[JacdacRp2040BrainEc30 124.PrjPCB]
+   Generated File[JacdacRp2040BrainEc30 124.PrjPCBStructure]
+   Generated File[JacdacRp2040BrainEc30 124.PrjPCBVariants]
+   Generated File[JacdacRp2040BrainEc30 124.SchDoc]
+   Generated File[JacdacRp2040BrainEc30-NoStamp 124 - Copy.PcbDoc]
+   Generated File[JacdacRp2040BrainEc30-NoStamp 124.OutJob]
+   Generated File[JacdacRp2040BrainEc30-NoStamp 124.PcbDoc]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 13:38:30 On 16/11/2022

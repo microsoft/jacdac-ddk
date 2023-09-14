@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\shodges\TFS-MSR\SenDev\Projects\JacdacBrains\RP2040\JacdacRp2040BrainEc30 124\JacdacRp2040BrainEc30 124.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=jacdacrp2040brainec30 124-1.5-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=jacdacrp2040brainec30 124-1.5-slotholes.txt|DrillLayers=gtl,gbl
