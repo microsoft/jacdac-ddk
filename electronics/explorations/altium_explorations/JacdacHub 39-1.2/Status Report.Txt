@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [JacdacHub 39.PcbDoc]
+   Generated File[JacdacHub 39-1.2.txt]
+   Generated File[JacdacHub 39-1.2.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 20:11:21 On 10/01/2022

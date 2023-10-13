@@ -1,0 +1,125 @@
+*************************************************************
+FileName = JacdacConnectorOnly 75-0.2.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : JacdacConnectorOnly 75-0.2.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : JacdacConnectorOnly 75-0.2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : JacdacConnectorOnly 75-0.2.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : JacdacConnectorOnly 75-0.2.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : JacdacConnectorOnly 75-0.2.GM11
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Fabrication Notes
+      File : JacdacConnectorOnly 75-0.2.GM3
+
+    Adding Layer      : Fabrication Notes
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Route Tool Path
+      File : JacdacConnectorOnly 75-0.2.GM4
+
+    Adding Layer      : Route Tool Path
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : JacdacConnectorOnly 75-0.2.GD1
+
+    Adding Layer      : Board Outline
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D20
+    D21
+*************************************************************
+

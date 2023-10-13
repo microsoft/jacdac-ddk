@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacMicroBitBackPackHi-Alt0 119.PcbDoc   03/12/2022  16:26:26
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacMicroBitBackPackHi 119-0.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacMicroBitBackPackHi 119-0.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             26        PTH        192.12mm (7.56inch)
+T2      0.559mm (22mil)                                           Round             5         PTH        5.38mm (0.21inch)
+T3      0.71mm (28mil)                                            Round             9         PTH        90.29mm (3.55inch)
+T4      4mm (157mil)                                              Round             5         PTH        64.77mm (2.55inch)
+T5      4.25mm (167mil)                                           Round             5         PTH        64.77mm (2.55inch)
+T6      0.7mm (28mil)                                             Slot              6         NPTH       215.90mm (8.50inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              56
+
+Total Processing Time (hh:mm:ss) : 00:00:00

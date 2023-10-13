@@ -1,0 +1,19 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 19:48:50 On 16/03/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacEdgeConnectorSlotsTest 93.PrjPCB]
+   Generated File[JacdacEdgeConnectorSlotsTest 93.OutJob]
+   Generated File[JacdacEdgeConnectorSlotsTest 93.PcbDoc]
+   Generated File[JacdacEdgeConnectorSlotsTest 93.PcbDoc.broken]
+   Generated File[JacdacEdgeConnectorSlotsTest 93.PrjPCB]
+   Generated File[JacdacEdgeConnectorSlotsTest 93.PrjPCBStructure]
+   Generated File[JacdacEdgeConnectorSlotsTest 93.SchDoc]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 19:48:50 On 16/03/2022

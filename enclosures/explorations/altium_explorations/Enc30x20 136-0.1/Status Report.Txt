@@ -1,0 +1,19 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 19:43:20 On 23/12/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [Enc30x20 136.PrjPCB]
+   Generated File[Enc30x20 136.BomDoc]
+   Generated File[Enc30x20 136.OutJob]
+   Generated File[Enc30x20 136.PcbDoc]
+   Generated File[Enc30x20 136.PrjPCB]
+   Generated File[Enc30x20 136.SchDoc]
+   Generated File[JLCPCB remark.txt]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 19:43:21 On 23/12/2022

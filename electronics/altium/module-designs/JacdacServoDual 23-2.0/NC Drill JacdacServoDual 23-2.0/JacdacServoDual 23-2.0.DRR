@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacServoDual 23.PcbDoc   07/02/2022  20:07:12
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacServoDual 23-2.0-RoundHoles.TXT
+ASCII SlotHoles File : JacdacServoDual 23-2.0-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             24        PTH        89.69mm (3.53inch)
+T2      0.66mm (26mil)                                            Round             5         PTH        5.91mm (0.23inch)
+T3      0.71mm (28mil)                                            Round             3         PTH        2.54mm (0.10inch)
+T4      1.73mm (68mil)                                            Round             4         PTH        12.54mm (0.49inch)
+T5      3.1mm (122mil)                                            Round             4         PTH        70.00mm (2.76inch)
+T6      0.7mm (28mil)                                             Slot              2         NPTH       11.74mm (0.46inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              42
+
+Total Processing Time (hh:mm:ss) : 00:00:00

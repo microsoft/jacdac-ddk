@@ -1,0 +1,20 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 17:33:29 On 15/09/2023
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacModuleTesterEc30 91.PrjPCB]
+   Generated File[AAAABG.txt]
+   Generated File[JacdacModuleTesterEc30 91.BomDoc]
+   Generated File[JacdacModuleTesterEc30 91.OutJob]
+   Generated File[JacdacModuleTesterEc30 91.PcbDoc]
+   Generated File[JacdacModuleTesterEc30 91.PrjPCB]
+   Generated File[JacdacModuleTesterEc30 91.PrjPCBStructure]
+   Generated File[JacdacModuleTesterEc30 91.SchDoc]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 17:33:29 On 15/09/2023

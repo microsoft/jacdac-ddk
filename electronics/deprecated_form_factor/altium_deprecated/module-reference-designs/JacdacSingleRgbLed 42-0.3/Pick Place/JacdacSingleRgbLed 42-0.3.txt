@@ -1,0 +1,39 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacdacModules\PADAUK\JacdacSingleRgbLed 42\.\JacdacSingleRgbLed 42-0.3\Pick Place\JacdacSingleRgbLed 42-0.3.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/11/21
+Time:       16:18
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         TopLayer    1.5500       11.7250      90       
+C2         TopLayer    3.5750       5.0500       0        
+C3         TopLayer    2.6500       9.5250       180      
+C4         TopLayer    -2.6000      6.4000       270      
+C5         BottomLayer 3.7750       8.1250       90       
+D1         TopLayer    -0.6000      9.2500       90       
+D2         TopLayer    1.0250       13.5750      180      
+D3         TopLayer    -1.0250      13.5750      0        
+D4         TopLayer    1.0250       0.3500       180      
+D5         TopLayer    -1.0250      0.3500       0        
+D6         TopLayer    0.0000       2.8250       270      
+D7         BottomLayer 0.0000       7.0000       0        
+D8         BottomLayer -0.8250      2.1750       270      
+FB1        TopLayer    0.6250       11.6250      90       
+J1         TopLayer    0.0000       -1.9875      180      
+J2         TopLayer    0.0000       15.9875      0        
+MH1        TopLayer    -5.0000      2.0000       180      
+MH2        TopLayer    5.0000       2.0000       0        
+MH3        TopLayer    5.0000       12.0000      180      
+MH4        TopLayer    -5.0000      12.0000      0        
+R1         TopLayer    -0.5750      11.7250      90       
+R2         TopLayer    -0.9250      2.5250       90       
+R3         BottomLayer -1.9500      4.0500       0        
+R4         BottomLayer -1.9750      10.2250      180      
+U1         TopLayer    3.1250       7.3000       90       
+U2         TopLayer    -0.4250      5.9000       180      

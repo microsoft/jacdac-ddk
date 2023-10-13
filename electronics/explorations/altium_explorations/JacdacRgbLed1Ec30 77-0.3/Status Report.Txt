@@ -1,0 +1,23 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 12:51:26 On 02/03/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacRgbLed1Ec30 77.PrjPCB]
+   Generated File[AAAABF.txt]
+   Generated File[JacdacRgbLed1Ec30 77-0.3.zip]
+   Generated File[JacdacRgbLed1Ec30 77.BomDoc]
+   Generated File[JacdacRgbLed1Ec30 77.OutJob]
+   Generated File[JacdacRgbLed1Ec30 77.PcbDoc]
+   Generated File[JacdacRgbLed1Ec30 77.PrjPCB]
+   Generated File[JacdacRgbLed1Ec30 77.PrjPCBStructure]
+   Generated File[JacdacRgbLed1Ec30 77.SchDoc]
+   Generated File[mikrobus-socket-pinout.jpg]
+   Generated File[Status Report.Txt]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 12:51:26 On 02/03/2022

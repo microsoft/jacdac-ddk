@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacSingleRgbLed 42.PcbDoc   10/11/2021  16:17:28
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacSingleRgbLed 42-0.3-RoundHoles.TXT
+ASCII SlotHoles File : JacdacSingleRgbLed 42-0.3-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             11        PTH        1.14inch (28.92mm)
+T2      28mil (0.71mm)                                            Round             6         PTH        0.79inch (20.18mm)
+T3      83mil (2.1mm)                                             Round             4         PTH        1.18inch (30.00mm)
+T4      28mil (0.7mm)                                             Slot              4         NPTH       2.48inch (62.89mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              25
+
+Total Processing Time (hh:mm:ss) : 00:00:00

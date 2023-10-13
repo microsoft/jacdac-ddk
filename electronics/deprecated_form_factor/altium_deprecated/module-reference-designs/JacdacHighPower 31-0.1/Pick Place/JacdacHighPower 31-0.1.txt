@@ -1,0 +1,65 @@
+Altium Designer Pick and Place Locations
+C:\Dev\MSR\SenDev\Projects\JacdacModules\STM\JacdacHighPower 31\.\JacdacHighPower 31-0.1\Pick Place\JacdacHighPower 31-0.1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       26/04/21
+Time:       16:02
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         TopLayer    -2.0250      9.7500       0        
+C2         TopLayer    -2.9000      14.1250      180      
+C3         BottomLayer -0.2750      12.8000      90       
+C4         BottomLayer -2.0250      9.5500       0        
+C5         BottomLayer -3.0000      8.8250       180      
+C6         TopLayer    2.6500       9.0000       90       
+C7         TopLayer    0.8500       24.8750      180      
+D1         BottomLayer 0.0000       2.8750       270      
+D2         BottomLayer 2.8750       13.3000      180      
+D3         BottomLayer 0.0000       27.3500      90       
+D4         TopLayer    1.0500       27.1750      90       
+D5         TopLayer    -1.7750      7.0075       180      
+D7         TopLayer    0.4250       10.1000      90       
+D8         BottomLayer 5.0000       10.3000      270      
+D9         BottomLayer -5.2000      8.4000       90       
+D10        BottomLayer 5.1000       20.7500      270      
+D11        BottomLayer -5.3000      18.7250      90       
+D12        BottomLayer -5.2500      20.7750      270      
+D13        BottomLayer 5.1000       18.7000      90       
+D14        TopLayer    4.8500       11.6750      180      
+D15        BottomLayer -5.1750      10.4250      270      
+FB1        TopLayer    3.2500       10.4251      180      
+J1         BottomLayer -2.9868      26.5250      0        
+J2         TopLayer    0.0000       3.9350       0        
+J3         BottomLayer 7.4875       9.4160       90       
+J4         BottomLayer 7.4875       19.7300      90       
+J6         BottomLayer -7.4875      19.7300      270      
+J7         BottomLayer -7.4875      9.4160       270      
+MH1        TopLayer    -7.5000      27.0730      90       
+MH2        TopLayer    7.5000       27.0730      90       
+MH3        TopLayer    -7.5000      2.0730       270      
+MH4        TopLayer    7.5000       2.0730       270      
+Q1         TopLayer    1.5500       13.8000      180      
+R1         BottomLayer -2.0500      8.1000       180      
+R2         BottomLayer -1.2000      2.5250       270      
+R3         TopLayer    0.5000       7.5250       90       
+R4         TopLayer    -0.5250      7.5500       90       
+R5         BottomLayer -1.9500      14.4500      180      
+R6         BottomLayer -1.9500      15.3750      180      
+R7         TopLayer    0.1750       27.4750      90       
+R8         BottomLayer -0.0250      25.1750      270      
+R9         BottomLayer 1.4500       27.5500      270      
+R10        BottomLayer 1.0750       25.1750      270      
+R11        TopLayer    -0.3750      14.0250      270      
+R13        BottomLayer -3.4000      14.7000      270      
+R14        TopLayer    2.7500       11.4750      0        
+R16        TopLayer    1.2500       15.4500      0        
+TP1        TopLayer    -3.4000      19.4000      90       
+TP2        TopLayer    -3.4000      21.1750      90       
+U1         TopLayer    -2.4500      11.9915      90       
+U2         BottomLayer -2.4500      11.9250      90       
+U4         TopLayer    0.7750       20.8000      90       

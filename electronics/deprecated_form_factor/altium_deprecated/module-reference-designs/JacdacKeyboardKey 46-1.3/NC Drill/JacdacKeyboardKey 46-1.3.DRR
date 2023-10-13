@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacKeyboardKey 46.PcbDoc   10/11/2021  14:51:55
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacKeyboardKey 46-1.3-RoundHoles.TXT
+ASCII SlotHoles File : JacdacKeyboardKey 46-1.3-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             11        PTH        2.11inch (53.50mm)
+T2      28mil (0.71mm)                                            Round             6         PTH        0.89inch (22.68mm)
+T3      59mil (1.499mm)                                           Round             2         PTH        0.27inch (6.84mm)
+T4      83mil (2.1mm)                                             Round             4         PTH        2.17inch (55.00mm)
+T5      28mil (0.7mm)                                             Slot              4         NPTH       2.67inch (67.89mm)
+T6      67mil (1.702mm)                                           Round             2         NPTH       0.40inch (10.16mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              29
+
+Total Processing Time (hh:mm:ss) : 00:00:00

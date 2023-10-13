@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Dev\MSR\SenDev\Projects\JacdacModules\STM\JacdacHighPower 31\JacdacHighPower 31.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=jacdachighpower 31-0.1-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=jacdachighpower 31-0.1-slotholes.txt|DrillLayers=gtl,gbl

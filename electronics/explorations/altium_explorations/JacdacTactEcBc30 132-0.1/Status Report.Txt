@@ -1,0 +1,22 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 23:06:21 On 24/11/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacTactButtonEcBc30 132.PrjPCB]
+   Generated File[JacdacTactButtonEcBc30 132.PrjPCB]
+   Generated File[JacdacTactButtonEcBc30 132.PrjPCBStructure]
+   Generated File[JacdacTactButtonEcBc30 132.PrjPCBVariants]
+   Generated File[JacdacTactEcBc30 132.BomDoc]
+   Generated File[JacdacTactEcBc30 132.OutJob]
+   Generated File[JacdacTactEcBc30 132.PcbDoc]
+   Generated File[JacdacTactEcBc30 132.PrjPCBStructure]
+   Generated File[JacdacTactEcBc30 132.PrjPCBVariants]
+   Generated File[JacdacTactEcBc30 132.SchDoc]
+
+
+Files Generated   : 9
+Documents Printed : 0
+
+Finished Output Generation At 23:06:21 On 24/11/2022

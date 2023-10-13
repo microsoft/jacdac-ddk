@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacdacModules\PADAUK\JacdacKeyboardKey 46\.\JacdacKeyboardKey 46-1.3\Pick Place\JacdacKeyboardKey 46-1.3.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/11/21
+Time:       14:52
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         BottomLayer 3.1000       8.9750       180      
+C2         BottomLayer -7.0000      12.4500      270      
+C3         BottomLayer -2.5750      13.8750      90       
+C4         BottomLayer 2.7250       12.8750      90       
+D1         BottomLayer -0.1750      12.3750      0        
+D2         BottomLayer 1.2750       0.7250       180      
+D3         BottomLayer -1.1500      0.7000       0        
+D4         BottomLayer 1.3384       15.4961      180      
+D5         BottomLayer -1.5750      15.5250      0        
+D6         BottomLayer 3.1000       2.2000       270      
+FB1        BottomLayer 1.2750       3.8000       0        
+J1         BottomLayer 0.0000       18.4875      180      
+J2         BottomLayer 0.0000       -1.9875      0        
+MH1        TopLayer    8.7503       18.2499      0        
+MH2        TopLayer    -8.7503      18.2499      180      
+MH3        TopLayer    8.7503       -1.7499      0        
+MH4        TopLayer    -8.7503      -1.7499      180      
+R1         BottomLayer 3.1250       10.0500      180      
+R2         BottomLayer 4.3000       1.8750       90       
+SW1        TopLayer    0.0000       5.7100       180      
+U1         BottomLayer -4.8250      13.1750      90       
+U2         BottomLayer 5.2750       12.9250      90       

@@ -1,0 +1,21 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 18:23:11 On 10/01/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacPinHeaders 45.PrjPCB]
+   Generated File[JacdacPinHeaders 45.OutJob]
+   Generated File[JacdacPinHeaders 45.PcbDoc]
+   Generated File[JacdacPinHeaders 45.PrjPCB]
+   Generated File[JacdacPinHeaders 45.PrjPCBStructure]
+   Generated File[JacdacPinHeaders 45.SchDoc]
+   Generated File[JacdacPinHeaders.PrjPCBStructure]
+   Generated File[Panelized JacdacPinHeaders 45.PcbDoc]
+   Generated File[Status Report.Txt]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 18:23:11 On 10/01/2022

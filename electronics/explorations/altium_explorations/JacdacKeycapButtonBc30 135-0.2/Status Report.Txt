@@ -1,0 +1,24 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 17:55:11 On 15/09/2023
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacKeycapButtonBc30 135.PrjPCB]
+   Generated File[JacdacKeyboardKeyBc30 135.PrjPCBStructure]
+   Generated File[JacdacKeycapButtonBc30 135 panel.PcbDoc]
+   Generated File[JacdacKeycapButtonBc30 135 single.PcbDoc]
+   Generated File[JacdacKeycapButtonBc30 135.BomDoc]
+   Generated File[JacdacKeycapButtonBc30 135.OutJob]
+   Generated File[JacdacKeycapButtonBc30 135.PcbDoc]
+   Generated File[JacdacKeycapButtonBc30 135.PrjPCB]
+   Generated File[JacdacKeycapButtonBc30 135.PrjPCBStructure]
+   Generated File[JacdacKeycapButtonBc30 135.PrjPCBVariants]
+   Generated File[JacdacKeycapButtonBc30 135.SchDoc]
+   Generated File[JLCPCB remark.txt]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 17:55:11 On 15/09/2023

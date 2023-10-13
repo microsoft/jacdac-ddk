@@ -1,0 +1,146 @@
+*************************************************************
+FileName = JacdacBreadboardBc30Mount 134-0.3.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Overlay
+      File : JacdacBreadboardBc30Mount 134-0.3.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : JacdacBreadboardBc30Mount 134-0.3.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : JacdacBreadboardBc30Mount 134-0.3.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D17
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : JacdacBreadboardBc30Mount 134-0.3.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D19
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Fabrication Notes [3]
+      File : JacdacBreadboardBc30Mount 134-0.3.GM3
+
+    Adding Layer      : Fabrication Notes [3]
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : V Score [9]
+      File : JacdacBreadboardBc30Mount 134-0.3.GM9
+
+    Adding Layer      : V Score [9]
+
+
+Used DCodes :
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Board Outline [11]
+      File : JacdacBreadboardBc30Mount 134-0.3.GM11
+
+    Adding Layer      : Board Outline [11]
+
+
+Used DCodes :
+    D20
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : JacdacBreadboardBc30Mount 134-0.3.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : JacdacBreadboardBc30Mount 134-0.3.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : JacdacBreadboardBc30Mount 134-0.3.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+

@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacKeyboardKey 46.PcbDoc   10/11/2021  14:49:42
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacKeyboardKey 46-1.3-RoundHoles.TXT
+ASCII SlotHoles File : JacdacKeyboardKey 46-1.3-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             110       PTH        30.02inch (762.54mm)
+T2      28mil (0.71mm)                                            Round             60        PTH        20.46inch (519.64mm)
+T3      59mil (1.499mm)                                           Round             20        PTH        10.59inch (269.07mm)
+T4      83mil (2.1mm)                                             Round             40        PTH        27.96inch (710.21mm)
+T5      118mil (3mm)                                              Round             6         PTH        17.70inch (449.69mm)
+T6      24mil (0.6mm)                                             Round             200       NPTH       15.70inch (398.70mm)
+T7      28mil (0.7mm)                                             Slot              40        NPTH       56.68inch (1439.67mm)
+T8      67mil (1.702mm)                                           Round             20        NPTH       10.65inch (270.52mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              496
+
+Total Processing Time (hh:mm:ss) : 00:00:01

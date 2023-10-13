@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacPower 50.PcbDoc   7/2/2021  2:49:24 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacPower 50-0.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacPower 50-0.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             240       PTH        0.00inch (0.00mm)
+T2      14mil (0.35mm)                                            Round             590       PTH        0.00inch (0.00mm)
+T3      28mil (0.7mm)                                             Slot              40        PTH        0.00inch (0.00mm)
+T4      28mil (0.71mm)                                            Round             120       PTH        0.00inch (0.00mm)
+T5      83mil (2.1mm)                                             Round             40        PTH        0.00inch (0.00mm)
+T6      118mil (3mm)                                              Round             6         PTH        0.00inch (0.00mm)
+T7      20mil (0.5mm)                                             Round             480       NPTH       0.00inch (0.00mm)
+T8      28mil (0.7mm)                                             Slot              80        NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1596
+
+Total Processing Time (hh:mm:ss) : 00:00:03

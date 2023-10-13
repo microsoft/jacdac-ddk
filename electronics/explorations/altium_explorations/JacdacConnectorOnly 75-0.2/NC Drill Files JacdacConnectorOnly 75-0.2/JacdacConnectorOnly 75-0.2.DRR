@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacConnectorOnly 75.PcbDoc   11/02/2022  16:14:03
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacConnectorOnly 75-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacConnectorOnly 75-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T2      28mil (0.71mm)                                            Round             3         PTH        0.10inch (2.54mm)
+T3      28mil (0.7mm)                                             Slot              2         NPTH       0.46inch (11.74mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              6
+
+Total Processing Time (hh:mm:ss) : 00:00:01

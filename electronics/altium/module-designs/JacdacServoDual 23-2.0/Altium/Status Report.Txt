@@ -1,0 +1,10 @@
+Output: BOM EuroCircuits
+Type  : BOM
+From  : Variant [[No Variations]] of Project [JacdacServoDual 23.PrjPCB]
+   Generated File[BOM EuroCircuits JacdacServoDual 23-2.0.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:53:03 On 07/02/2022

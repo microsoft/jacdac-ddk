@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Dev\MSR\SenDev\Projects\JacdacBrains\STM32F4\JacdacBrainF4 41\Panelized JacdacBrainF4 41.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=jacdacbrainf4  41-0.2-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=jacdacbrainf4  41-0.2-slotholes.txt|DrillLayers=gtl,gbl

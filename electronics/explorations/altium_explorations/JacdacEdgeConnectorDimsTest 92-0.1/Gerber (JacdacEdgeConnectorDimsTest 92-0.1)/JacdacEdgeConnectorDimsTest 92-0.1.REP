@@ -1,0 +1,170 @@
+*************************************************************
+FileName = JacdacEdgeConnectorDimsTest 92-0.1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Overlay
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D13
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D17
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Board Cutout
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GM10
+
+    Adding Layer      : Board Cutout
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Fabrication notes
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GM3
+
+    Adding Layer      : Fabrication notes
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GM11
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : JacdacEdgeConnectorDimsTest 92-0.1.GD1
+
+    Adding Layer      : Board Outline
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D13
+    D23
+    D24
+*************************************************************
+

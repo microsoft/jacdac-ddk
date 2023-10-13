@@ -1,0 +1,28 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 19:12:18 On 15/09/2023
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacMicroBitBackPackHi 119.PrjPCB]
+   Generated File[JacdacMicroBitBackPackHi 119.BomDoc]
+   Generated File[JacdacMicroBitBackPackHi 119.OutJob]
+   Generated File[JacdacMicroBitBackPackHi 119.PcbDoc]
+   Generated File[JacdacMicroBitBackPackHi 119.PrjPCB]
+   Generated File[JacdacMicroBitBackPackHi 119.PrjPCBStructure]
+   Generated File[JacdacMicroBitBackPackHi 119.SchDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt0 119.OutJob]
+   Generated File[JacdacMicroBitBackPackHi-Alt0 119.PcbDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt0 119.SchDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt0-Shim0 119.PcbDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt0-Shim1 119.PcbDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt1 119.PcbDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt2 119.PcbDoc]
+   Generated File[JacdacMicroBitBackPackHi-Alt2 119.SchDoc]
+   Generated File[JacdacMicroBitBackPackHi-Atl1 119.SchDoc]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 19:12:18 On 15/09/2023

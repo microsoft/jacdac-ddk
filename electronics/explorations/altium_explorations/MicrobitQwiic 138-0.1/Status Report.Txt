@@ -1,0 +1,21 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 18:21:35 On 19/03/2023
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [MicrobitQwiic 138.PrjPCB]
+   Generated File[MicrobitQwiic 138 panel.OutJob]
+   Generated File[MicrobitQwiic 138 panel.PcbDoc]
+   Generated File[MicrobitQwiic 138 single.OutJob]
+   Generated File[MicrobitQwiic 138 single.PcbDoc]
+   Generated File[MicrobitQwiic 138.BomDoc]
+   Generated File[MicrobitQwiic 138.PcbDoc]
+   Generated File[MicrobitQwiic 138.PrjPCB]
+   Generated File[MicrobitQwiic 138.SchDoc]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 18:21:36 On 19/03/2023

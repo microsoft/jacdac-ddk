@@ -1,0 +1,2473 @@
+﻿[Design]
+Version=1.0
+HierarchyMode=3
+ChannelRoomNamingStyle=0
+ReleasesFolder=
+ChannelDesignatorFormatString=$Component_$RoomName
+ChannelRoomLevelSeperator=_
+OpenOutputs=1
+ArchiveProject=0
+TimestampOutput=0
+SeparateFolders=0
+TemplateLocationPath=
+PinSwapBy_Netlabel=1
+PinSwapBy_Pin=1
+AllowPortNetNames=0
+AllowSheetEntryNetNames=1
+AppendSheetNumberToLocalNets=0
+NetlistSinglePinNets=0
+DefaultConfiguration=Default Configuration
+UserID=0xFFFFFFFF
+DefaultPcbProtel=1
+DefaultPcbPcad=0
+ReorderDocumentsOnCompile=1
+NameNetsHierarchically=0
+PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
+AutoCrossReferences=0
+PushECOToAnnotationFile=1
+DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
+OutputPath=Project Outputs for JacdacBrainESP32 48
+LogFolderPath=
+ManagedProjectGUID=
+IncludeDesignInRelease=0
+
+[Preferences]
+PrefsVaultGUID=
+PrefsRevisionGUID=
+
+[Document1]
+DocumentPath=JacdacBrainESP32 48.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
+DocumentPath=JacdacBrainESP32 48.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SJWPUUWM
+
+[Document3]
+DocumentPath=JacdacBrainESP32 48.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BXTBTVSF
+
+[Document4]
+DocumentPath=Panelized JacdacBrainESP32 48.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HIUOOCJX
+
+[Document5]
+DocumentPath=..\..\..\..\System\Altium\Libraries 2014\generic-con.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VADEMNPM
+
+[Document6]
+DocumentPath=..\..\..\..\System\Altium\Libraries 2014\generic-con\JtagHackConnect.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YWJJYDFO
+
+[Document7]
+DocumentPath=..\..\..\..\System\Altium\Libraries 2014\generic-con\UartHackConnect.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FMXCMTBM
+
+[Document8]
+DocumentPath=..\..\..\..\System\Altium\Libraries 2014\generic-con\JACDAC_edge_connector.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ALVKTIMO
+
+[ProjectVariant1]
+UniqueID=3990C4D5-F6EA-4F37-96CB-96A89DC74BB7
+Description=JLCPCB
+AllowFabrication=0
+ParameterCount=0
+VariationCount=14
+Variation1=Designator=J9|UniqueId=\ZUWXMJVW|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\HR_JointTech_Elec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=A1001WR-S-04P|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=HR_JointTech_Elec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=A1001WR-S-04P|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator1=J9
+ParamVariation2=ParameterName=Category|VariantValue=Connectors
+ParamDesignator2=J9
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=J9
+ParamVariation4=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator4=J9
+ParamVariation5=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1912111437_HR-Joint-Tech-Elec-A1001WR-S-04P_C371510.pdf
+ParamDesignator5=J9
+ParamVariation6=ParameterName=Connector Type|VariantValue=Male Pin
+ParamDesignator6=J9
+ParamVariation7=ParameterName=Depth|VariantValue=4.95mm
+ParamDesignator7=J9
+ParamVariation8=ParameterName=Description|VariantValue=Header Male Pin 0.039"(1.00mm) 4 SMD,P=1mm Wire To Board / Wire To Wire Connector RoHS
+ParamDesignator8=J9
+ParamVariation9=ParameterName=Footprint|VariantValue=A1001WR-S-04P
+ParamDesignator9=J9
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=J9
+ParamVariation11=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator11=J9
+ParamVariation12=ParameterName=Length|VariantValue=6mm
+ParamDesignator12=J9
+ParamVariation13=ParameterName=Library Reference|VariantValue=A1001WR-S-04P
+ParamDesignator13=J9
+ParamVariation14=ParameterName=Manufacturer|VariantValue=HR(Joint Tech Elec)
+ParamDesignator14=J9
+ParamVariation15=ParameterName=Manufacturer Part Number|VariantValue=A1001WR-S-04P
+ParamDesignator15=J9
+ParamVariation16=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator16=J9
+ParamVariation17=ParameterName=Number of Contacts|VariantValue=4
+ParamDesignator17=J9
+ParamVariation18=ParameterName=Number of Positions|VariantValue=4
+ParamDesignator18=J9
+ParamVariation19=ParameterName=Orientation|VariantValue=Right Angle
+ParamDesignator19=J9
+ParamVariation20=ParameterName=PCB3D|VariantValue= 
+ParamDesignator20=J9
+ParamVariation21=ParameterName=Pin Info|VariantValue= 
+ParamDesignator21=J9
+ParamVariation22=ParameterName=Pitch|VariantValue=0.039inch
+ParamDesignator22=J9
+ParamVariation23=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator23=J9
+ParamVariation24=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator24=J9
+ParamVariation25=ParameterName=Simulation|VariantValue= 
+ParamDesignator25=J9
+ParamVariation26=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator26=J9
+ParamVariation27=ParameterName=Suppliern 1 Part Number|VariantValue=C371510
+ParamDesignator27=J9
+Variation2=Designator=R17|UniqueId=\ZMIGIAJU|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF1002TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation28=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator28=R17
+ParamVariation29=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator29=R17
+ParamVariation30=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator30=R17
+ParamVariation31=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator31=R17
+ParamVariation32=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator32=R17
+ParamVariation33=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator33=R17
+ParamVariation34=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator34=R17
+ParamVariation35=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+ParamDesignator35=R17
+ParamVariation36=ParameterName=Depth|VariantValue=0.5mm
+ParamDesignator36=R17
+ParamVariation37=ParameterName=Description|VariantValue=RES SMD 10K OHM 1% 1/16W 0402
+ParamDesignator37=R17
+ParamVariation38=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator38=R17
+ParamVariation39=ParameterName=Height|VariantValue=0.32mm
+ParamDesignator39=R17
+ParamVariation40=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator40=R17
+ParamVariation41=ParameterName=Lead Pitch|VariantValue=0.2mm
+ParamDesignator41=R17
+ParamVariation42=ParameterName=Length|VariantValue=1mm
+ParamDesignator42=R17
+ParamVariation43=ParameterName=Library Reference|VariantValue=0402WGF1002TCE
+ParamDesignator43=R17
+ParamVariation44=ParameterName=Manufacturer|VariantValue=Uniroyal Elec
+ParamDesignator44=R17
+ParamVariation45=ParameterName=Manufacturer Part Number|VariantValue=0402WGF1002TCE
+ParamDesignator45=R17
+ParamVariation46=ParameterName=Max Power Dissipation|VariantValue=63mW
+ParamDesignator46=R17
+ParamVariation47=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator47=R17
+ParamVariation48=ParameterName=Number of Terminations|VariantValue=2
+ParamDesignator48=R17
+ParamVariation49=ParameterName=PCB3D|VariantValue= 
+ParamDesignator49=R17
+ParamVariation50=ParameterName=Pin Info|VariantValue= 
+ParamDesignator50=R17
+ParamVariation51=ParameterName=Power Rating|VariantValue=62.5mW
+ParamDesignator51=R17
+ParamVariation52=ParameterName=Pricing 1|VariantValue=1000=0.0006 (USD)
+ParamDesignator52=R17
+ParamVariation53=ParameterName=Resistance|VariantValue=10kR
+ParamDesignator53=R17
+ParamVariation54=ParameterName=Resistance Tolerance|VariantValue=1%
+ParamDesignator54=R17
+ParamVariation55=ParameterName=Resistor Type|VariantValue=Thick Film
+ParamDesignator55=R17
+ParamVariation56=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator56=R17
+ParamVariation57=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator57=R17
+ParamVariation58=ParameterName=Simulation|VariantValue= 
+ParamDesignator58=R17
+ParamVariation59=ParameterName=Stock 1|VariantValue=4335700
+ParamDesignator59=R17
+ParamVariation60=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator60=R17
+ParamVariation61=ParameterName=Supplier 1 Part Number|VariantValue=C25744
+ParamDesignator61=R17
+ParamVariation62=ParameterName=Temperature Coefficient|VariantValue=100ppm/°C
+ParamDesignator62=R17
+ParamVariation63=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator63=R17
+ParamVariation64=ParameterName=Voltage Rating|VariantValue=50V
+ParamDesignator64=R17
+ParamVariation65=ParameterName=Width|VariantValue=0.5mm
+ParamDesignator65=R17
+Variation3=Designator=R11|UniqueId=\UUNONCHW|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF1002TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation66=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator66=R11
+ParamVariation67=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator67=R11
+ParamVariation68=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator68=R11
+ParamVariation69=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator69=R11
+ParamVariation70=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator70=R11
+ParamVariation71=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator71=R11
+ParamVariation72=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator72=R11
+ParamVariation73=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+ParamDesignator73=R11
+ParamVariation74=ParameterName=Depth|VariantValue=0.5mm
+ParamDesignator74=R11
+ParamVariation75=ParameterName=Description|VariantValue=RES SMD 10K OHM 1% 1/16W 0402
+ParamDesignator75=R11
+ParamVariation76=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator76=R11
+ParamVariation77=ParameterName=Height|VariantValue=0.32mm
+ParamDesignator77=R11
+ParamVariation78=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator78=R11
+ParamVariation79=ParameterName=Lead Pitch|VariantValue=0.2mm
+ParamDesignator79=R11
+ParamVariation80=ParameterName=Length|VariantValue=1mm
+ParamDesignator80=R11
+ParamVariation81=ParameterName=Library Reference|VariantValue=0402WGF1002TCE
+ParamDesignator81=R11
+ParamVariation82=ParameterName=Manufacturer|VariantValue=Uniroyal Elec
+ParamDesignator82=R11
+ParamVariation83=ParameterName=Manufacturer Part Number|VariantValue=0402WGF1002TCE
+ParamDesignator83=R11
+ParamVariation84=ParameterName=Max Power Dissipation|VariantValue=63mW
+ParamDesignator84=R11
+ParamVariation85=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator85=R11
+ParamVariation86=ParameterName=Number of Terminations|VariantValue=2
+ParamDesignator86=R11
+ParamVariation87=ParameterName=PCB3D|VariantValue= 
+ParamDesignator87=R11
+ParamVariation88=ParameterName=Pin Info|VariantValue= 
+ParamDesignator88=R11
+ParamVariation89=ParameterName=Power Rating|VariantValue=62.5mW
+ParamDesignator89=R11
+ParamVariation90=ParameterName=Pricing 1|VariantValue=1000=0.0006 (USD)
+ParamDesignator90=R11
+ParamVariation91=ParameterName=Resistance|VariantValue=10kR
+ParamDesignator91=R11
+ParamVariation92=ParameterName=Resistance Tolerance|VariantValue=1%
+ParamDesignator92=R11
+ParamVariation93=ParameterName=Resistor Type|VariantValue=Thick Film
+ParamDesignator93=R11
+ParamVariation94=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator94=R11
+ParamVariation95=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator95=R11
+ParamVariation96=ParameterName=Simulation|VariantValue= 
+ParamDesignator96=R11
+ParamVariation97=ParameterName=Stock 1|VariantValue=4335700
+ParamDesignator97=R11
+ParamVariation98=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator98=R11
+ParamVariation99=ParameterName=Supplier 1 Part Number|VariantValue=C25744
+ParamDesignator99=R11
+ParamVariation100=ParameterName=Temperature Coefficient|VariantValue=100ppm/°C
+ParamDesignator100=R11
+ParamVariation101=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator101=R11
+ParamVariation102=ParameterName=Voltage Rating|VariantValue=50V
+ParamDesignator102=R11
+ParamVariation103=ParameterName=Width|VariantValue=0.5mm
+ParamDesignator103=R11
+Variation4=Designator=X1|UniqueId=\XJLMVBGM|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\YangxingTech.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=X321532768KGD2SI|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=YangxingTech.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=CRYSTAL-SMD-3.2X1.5|AltLibLink_IsSameFootprint=True
+ParamVariation104=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator104=X1
+ParamVariation105=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator105=X1
+ParamVariation106=ParameterName=Category|VariantValue=Crystals
+ParamDesignator106=X1
+ParamVariation107=ParameterName=Checked By|VariantValue=?
+ParamDesignator107=X1
+ParamVariation108=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator108=X1
+ParamVariation109=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator109=X1
+ParamVariation110=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/szlcsc/2006151421_Yangxing-Tech-X321532768KGD2SI_C620155.pdf
+ParamDesignator110=X1
+ParamVariation111=ParameterName=Created By|VariantValue=D Gakure
+ParamDesignator111=X1
+ParamVariation112=ParameterName=Description|VariantValue=CRYSTAL 32.7680KHZ 12.5PF SMD
+ParamDesignator112=X1
+ParamVariation113=ParameterName=ESR (Equivalent Series Resistance)|VariantValue=70kR
+ParamDesignator113=X1
+ParamVariation114=ParameterName=Footprint|VariantValue=CRYSTAL-SMD-3.2X1.5
+ParamDesignator114=X1
+ParamVariation115=ParameterName=Frequency|VariantValue=32.768kHz
+ParamDesignator115=X1
+ParamVariation116=ParameterName=Frequency Tolerance|VariantValue=20ppm
+ParamDesignator116=X1
+ParamVariation117=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator117=X1
+ParamVariation118=ParameterName=Library Reference|VariantValue=X321532768KGD2SI
+ParamDesignator118=X1
+ParamVariation119=ParameterName=Load Capacitance|VariantValue=12.5pF
+ParamDesignator119=X1
+ParamVariation120=ParameterName=Manufacturer|VariantValue=Yangxing Tech
+ParamDesignator120=X1
+ParamVariation121=ParameterName=Manufacturer Part Number|VariantValue=X321532768KGD2SI
+ParamDesignator121=X1
+ParamVariation122=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator122=X1
+ParamVariation123=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator123=X1
+ParamVariation124=ParameterName=PCB3D|VariantValue= 
+ParamDesignator124=X1
+ParamVariation125=ParameterName=Pin Info|VariantValue= 
+ParamDesignator125=X1
+ParamVariation126=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator126=X1
+ParamVariation127=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator127=X1
+ParamVariation128=ParameterName=Simulation|VariantValue= 
+ParamDesignator128=X1
+ParamVariation129=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator129=X1
+ParamVariation130=ParameterName=Supplier 1 Part Number|VariantValue=C620155
+ParamDesignator130=X1
+ParamVariation131=ParameterName=Termination|VariantValue=SMD/SMT
+ParamDesignator131=X1
+ParamVariation132=ParameterName=Tolerance|VariantValue=20ppm
+ParamDesignator132=X1
+Variation5=Designator=R3|UniqueId=\ZYFLLUVD|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF5101TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation133=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator133=R3
+ParamVariation134=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator134=R3
+ParamVariation135=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator135=R3
+ParamVariation136=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator136=R3
+ParamVariation137=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator137=R3
+ParamVariation138=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator138=R3
+ParamVariation139=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator139=R3
+ParamVariation140=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1810301312_UNI-ROYAL-Uniroyal-Elec-0402WGF1373TCE_C32298.pdf
+ParamDesignator140=R3
+ParamVariation141=ParameterName=Description|VariantValue=RES SMD 5.1K OHM 1% 1/16W 0402
+ParamDesignator141=R3
+ParamVariation142=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator142=R3
+ParamVariation143=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator143=R3
+ParamVariation144=ParameterName=Library Reference|VariantValue=0402WGF5101TCE
+ParamDesignator144=R3
+ParamVariation145=ParameterName=Manufacturer|VariantValue=UNI-ROYAL(Uniroyal Elec)
+ParamDesignator145=R3
+ParamVariation146=ParameterName=Manufacturer Part Number|VariantValue=0402WGF5101TCE
+ParamDesignator146=R3
+ParamVariation147=ParameterName=PCB3D|VariantValue= 
+ParamDesignator147=R3
+ParamVariation148=ParameterName=Pin Info|VariantValue= 
+ParamDesignator148=R3
+ParamVariation149=ParameterName=Resistance|VariantValue=5.1kR
+ParamDesignator149=R3
+ParamVariation150=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator150=R3
+ParamVariation151=ParameterName=Simulation|VariantValue= 
+ParamDesignator151=R3
+ParamVariation152=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator152=R3
+ParamVariation153=ParameterName=Supplier 1 Part Number|VariantValue=C25905
+ParamDesignator153=R3
+ParamVariation154=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator154=R3
+Variation6=Designator=R4|UniqueId=\NYIGRFAD|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF5101TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation155=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator155=R4
+ParamVariation156=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator156=R4
+ParamVariation157=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator157=R4
+ParamVariation158=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator158=R4
+ParamVariation159=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator159=R4
+ParamVariation160=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator160=R4
+ParamVariation161=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator161=R4
+ParamVariation162=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1810301312_UNI-ROYAL-Uniroyal-Elec-0402WGF1373TCE_C32298.pdf
+ParamDesignator162=R4
+ParamVariation163=ParameterName=Description|VariantValue=RES SMD 5.1K OHM 1% 1/16W 0402
+ParamDesignator163=R4
+ParamVariation164=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator164=R4
+ParamVariation165=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator165=R4
+ParamVariation166=ParameterName=Library Reference|VariantValue=0402WGF5101TCE
+ParamDesignator166=R4
+ParamVariation167=ParameterName=Manufacturer|VariantValue=UNI-ROYAL(Uniroyal Elec)
+ParamDesignator167=R4
+ParamVariation168=ParameterName=Manufacturer Part Number|VariantValue=0402WGF5101TCE
+ParamDesignator168=R4
+ParamVariation169=ParameterName=PCB3D|VariantValue= 
+ParamDesignator169=R4
+ParamVariation170=ParameterName=Pin Info|VariantValue= 
+ParamDesignator170=R4
+ParamVariation171=ParameterName=Resistance|VariantValue=5.1kR
+ParamDesignator171=R4
+ParamVariation172=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator172=R4
+ParamVariation173=ParameterName=Simulation|VariantValue= 
+ParamDesignator173=R4
+ParamVariation174=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator174=R4
+ParamVariation175=ParameterName=Supplier 1 Part Number|VariantValue=C25905
+ParamDesignator175=R4
+ParamVariation176=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator176=R4
+Variation7=Designator=R10|UniqueId=\DXJCLPWV|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF1500TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation177=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator177=R10
+ParamVariation178=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator178=R10
+ParamVariation179=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator179=R10
+ParamVariation180=ParameterName=ComponentLink1Description|VariantValue=datasheet (offline)
+ParamDesignator180=R10
+ParamVariation181=ParameterName=ComponentLink1URL|VariantValue=Y:\System\Altium\Libraries 2014\Uniroyal Elec\Datasheets\Uniro
+ParamDesignator181=R10
+ParamVariation182=ParameterName=Description|VariantValue=RES SMD 150 OHM 1% 1/16W 0402
+ParamDesignator182=R10
+ParamVariation183=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator183=R10
+ParamVariation184=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator184=R10
+ParamVariation185=ParameterName=Library Reference|VariantValue=0402WGF1500TCE
+ParamDesignator185=R10
+ParamVariation186=ParameterName=Manufacturer|VariantValue=Uniroyal Elec
+ParamDesignator186=R10
+ParamVariation187=ParameterName=Manufacturer Part Number|VariantValue=0402WGF1500TCE
+ParamDesignator187=R10
+ParamVariation188=ParameterName=PCB3D|VariantValue= 
+ParamDesignator188=R10
+ParamVariation189=ParameterName=Pin Info|VariantValue= 
+ParamDesignator189=R10
+ParamVariation190=ParameterName=Resistance|VariantValue=150R
+ParamDesignator190=R10
+ParamVariation191=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator191=R10
+ParamVariation192=ParameterName=Simulation|VariantValue= 
+ParamDesignator192=R10
+ParamVariation193=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator193=R10
+Variation8=Designator=R13|UniqueId=\JHIKGWAY|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF1500TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation194=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator194=R13
+ParamVariation195=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator195=R13
+ParamVariation196=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator196=R13
+ParamVariation197=ParameterName=ComponentLink1Description|VariantValue=datasheet (offline)
+ParamDesignator197=R13
+ParamVariation198=ParameterName=ComponentLink1URL|VariantValue=Y:\System\Altium\Libraries 2014\Uniroyal Elec\Datasheets\Uniro
+ParamDesignator198=R13
+ParamVariation199=ParameterName=Description|VariantValue=RES SMD 150 OHM 1% 1/16W 0402
+ParamDesignator199=R13
+ParamVariation200=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator200=R13
+ParamVariation201=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator201=R13
+ParamVariation202=ParameterName=Library Reference|VariantValue=0402WGF1500TCE
+ParamDesignator202=R13
+ParamVariation203=ParameterName=Manufacturer|VariantValue=Uniroyal Elec
+ParamDesignator203=R13
+ParamVariation204=ParameterName=Manufacturer Part Number|VariantValue=0402WGF1500TCE
+ParamDesignator204=R13
+ParamVariation205=ParameterName=PCB3D|VariantValue= 
+ParamDesignator205=R13
+ParamVariation206=ParameterName=Pin Info|VariantValue= 
+ParamDesignator206=R13
+ParamVariation207=ParameterName=Resistance|VariantValue=150R
+ParamDesignator207=R13
+ParamVariation208=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator208=R13
+ParamVariation209=ParameterName=Simulation|VariantValue= 
+ParamDesignator209=R13
+ParamVariation210=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator210=R13
+Variation9=Designator=R2|UniqueId=\XWDVUOCL|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF1004TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation211=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator211=R2
+ParamVariation212=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator212=R2
+ParamVariation213=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator213=R2
+ParamVariation214=ParameterName=ComponentLink1Description|VariantValue=datasheet (offline)
+ParamDesignator214=R2
+ParamVariation215=ParameterName=ComponentLink1URL|VariantValue=Y:\System\Altium\Libraries 2014\Uniroyal Elec\Datasheets\Uniroyal-Elec-0402WGF1502TCE_C25756.pdf
+ParamDesignator215=R2
+ParamVariation216=ParameterName=Description|VariantValue=RES SMD 1M OHM 1% 1/16W 0402
+ParamDesignator216=R2
+ParamVariation217=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator217=R2
+ParamVariation218=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator218=R2
+ParamVariation219=ParameterName=Library Reference|VariantValue=0402WGF1004TCE
+ParamDesignator219=R2
+ParamVariation220=ParameterName=Manufacturer|VariantValue=Uniroyal Elec
+ParamDesignator220=R2
+ParamVariation221=ParameterName=Manufacturer Part Number|VariantValue=0402WGF1004TCE
+ParamDesignator221=R2
+ParamVariation222=ParameterName=PCB3D|VariantValue= 
+ParamDesignator222=R2
+ParamVariation223=ParameterName=Pin Info|VariantValue= 
+ParamDesignator223=R2
+ParamVariation224=ParameterName=Resistance|VariantValue=1M
+ParamDesignator224=R2
+ParamVariation225=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator225=R2
+ParamVariation226=ParameterName=Simulation|VariantValue= 
+ParamDesignator226=R2
+ParamVariation227=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator227=R2
+Variation10=Designator=R7|UniqueId=\LLSNLETC|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF1004TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation228=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator228=R7
+ParamVariation229=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator229=R7
+ParamVariation230=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator230=R7
+ParamVariation231=ParameterName=ComponentLink1Description|VariantValue=datasheet (offline)
+ParamDesignator231=R7
+ParamVariation232=ParameterName=ComponentLink1URL|VariantValue=Y:\System\Altium\Libraries 2014\Uniroyal Elec\Datasheets\Uniroyal-Elec-0402WGF1502TCE_C25756.pdf
+ParamDesignator232=R7
+ParamVariation233=ParameterName=Description|VariantValue=RES SMD 1M OHM 1% 1/16W 0402
+ParamDesignator233=R7
+ParamVariation234=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator234=R7
+ParamVariation235=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator235=R7
+ParamVariation236=ParameterName=Library Reference|VariantValue=0402WGF1004TCE
+ParamDesignator236=R7
+ParamVariation237=ParameterName=Manufacturer|VariantValue=Uniroyal Elec
+ParamDesignator237=R7
+ParamVariation238=ParameterName=Manufacturer Part Number|VariantValue=0402WGF1004TCE
+ParamDesignator238=R7
+ParamVariation239=ParameterName=PCB3D|VariantValue= 
+ParamDesignator239=R7
+ParamVariation240=ParameterName=Pin Info|VariantValue= 
+ParamDesignator240=R7
+ParamVariation241=ParameterName=Resistance|VariantValue=1M
+ParamDesignator241=R7
+ParamVariation242=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator242=R7
+ParamVariation243=ParameterName=Simulation|VariantValue= 
+ParamDesignator243=R7
+ParamVariation244=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator244=R7
+Variation11=Designator=R1|UniqueId=\VTPQFGFN|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF3303TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation245=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator245=R1
+ParamVariation246=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator246=R1
+ParamVariation247=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator247=R1
+ParamVariation248=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator248=R1
+ParamVariation249=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator249=R1
+ParamVariation250=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator250=R1
+ParamVariation251=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator251=R1
+ParamVariation252=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1810301321_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf
+ParamDesignator252=R1
+ParamVariation253=ParameterName=Description|VariantValue=RES SMD 330K OHM 1% 1/16W 0402
+ParamDesignator253=R1
+ParamVariation254=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator254=R1
+ParamVariation255=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator255=R1
+ParamVariation256=ParameterName=Library Reference|VariantValue=0402WGF3303TCE
+ParamDesignator256=R1
+ParamVariation257=ParameterName=Manufacturer|VariantValue=UNI-ROYAL(Uniroyal Elec)
+ParamDesignator257=R1
+ParamVariation258=ParameterName=Manufacturer Part Number|VariantValue=0402WGF3303TCE
+ParamDesignator258=R1
+ParamVariation259=ParameterName=PCB3D|VariantValue= 
+ParamDesignator259=R1
+ParamVariation260=ParameterName=Pin Info|VariantValue= 
+ParamDesignator260=R1
+ParamVariation261=ParameterName=Resistance|VariantValue=330kR
+ParamDesignator261=R1
+ParamVariation262=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator262=R1
+ParamVariation263=ParameterName=Simulation|VariantValue= 
+ParamDesignator263=R1
+ParamVariation264=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator264=R1
+ParamVariation265=ParameterName=Supplier 1 Part Number|VariantValue=C25778
+ParamDesignator265=R1
+ParamVariation266=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator266=R1
+Variation12=Designator=R6|UniqueId=\UVVGJUCF|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0402WGF5232TCE|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation267=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator267=R6
+ParamVariation268=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator268=R6
+ParamVariation269=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator269=R6
+ParamVariation270=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator270=R6
+ParamVariation271=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator271=R6
+ParamVariation272=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator272=R6
+ParamVariation273=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator273=R6
+ParamVariation274=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1810301326_UNI-ROYAL-Uniroyal-Elec-0402WGF5232TCE_C26982.pdf
+ParamDesignator274=R6
+ParamVariation275=ParameterName=Description|VariantValue=RES SMD 52.3K OHM 1% 1/16W 0402
+ParamDesignator275=R6
+ParamVariation276=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator276=R6
+ParamVariation277=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator277=R6
+ParamVariation278=ParameterName=Library Reference|VariantValue=0402WGF5232TCE
+ParamDesignator278=R6
+ParamVariation279=ParameterName=Manufacturer|VariantValue=UNI-ROYAL(Uniroyal Elec)
+ParamDesignator279=R6
+ParamVariation280=ParameterName=Manufacturer Part Number|VariantValue=0402WGF5232TCE
+ParamDesignator280=R6
+ParamVariation281=ParameterName=PCB3D|VariantValue= 
+ParamDesignator281=R6
+ParamVariation282=ParameterName=Pin Info|VariantValue= 
+ParamDesignator282=R6
+ParamVariation283=ParameterName=Resistance|VariantValue=52.3kR
+ParamDesignator283=R6
+ParamVariation284=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator284=R6
+ParamVariation285=ParameterName=Simulation|VariantValue= 
+ParamDesignator285=R6
+ParamVariation286=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator286=R6
+ParamVariation287=ParameterName=Supplier 1 Part Number|VariantValue=C26982
+ParamDesignator287=R6
+ParamVariation288=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator288=R6
+Variation13=Designator=R5|UniqueId=\RBCLGTCF|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\UniroyalElec.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RT0402FRE0768KL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=UniroyalElec.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=R0402 - Without outline|AltLibLink_IsSameFootprint=True
+ParamVariation289=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator289=R5
+ParamVariation290=ParameterName=Case/Package|VariantValue=0402
+ParamDesignator290=R5
+ParamVariation291=ParameterName=Case Code (Imperial)|VariantValue=0402
+ParamDesignator291=R5
+ParamVariation292=ParameterName=Case Code (Metric)|VariantValue=1005
+ParamDesignator292=R5
+ParamVariation293=ParameterName=Category|VariantValue=Chip SMD Resistors
+ParamDesignator293=R5
+ParamVariation294=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator294=R5
+ParamVariation295=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator295=R5
+ParamVariation296=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/1810301112_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf
+ParamDesignator296=R5
+ParamVariation297=ParameterName=Description|VariantValue=RES SMD 68K OHM 1% 1/16W 0402
+ParamDesignator297=R5
+ParamVariation298=ParameterName=Footprint|VariantValue=R0402 - Without outline
+ParamDesignator298=R5
+ParamVariation299=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator299=R5
+ParamVariation300=ParameterName=Library Reference|VariantValue=RT0402FRE0768KL
+ParamDesignator300=R5
+ParamVariation301=ParameterName=Manufacturer|VariantValue=UNI-ROYAL(Uniroyal Elec)
+ParamDesignator301=R5
+ParamVariation302=ParameterName=Manufacturer Part Number|VariantValue=RT0402FRE0768KL
+ParamDesignator302=R5
+ParamVariation303=ParameterName=PCB3D|VariantValue= 
+ParamDesignator303=R5
+ParamVariation304=ParameterName=Pin Info|VariantValue= 
+ParamDesignator304=R5
+ParamVariation305=ParameterName=Resistance|VariantValue=68kR
+ParamDesignator305=R5
+ParamVariation306=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator306=R5
+ParamVariation307=ParameterName=Simulation|VariantValue= 
+ParamDesignator307=R5
+ParamVariation308=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator308=R5
+ParamVariation309=ParameterName=Supplier 1 Part Number|VariantValue=C36871
+ParamDesignator309=R5
+ParamVariation310=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator310=R5
+Variation14=Designator=D2|UniqueId=\SIXRQLFS|Kind=2|AlternatePart=="Manufacturer Part Number"|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Dev\MSR\SenDev\System\Altium\Libraries 2014\Rohm.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RB161MM-20TR|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Rohm.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOD-123F|AltLibLink_IsSameFootprint=False
+ParamVariation311=ParameterName=Comment|VariantValue=="Manufacturer Part Number"
+ParamDesignator311=D2
+ParamVariation312=ParameterName=Average Rectified Current|VariantValue=1A
+ParamDesignator312=D2
+ParamVariation313=ParameterName=Case/Package|VariantValue=SOD
+ParamDesignator313=D2
+ParamVariation314=ParameterName=Category|VariantValue=Rectifier Diodes
+ParamDesignator314=D2
+ParamVariation315=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator315=D2
+ParamVariation316=ParameterName=ComponentLink1Description|VariantValue=Online datasheet
+ParamDesignator316=D2
+ParamVariation317=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/348/rb161mm-20tr-e-1138856.pdf
+ParamDesignator317=D2
+ParamVariation318=ParameterName=Description|VariantValue=ROHM - RB161MM-20TR - Schottky-Gleichrichterdiode, 20 V, 1 A, Einfach, SOD-123FL, 2 Pin(s), 350 mV
+ParamDesignator318=D2
+ParamVariation319=ParameterName=Footprint|VariantValue=SOD-123F
+ParamDesignator319=D2
+ParamVariation320=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator320=D2
+ParamVariation321=ParameterName=Library Reference|VariantValue=RB161MM-20TR
+ParamDesignator321=D2
+ParamVariation322=ParameterName=Manufacturer|VariantValue=Rohm
+ParamDesignator322=D2
+ParamVariation323=ParameterName=Manufacturer Part Number|VariantValue=RB161MM-20TR
+ParamDesignator323=D2
+ParamVariation324=ParameterName=Max Operating Temperature|VariantValue=125°C
+ParamDesignator324=D2
+ParamVariation325=ParameterName=Max Reverse Voltage (DC)|VariantValue=25V
+ParamDesignator325=D2
+ParamVariation326=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator326=D2
+ParamVariation327=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator327=D2
+ParamVariation328=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator328=D2
+ParamVariation329=ParameterName=PCB3D|VariantValue= 
+ParamDesignator329=D2
+ParamVariation330=ParameterName=Pin Info|VariantValue= 
+ParamDesignator330=D2
+ParamVariation331=ParameterName=Pricing 1|VariantValue=3000=0.09900, 6000=0.09350, 15000=0.08525, 30000=0.07975, 75000=0.07500 (USD)
+ParamDesignator331=D2
+ParamVariation332=ParameterName=Pricing 2|VariantValue=30=0.29200, 150=0.15800, 300=0.15300, 750=0.14900, 1500=0.14500 (USD)
+ParamDesignator332=D2
+ParamVariation333=ParameterName=Pricing 3|VariantValue=1=0.33000, 10=0.25100, 50=0.25100, 100=0.12500, 1000=0.10000, 10000=0.07600 (USD)
+ParamDesignator333=D2
+ParamVariation334=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator334=D2
+ParamVariation335=ParameterName=RoHS Compliant|VariantValue=Yes
+ParamDesignator335=D2
+ParamVariation336=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator336=D2
+ParamVariation337=ParameterName=Simulation|VariantValue= 
+ParamDesignator337=D2
+ParamVariation338=ParameterName=Stock 2|VariantValue=1
+ParamDesignator338=D2
+ParamVariation339=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator339=D2
+ParamVariation340=ParameterName=Supplier 2|VariantValue=RSComponents
+ParamDesignator340=D2
+ParamVariation341=ParameterName=Supplier 3|VariantValue=Mouser
+ParamDesignator341=D2
+ParamVariation342=ParameterName=Supplier Part Number 1|VariantValue=RB161MM-20TR-ND
+ParamDesignator342=D2
+ParamVariation343=ParameterName=Supplier Part Number 2|VariantValue=1246775
+ParamDesignator343=D2
+ParamVariation344=ParameterName=Supplier Part Number 3|VariantValue=755-RB161MM-20TR
+ParamDesignator344=D2
+ParamVariationCount=344
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for JacdacBrainESP32 48\Design Rule Check - JacdacBrainESP32 48.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=JacdacIoT 48-0.1\Altium\HTTP-AKA.MS-ABCDEFGHIJK QR code.gif
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=JacdacIoT 48-0.2\Altium\HTTP-AKA.MS-ABCDEFGHIJK QR code.gif
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\JacdacBrainESP32 48.OutJob
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\JacdacBrainESP32 48.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\JacdacBrainESP32 48.PrjPCB
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\JacdacBrainESP32 48.PrjPCBStructure
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\JacdacBrainESP32 48.PrjPCBVariants
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\JacdacBrainESP32 48.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=JacdacIoT 48-0.1\Altium\JacdacIoT 48.OutJob
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=JacdacIoT 48-0.2\Altium\JacdacIoT 48.OutJob
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=JacdacIoT 48-0.1\Altium\JacdacIoT 48.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=JacdacIoT 48-0.2\Altium\JacdacIoT 48.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=JacdacIoT 48-0.1\Altium\JacdacIoT 48.PrjPCB
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=JacdacIoT 48-0.2\Altium\JacdacIoT 48.PrjPCB
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=JacdacIoT 48-0.2\Altium\JacdacIoT 48.PrjPCBVariants
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=JacdacIoT 48-0.1\Altium\JacdacIoT 48.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=JacdacIoT 48-0.2\Altium\JacdacIoT 48.SchDoc
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\Panelized JacdacBrainESP32 48.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=JacdacIoT 48-0.2\Altium\Panelized JacdacIoT 48.PcbDoc
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=JacdacIoT 48-0.2\Altium\QrCodeAAAAAJ.txt
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\QrCodeAAAAAU.txt
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=JacdacBrainESP32 48-0.3\Altium\Status Report.Txt
+DItemRevisionGUID=
+
+[SearchPath1]
+Path=..\..\..\..\System\Altium\Libraries 2014\*.*
+IncludeSubFolders=1
+
+[Parameter1]
+Name=ProjectCodeName
+Value=JacdacBrainESP32
+
+[Parameter2]
+Name=ProjectCodenameDescription
+Value=Jacdac ESP32 brain
+
+[Parameter3]
+Name=ProjectCodenameID
+Value=48
+
+[Parameter4]
+Name=ProjectDrawnBy
+Value=JD, SH & DG
+
+[Parameter5]
+Name=ProjectLicenceTerms
+Value=Attribution 4.0 International (CC BY 4.0)
+
+[Parameter6]
+Name=ProjectRevision
+Value=0.3
+
+[Configuration1]
+Name=Default Configuration
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=
+ConfigurationType=
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=0
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=-1
+PCB_PrintColor=0
+SCH_PrintColor=0
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
+PrintQuality=-3
+
+[Generic_EDE]
+OutputDir=Project Outputs for JacdacBrainESP32 48
+
+[OutputGroup1]
+Name=Netlist Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=ProtelNetlist
+OutputName1=Protel
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=RacalNetlist
+OutputName2=Racal Netlist
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=Protel2Netlist
+OutputName3=Protel2 Netlist
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=Pcad
+OutputName4=Pcad for PCB
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+OutputType5=PCADnltNetlist
+OutputName5=PCADnlt Netlist
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=TelesisNetlist
+OutputName6=Telesis Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=WireListNetlist
+OutputName7=WireList Netlist
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+Configuration7_Name1=ForceUpdateSettings
+Configuration7_Item1=False
+OutputType8=TangoNetlist
+OutputName8=Tango Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=RINFNetlist
+OutputName9=RINF Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=SciCardsNetlist
+OutputName10=SciCards Netlist
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=CalayNetlist
+OutputName11=Calay Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=EDIF
+OutputName12=EDIF for PCB
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=CadnetixNetlist
+OutputName13=Cadnetix Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=PCADNetlist
+OutputName14=PCAD Netlist
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=PADSNetlist
+OutputName15=PADS ASCII Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=MultiWire
+OutputName16=MultiWire
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=OrCadPCB2Netlist
+OutputName17=Orcad/PCB2 Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=MentorBoardStationNetlist
+OutputName18=Mentor BoardStation Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=EESofNetlist
+OutputName19=EESof Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=IntergraphNetlist
+OutputName20=Intergraph Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+
+[OutputGroup2]
+Name=Simulator Outputs
+Description=
+TargetPrinter=PDFCreator
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+
+[OutputGroup3]
+Name=Documentation Outputs
+Description=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Composite
+OutputName1=Composite Drawing
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration1_Name2=OutputConfigurationParameter2
+Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration1_Name3=OutputConfigurationParameter3
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name4=OutputConfigurationParameter4
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name5=OutputConfigurationParameter5
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name6=OutputConfigurationParameter6
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name7=OutputConfigurationParameter7
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name8=OutputConfigurationParameter8
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical8|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name9=OutputConfigurationParameter9
+Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name10=OutputConfigurationParameter10
+Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name11=OutputConfigurationParameter11
+Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name12=OutputConfigurationParameter12
+Configuration1_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical16|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name13=OutputConfigurationParameter13
+Configuration1_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical22|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name14=OutputConfigurationParameter14
+Configuration1_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical32|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+OutputType2=PCB 3D Print
+OutputName2=PCB 3D Print
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=1200|ViewY=900|LookAtX=0|LookAtY=0|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
+OutputType3=PCB 3D Video
+OutputName3=PCB 3D Video
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB Print
+OutputName4=PCB Prints
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=PCBLIB Print
+OutputName5=PCBLIB Prints
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Report Print
+OutputName6=Report Prints
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Schematic Print
+OutputName7=Schematic Prints
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.73|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\development\sendev\SenDev\Projects\JacDapters\Altium\JACDACMicroBitHP\JacDacMicroBitShieldHP 31.SchDoc
+OutputType8=SimView Print
+OutputName8=SimView Prints
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=PCBDrawing
+OutputName9=Draftsman
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=PDF3D
+OutputName10=PDF3D
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup4]
+Name=Assembly Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Assembly
+OutputName1=Assembly Drawings
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Pick Place
+OutputName2=Generates pick and place files
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+
+[OutputGroup5]
+Name=Fabrication Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=Mask
+OutputName6=Solder/Paste Mask Prints
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=NC Drill
+OutputName7=NC Drill Files
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=ODB
+OutputName8=ODB++ Files
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+OutputType9=Plane
+OutputName9=Power-Plane Prints
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Test Points
+OutputName10=Test Point Report
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=Gerber X2
+OutputName11=Gerber X2 Files
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=IPC2581
+OutputName12=IPC-2581 Files
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup6]
+Name=Report Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=Filter
+Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name3=ForceUpdateSettings
+Configuration1_Item3=False
+Configuration1_Name4=General
+Configuration1_Item4=OpenExported=True|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\shodges\TFS-MSR\SenDev\System\Altium\Templates\BOM 4 suppliers with unit prices v2.xlsx|BatchMode=5|FormWidth=3703|FormHeight=1243|SupplierProdQty=1000|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD|ViewType=0
+Configuration1_Name5=GroupOrder
+Configuration1_Item5=Comment=True|Footprint=True
+Configuration1_Name6=OutputConfigurationParameter1
+Configuration1_Item6=??
+Configuration1_Name7=PCBDocument
+Configuration1_Item7=FileName=ArcadeMVD-STM.PcbDoc
+Configuration1_Name8=PCBDocument2
+Configuration1_Item8=FileName=[PCB Document 1]
+Configuration1_Name9=SortOrder
+Configuration1_Item9=Designator=Up
+Configuration1_Name10=VisibleOrder
+Configuration1_Item10=Comment=17|LibRef=17|Footprint=17|Time=23|Description=138|Designator=153|Manufacturer=98|Manufacturer Part Number=106|Quantity=60|Supplier 1=69|Supplier Currency 1=38|Supplier Order Qty 1=137|Supplier Part Number 1=96|Supplier Unit Price 1=30|Supplier Subtotal 1=32|Supplier 2=61|Supplier Currency 2=30|Supplier Order Qty 2=126|Supplier Part Number 2=119|Supplier Unit Price 2=34|Supplier Subtotal 2=46|Supplier 3=49|Supplier Currency 3=34|Supplier Order Qty 3=23|Supplier Part Number 3=134|Supplier Unit Price 3=34|Supplier Subtotal 3=38|Supplier 4=69|Supplier Currency 4=26|Supplier Order Qty 4=534|Supplier Part Number 4=285|Supplier Unit Price 4=18|Supplier Subtotal 4=32
+OutputType2=ComponentCrossReference
+OutputName2=Component Cross Reference Report
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=ForceUpdateSettings
+Configuration2_Item2=False
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Script
+OutputName4=Script Output
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=NetlistVersion=0|Record=SinglePinNetsView
+OutputType7=Export Comments
+OutputName7=Export Comments
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=BOM_ReportCompare
+OutputName8=BOM Compare
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[OutputGroup7]
+Name=Other Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Text Print
+OutputName1=Text Print
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Text Print
+OutputName2=Text Print
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Text Print
+OutputName3=Text Print
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Text Print
+OutputName4=Text Print
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Text Print
+OutputName5=Text Print
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Text Print
+OutputName6=Text Print
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Text Print
+OutputName7=Text Print
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Text Print
+OutputName8=Text Print
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Text Print
+OutputName9=Text Print
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Text Print
+OutputName10=Text Print
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Text Print
+OutputName11=Text Print
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Text Print
+OutputName12=Text Print
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Text Print
+OutputName13=Text Print
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=Text Print
+OutputName14=Text Print
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=Text Print
+OutputName15=Text Print
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=Text Print
+OutputName16=Text Print
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=Text Print
+OutputName17=Text Print
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Configuration compliance
+OutputName1=Environment configuration compliance check
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=Design Rules Check
+OutputName2=Design Rules Check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Differences Report
+OutputName3=Differences Report
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Electrical Rules Check
+OutputName4=Electrical Rules Check
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Footprint Comparison Report
+OutputName5=Footprint Comparison Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=Component states check
+OutputName6=Vault's components states check
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=ExportIDF
+OutputName3=Export IDF
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=ExportSTEP
+OutputName4=Export STEP
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=ExportPARASOLID
+OutputName5=Export PARASOLID
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[Modification Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=0
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
+Type118=1
+Type119=1
+
+[Difference Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=0
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+
+[Electrical Rules Check]
+Type1=1
+Type2=1
+Type3=2
+Type4=1
+Type5=2
+Type6=2
+Type7=0
+Type8=1
+Type9=1
+Type10=1
+Type11=2
+Type12=0
+Type13=0
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
+Type24=1
+Type25=2
+Type26=0
+Type27=2
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=2
+Type33=0
+Type34=2
+Type35=1
+Type36=2
+Type37=1
+Type38=2
+Type39=2
+Type40=2
+Type41=0
+Type42=2
+Type43=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
+Type50=2
+Type51=0
+Type52=0
+Type53=1
+Type54=1
+Type55=1
+Type56=2
+Type57=1
+Type58=1
+Type59=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
+Type64=0
+Type65=2
+Type66=3
+Type67=2
+Type68=2
+Type69=1
+Type70=2
+Type71=2
+Type72=2
+Type73=2
+Type74=1
+Type75=2
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=2
+Type81=3
+Type82=3
+Type83=3
+Type84=3
+Type85=3
+Type86=2
+Type87=2
+Type88=2
+Type89=1
+Type90=1
+Type91=3
+Type92=3
+Type93=2
+Type94=2
+Type95=2
+Type96=2
+Type97=2
+Type98=0
+Type99=1
+Type100=2
+Type101=0
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=2
+AlternateItemFail=3
+Type122=2
+Type123=1
+Type124=1
+Type125=1
+
+[ERC Connection Matrix]
+L1=NNNNNNNNNNNWNNNWW
+L2=NNWNNNNWWWNWNWNWW
+L3=NWEENEEEENEWNEEWW
+L4=NNENNNWEENNWNENWW
+L5=NNNNNNNNNNNNNNNNW
+L6=NNENNNNEENNWNENWW
+L7=NNEWNNWEENNWNENWW
+L8=NWEENEENEEENNEENW
+L9=NWEENEEEENEWNEEWW
+L10=NWNNNNNENNEWNNEWW
+L11=NNENNNNEEENWNENWW
+L12=WWWWNWWNWWWNWWWNW
+L13=NNNNNNNNNNNWNNNWW
+L14=NWEENEEEENEWNEEWW
+L15=NNENNNNEEENWNENWW
+L16=WWWWNWWNWWWNWWWNW
+L17=WWWWWWWWWWWWWWWWW
+
+[Annotate]
+SortOrder=3
+SortLocation=0
+ReplaceSubparts=0
+MatchParameter1=Comment
+MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
+
+[PrjClassGen]
+CompClassManualEnabled=0
+CompClassManualRoomEnabled=0
+NetClassAutoBusEnabled=1
+NetClassAutoCompEnabled=0
+NetClassAutoNamedHarnessEnabled=0
+NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
+
+[LibraryUpdateOptions]
+SelectedOnly=1
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=DiodesInc.SchLib
+ComponentDesignItemID0=D5V0P1B2LP
+ComponentSymbolReference0=D5V0P1B2LP
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=GCT.SchLib
+ComponentDesignItemID1=USB4125-GF-A
+ComponentSymbolReference1=USB4125-GF-A
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=generic-cap.SchLib
+ComponentDesignItemID2=CAP0603_GENERIC
+ComponentSymbolReference2=CAP0603_GENERIC
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=generic-con.SchLib
+ComponentDesignItemID3=Header Multicomp 2211S-04G-whitesch
+ComponentSymbolReference3=Header Multicomp 2211S-04G-whitesch
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=generic-con.SchLib
+ComponentDesignItemID4=JACDAC edge connector
+ComponentSymbolReference4=JACDAC edge connector
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=generic-con.SchLib
+ComponentDesignItemID5=M2 Mounting Hole
+ComponentSymbolReference5=M2 Mounting Hole
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=generic-res.SchLib
+ComponentDesignItemID6=RES0603_GENERIC
+ComponentSymbolReference6=RES0603_GENERIC
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=NXP.SchLib
+ComponentDesignItemID7=BAT54S
+ComponentSymbolReference7=BAT54S
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=TDK.SchLib
+ComponentDesignItemID8=TDK MPZ1608S102ATA00
+ComponentSymbolReference8=TDK MPZ1608S102ATA00
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+FullReplace=0
+UpdateDesignatorLock=1
+UpdatePartIDLock=1
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
+DoGraphics=1
+DoParameters=1
+DoModels=1
+AddParameters=0
+RemoveParameters=0
+AddModels=1
+RemoveModels=0
+UpdateCurrentModels=1
+ParameterName0=Breakdown Voltage
+ParameterUpdate0=1
+ParameterName1=Case Code (Imperial)
+ParameterUpdate1=1
+ParameterName2=Case Code (Metric)
+ParameterUpdate2=1
+ParameterName3=Case/Package
+ParameterUpdate3=1
+ParameterName4=Category
+ParameterUpdate4=1
+ParameterName5=Checked By
+ParameterUpdate5=1
+ParameterName6=Clamping Voltage
+ParameterUpdate6=1
+ParameterName7=Comment
+ParameterUpdate7=1
+ParameterName8=Component Kind
+ParameterUpdate8=1
+ParameterName9=ComponentLink1Description
+ParameterUpdate9=1
+ParameterName10=ComponentLink1URL
+ParameterUpdate10=1
+ParameterName11=ComponentLink2Description
+ParameterUpdate11=1
+ParameterName12=ComponentLink2URL
+ParameterUpdate12=1
+ParameterName13=ComponentLink3Description
+ParameterUpdate13=1
+ParameterName14=ComponentLink3URL
+ParameterUpdate14=1
+ParameterName15=Contact Material
+ParameterUpdate15=1
+ParameterName16=Contact Plating
+ParameterUpdate16=1
+ParameterName17=Contact Resistance
+ParameterUpdate17=1
+ParameterName18=Contact Termination
+ParameterUpdate18=1
+ParameterName19=Contact Termination Type
+ParameterUpdate19=1
+ParameterName20=Core Material
+ParameterUpdate20=1
+ParameterName21=Created By
+ParameterUpdate21=1
+ParameterName22=Current Rating
+ParameterUpdate22=1
+ParameterName23=DC Resistance (DCR)
+ParameterUpdate23=1
+ParameterName24=Description
+ParameterUpdate24=1
+ParameterName25=Direction
+ParameterUpdate25=1
+ParameterName26=Element Configuration
+ParameterUpdate26=1
+ParameterName27=ESD Protection
+ParameterUpdate27=1
+ParameterName28=Flammability Rating
+ParameterUpdate28=1
+ParameterName29=Gender
+ParameterUpdate29=1
+ParameterName30=Height
+ParameterUpdate30=1
+ParameterName31=Impedance
+ParameterUpdate31=1
+ParameterName32=Insulation Resistance
+ParameterUpdate32=1
+ParameterName33=Lead Spacing
+ParameterUpdate33=1
+ParameterName34=Length
+ParameterUpdate34=1
+ParameterName35=Library Reference
+ParameterUpdate35=1
+ParameterName36=Manufacturer
+ParameterUpdate36=1
+ParameterName37=Manufacturer 1
+ParameterUpdate37=1
+ParameterName38=Manufacturer Part Number
+ParameterUpdate38=1
+ParameterName39=Manufacturer Part Number 1
+ParameterUpdate39=1
+ParameterName40=Max DC Current
+ParameterUpdate40=1
+ParameterName41=Max Operating Temperature
+ParameterUpdate41=1
+ParameterName42=Max Power Dissipation
+ParameterUpdate42=1
+ParameterName43=Max Reverse Leakage Current
+ParameterUpdate43=1
+ParameterName44=Max Surge Current
+ParameterUpdate44=1
+ParameterName45=Min Breakdown Voltage
+ParameterUpdate45=1
+ParameterName46=Min Operating Temperature
+ParameterUpdate46=1
+ParameterName47=Mount
+ParameterUpdate47=1
+ParameterName48=No. of Contacts
+ParameterUpdate48=1
+ParameterName49=No. of Rows
+ParameterUpdate49=1
+ParameterName50=Number of Bidirectional Channels
+ParameterUpdate50=1
+ParameterName51=Number of Pins
+ParameterUpdate51=1
+ParameterName52=Operating Temperature Max
+ParameterUpdate52=1
+ParameterName53=Operating Temperature Min
+ParameterUpdate53=1
+ParameterName54=Package Quantity
+ParameterUpdate54=1
+ParameterName55=Package Size
+ParameterUpdate55=1
+ParameterName56=Packaging
+ParameterUpdate56=1
+ParameterName57=PCB Type
+ParameterUpdate57=1
+ParameterName58=Peak Pulse Current
+ParameterUpdate58=1
+ParameterName59=Peak Pulse Power
+ParameterUpdate59=1
+ParameterName60=Pitch Spacing
+ParameterUpdate60=1
+ParameterName61=Polarity
+ParameterUpdate61=1
+ParameterName62=Power
+ParameterUpdate62=1
+ParameterName63=Power Line Protection
+ParameterUpdate63=1
+ParameterName64=Pricing 1
+ParameterUpdate64=1
+ParameterName65=Product Range
+ParameterUpdate65=1
+ParameterName66=Rated Voltage
+ParameterUpdate66=1
+ParameterName67=Resistor Type
+ParameterUpdate67=1
+ParameterName68=Reverse Standoff Voltage
+ParameterUpdate68=1
+ParameterName69=RoHS
+ParameterUpdate69=1
+ParameterName70=Stock 1
+ParameterUpdate70=1
+ParameterName71=Supplier 1
+ParameterUpdate71=1
+ParameterName72=Supplier 2
+ParameterUpdate72=1
+ParameterName73=Supplier 3
+ParameterUpdate73=1
+ParameterName74=Supplier Part Number 1
+ParameterUpdate74=1
+ParameterName75=Supplier Part Number 2
+ParameterUpdate75=1
+ParameterName76=Supplier Part Number 3
+ParameterUpdate76=1
+ParameterName77=SVHC
+ParameterUpdate77=1
+ParameterName78=Termination
+ParameterUpdate78=1
+ParameterName79=Termination Method
+ParameterUpdate79=1
+ParameterName80=Tolerance
+ParameterUpdate80=1
+ParameterName81=Value
+ParameterUpdate81=1
+ParameterName82=Voltage Rating V AC
+ParameterUpdate82=1
+ParameterName83=Width
+ParameterUpdate83=1
+ParameterName84=Withstand Voltage
+ParameterUpdate84=1
+ParameterName85=Working Voltage
+ParameterUpdate85=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CAP0603
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=D5V0P1B2LP
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=Generic 1x4 2.54mm header
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=JACDAC_EDGE_CONNECTOR
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=M2_MOUNTING_HOLE
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=NXP-BAT54S
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=RES0603
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=TDK MPZ1608 0.8mm
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=USB4125-GF-A
+ModelUpdate8=1
+
+[DatabaseUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+UpdateToLatestRevision=1
+PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=AVX.SchLib
+ComponentDesignItemID0=0402YG104ZAT2A
+ComponentSymbolReference0=0402YG104ZAT2A
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Bel.SchLib
+ComponentDesignItemID1=PTC Bel Fuse 0ZCJ0020FF2E
+ComponentSymbolReference1=PTC Bel Fuse 0ZCJ0020FF2E
+ComponentUpdate1=0
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=CUI.SchLib
+ComponentDesignItemID2=SJ2-3574A-SMT
+ComponentSymbolReference2=SJ2-3574A-SMT
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=generic.SchLib
+ComponentDesignItemID3=TestPoint
+ComponentSymbolReference3=TestPoint
+ComponentUpdate3=0
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=generic-cap.SchLib
+ComponentDesignItemID4=CAP0402_GENERIC
+ComponentSymbolReference4=CAP0402_GENERIC
+ComponentUpdate4=0
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=generic-res.SchLib
+ComponentDesignItemID5=RES0402_GENERIC
+ComponentSymbolReference5=RES0402_GENERIC
+ComponentUpdate5=0
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Hirose.SchLib
+ComponentDesignItemID6=ZX62D-B-5PA8(30)-whitesch
+ComponentSymbolReference6=ZX62D-B-5PA8(30)-whitesch
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Infineon.SchLib
+ComponentDesignItemID7=BAT60AE6327HTSA1
+ComponentSymbolReference7=BAT60AE6327HTSA1
+ComponentUpdate7=0
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=JST.SchLib
+ComponentDesignItemID8=S2B-PH-SM4-TB(LF)(SN)
+ComponentSymbolReference8=S2B-PH-SM4-TB(LF)(SN)
+ComponentUpdate8=0
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=MaxLinear (was Exar).SchLib
+ComponentDesignItemID9=SPX3819M5-L-3-3_TR
+ComponentSymbolReference9=SPX3819M5-L-3-3_TR
+ComponentUpdate9=0
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Molex.SchLib
+ComponentDesignItemID10=MOLEX-0022284040-whitesch
+ComponentSymbolReference10=MOLEX-0022284040-whitesch
+ComponentUpdate10=0
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Molex.SchLib
+ComponentDesignItemID11=MOLEX-0022284070-whitesch
+ComponentSymbolReference11=MOLEX-0022284070-whitesch
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Multicomp.SchLib
+ComponentDesignItemID12=24MHz SMD xtal 3.2x2.5mm
+ComponentSymbolReference12=24MHz SMD xtal 3.2x2.5mm
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=NXP.SchLib
+ComponentDesignItemID13=NXP-PRTR5V0U2X,215-4-whitesch
+ComponentSymbolReference13=NXP-PRTR5V0U2X,215-4-whitesch
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=OnSemiconductor.SchLib
+ComponentDesignItemID14=2N7002K
+ComponentSymbolReference14=2N7002K
+ComponentUpdate14=0
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Rohm.SchLib
+ComponentDesignItemID15=SML-D12D
+ComponentSymbolReference15=SML-D12D
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Samsung.SchLib
+ComponentDesignItemID16=4.7uF 10V X5R ±10% Samsung CL
+ComponentSymbolReference16=4.7uF 10V X5R ±10% Samsung CL
+ComponentUpdate16=0
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=ST.SchLib
+ComponentDesignItemID17=ST STM32F411CEU6
+ComponentSymbolReference17=ST STM32F411CEU6
+ComponentUpdate17=0
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=TDK.SchLib
+ComponentDesignItemID18=TDK MPZ1608S102ATA00
+ComponentSymbolReference18=TDK MPZ1608S102ATA00
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=TrulySemiconductor.SchLib
+ComponentDesignItemID19=JD-T18003-T01
+ComponentSymbolReference19=JD-T18003-T01
+ComponentUpdate19=0
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Wurth.SchLib
+ComponentDesignItemID20=Tact Wurth 430152050826
+ComponentSymbolReference20=Tact Wurth 430152050826
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+

@@ -1,0 +1,146 @@
+*************************************************************
+FileName = JacdacEdgeConnectorSlotsTest 93-0.2.GBR
+AutoAperture = True
+*************************************************************
+Generating : Board Outline
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GM11
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Board Cutout
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GM10
+
+    Adding Layer      : Board Cutout
+
+
+Used DCodes :
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Fabrication Notes
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GM3
+
+    Adding Layer      : Fabrication Notes
+
+
+Used DCodes :
+    D11
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D17
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : JacdacEdgeConnectorSlotsTest 93-0.2.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D26
+    D27
+*************************************************************
+

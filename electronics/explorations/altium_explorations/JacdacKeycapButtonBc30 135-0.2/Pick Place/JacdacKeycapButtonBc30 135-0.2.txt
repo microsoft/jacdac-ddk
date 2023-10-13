@@ -1,0 +1,79 @@
+Altium Designer Pick and Place Locations
+D:\shodges\TFS-MSR\SenDev\Projects\JacdacModules\PADAUK\JacdacKeycapButtonBc30 135\.\JacdacKeycapButtonBc30 135-0.2\Pick Place\JacdacKeycapButtonBc30 135-0.2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/09/23
+Time:       17:54
+Revision:   Not in VersionControl
+Variant:    JLCPCB
+Units used: mm
+
+Designator Layer    Center-X(mm) Center-Y(mm) Rotation 
+C1         TopLayer -4.9590      39.5485      180      
+C1         TopLayer 16.0410      39.5485      180      
+C1         TopLayer 37.0410      39.5485      180      
+C1         TopLayer -4.9590      7.5485       180      
+C1         TopLayer 16.0410      7.5485       180      
+C1         TopLayer 37.0410      7.5485       180      
+C2         TopLayer -15.0800     43.1000      180      
+C2         TopLayer 5.9200       43.1000      180      
+C2         TopLayer 26.9200      43.1000      180      
+C2         TopLayer -15.0800     11.1000      180      
+C2         TopLayer 5.9200       11.1000      180      
+C2         TopLayer 26.9200      11.1000      180      
+C3         TopLayer -11.5210     40.8362      90       
+C3         TopLayer 9.4790       40.8362      90       
+C3         TopLayer 30.4790      40.8362      90       
+C3         TopLayer -11.5210     8.8362       90       
+C3         TopLayer 9.4790       8.8362       90       
+C3         TopLayer 30.4790      8.8362       90       
+D1         TopLayer -5.2000      42.0179      180      
+D1         TopLayer 15.8000      42.0179      180      
+D1         TopLayer 36.8000      42.0179      180      
+D1         TopLayer -5.2000      10.0178      180      
+D1         TopLayer 15.8000      10.0178      180      
+D1         TopLayer 36.8000      10.0178      180      
+D2         TopLayer -7.2500      43.2000      180      
+D2         TopLayer 13.7500      43.2000      180      
+D2         TopLayer 34.7500      43.2000      180      
+D2         TopLayer -7.2500      11.2000      180      
+D2         TopLayer 13.7500      11.2000      180      
+D2         TopLayer 34.7500      11.2000      180      
+D3         TopLayer -12.6500     43.2000      360      
+D3         TopLayer 8.3500       43.2000      360      
+D3         TopLayer 29.3500      43.2000      360      
+D3         TopLayer -12.6500     11.2000      360      
+D3         TopLayer 8.3500       11.2000      360      
+D3         TopLayer 29.3500      11.2000      360      
+D6         TopLayer -10.0000     43.2000      180      
+D6         TopLayer 11.0000      43.2000      180      
+D6         TopLayer 32.0000      43.2000      180      
+D6         TopLayer -10.0000     11.2000      180      
+D6         TopLayer 11.0000      11.2000      180      
+D6         TopLayer 32.0000      11.2000      180      
+FB1        TopLayer -8.6017      40.8447      270      
+FB1        TopLayer 12.3983      40.8447      270      
+FB1        TopLayer 33.3983      40.8447      270      
+FB1        TopLayer -8.6017      8.8446       270      
+FB1        TopLayer 12.3983      8.8446       270      
+FB1        TopLayer 33.3983      8.8446       270      
+R1         TopLayer -6.8750      40.0315      270      
+R1         TopLayer 14.1250      40.0315      270      
+R1         TopLayer 35.1250      40.0315      270      
+R1         TopLayer -6.8750      8.0315       270      
+R1         TopLayer 14.1250      8.0315       270      
+R1         TopLayer 35.1250      8.0315       270      
+R2         TopLayer -10.1875     40.9625      270      
+R2         TopLayer 10.8125      40.9625      270      
+R2         TopLayer 31.8125      40.9625      270      
+R2         TopLayer -10.1875     8.9625       270      
+R2         TopLayer 10.8125      8.9625       270      
+R2         TopLayer 31.8125      8.9625       270      
+U1         TopLayer -14.1050     40.8362      360      
+U1         TopLayer 6.8950       40.8362      360      
+U1         TopLayer 27.8950      40.8362      360      
+U1         TopLayer -14.1050     8.8362       360      
+U1         TopLayer 6.8950       8.8362       360      
+U1         TopLayer 27.8950      8.8362       360      

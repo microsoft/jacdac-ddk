@@ -1,0 +1,25 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 14:57:54 On 05/12/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacBreadboardBc30Mount 134.PrjPCB]
+   Generated File[JacdacBreadboardBc30Mount 134 flex-hack-panel.OutJob]
+   Generated File[JacdacBreadboardBc30Mount 134 flex-hack-panel.PcbDoc]
+   Generated File[JacdacBreadboardBc30Mount 134 flex-hack.PcbDoc]
+   Generated File[JacdacBreadboardBc30Mount 134 panel.OutJob]
+   Generated File[JacdacBreadboardBc30Mount 134 panel.PcbDoc]
+   Generated File[JacdacBreadboardBc30Mount 134 single.OutJob]
+   Generated File[JacdacBreadboardBc30Mount 134 single.PcbDoc]
+   Generated File[JacdacBreadboardBc30Mount 134.BomDoc]
+   Generated File[JacdacBreadboardBc30Mount 134.PcbDoc]
+   Generated File[JacdacBreadboardBc30Mount 134.PrjPCB]
+   Generated File[JacdacBreadboardBc30Mount 134.PrjPCBStructure]
+   Generated File[JacdacBreadboardBc30Mount 134.SchDoc]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 14:57:54 On 05/12/2022

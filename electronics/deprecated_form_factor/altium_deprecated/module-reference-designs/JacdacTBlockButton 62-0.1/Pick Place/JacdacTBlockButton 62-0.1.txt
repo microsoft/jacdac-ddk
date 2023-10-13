@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+D:\Dev\MSR\SenDev\Projects\JacdacModules\PADAUK\JacdacTBlockButton 62\.\JacdacTBlockButton 62-0.1\Pick Place\JacdacTBlockButton 62-0.1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       03/09/21
+Time:       15:10
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         BottomLayer 3.1270       4.7853       180      
+C2         BottomLayer -1.8750      13.2500      180      
+C3         BottomLayer -0.3781      8.8550       0        
+C4         BottomLayer 3.9527       11.2397      90       
+D1         BottomLayer -1.1000      4.2500       0        
+D2         BottomLayer 1.2750       1.0250       180      
+D3         BottomLayer -1.4500      1.0000       0        
+D4         BottomLayer 1.2000       15.7750      180      
+D5         BottomLayer -1.5286      15.6565      0        
+D6         TopLayer    0.0000       13.9750      90       
+FB1        BottomLayer 1.6000       3.4750       90       
+J1         BottomLayer 0.0000       18.4875      180      
+J2         BottomLayer 0.0000       -1.9875      0        
+J3         TopLayer    0.0000       7.9250       180      
+MH1        TopLayer    5.0000       14.5000      0        
+MH2        TopLayer    -5.0000      14.5000      180      
+MH3        TopLayer    5.0000       2.0000       0        
+MH4        TopLayer    -5.0000      2.0000       180      
+R1         BottomLayer 2.0831       5.8768       0        
+R2         BottomLayer 1.1250       13.9500      0        
+U1         BottomLayer -1.8750      11.1757      0        
+U2         BottomLayer 1.6000       11.5000      90       

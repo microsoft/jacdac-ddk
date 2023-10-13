@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Dev\MSR\SenDev\Projects\JacdacBrains\Smart USB-C powered hub\JacdacPower 50\Panelized JacdacPower 50.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=jacdacpower 50-0.1-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=jacdacpower 50-0.1-slotholes.txt|DrillLayers=gtl,gbl

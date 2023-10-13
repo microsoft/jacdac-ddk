@@ -1,0 +1,19 @@
+Altium Designer Pick and Place Locations
+Y:\Projects\MicroBit\MicrobitQwiic 138\.\MicrobitQwiic 138-0.1\Pick Place\MicrobitQwiic 138-0.1.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/03/23
+Time:       18:21
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Center-X(mm)","Center-Y(mm)","Rotation"
+"J1","BottomLayer","64.2100","55.2975","180"
+"J2","BottomLayer","73.3700","55.2975","180"
+"J3","BottomLayer","63.7100","64.3600","180"
+"J4","BottomLayer","73.8700","64.3600","180"
+"J5","BottomLayer","68.1550","59.3600","180"
+"J6","BottomLayer","69.4250","61.3600","180"

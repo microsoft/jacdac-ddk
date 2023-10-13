@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: JacdacHub 39-1.2.GBR   10/01/2022  20:11:18
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM3                Fab Notes                               
+.GM11               Board Outline                           
+.GM15               Top Assy                                
+.GM16               Bottom Assy                             
+.GD1                Drill Drawing                           
+------------------------------------------------------------------------------------------

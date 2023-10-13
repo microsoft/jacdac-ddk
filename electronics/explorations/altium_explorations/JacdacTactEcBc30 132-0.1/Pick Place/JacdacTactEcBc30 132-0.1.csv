@@ -1,0 +1,27 @@
+Altium Designer Pick and Place Locations
+D:\shodges\TFS-MSR\SenDev\Projects\JacdacModules\PADAUK\JacdacTactButtonEcBc30 132\.\JacdacTactEcBc30 132-0.1\Pick Place\JacdacTactEcBc30 132-0.1.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       24/11/22
+Time:       23:06
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Center-X(mm)","Center-Y(mm)","Rotation"
+"C1","TopLayer","3.6009","4.7331","270"
+"C2","TopLayer","-0.1000","-4.1500","15"
+"C3","TopLayer","4.1495","-5.2500","270"
+"C4","BottomLayer","0.7509","-6.6573","180"
+"D1","TopLayer","0.0000","6.4000","270"
+"D2","TopLayer","-1.2000","2.7500","270"
+"D3","TopLayer","-1.2000","-2.6500","90"
+"D6","TopLayer","-1.2000","0.0000","270"
+"FB1","TopLayer","0.2300","3.0750","90"
+"R1","TopLayer","4.8759","4.6721","270"
+"R2","TopLayer","0.3009","-1.3000","270"
+"SW1","TopLayer","4.3000","0.0000","270"
+"U1","TopLayer","-0.2000","-6.7500","285"
+"U2","BottomLayer","3.5000","-3.2000","0"

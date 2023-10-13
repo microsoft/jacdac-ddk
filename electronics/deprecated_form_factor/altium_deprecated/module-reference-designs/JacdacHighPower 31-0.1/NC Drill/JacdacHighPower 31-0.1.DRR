@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacHighPower 31.PcbDoc   4/26/2021  4:04:47 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacHighPower 31-0.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacHighPower 31-0.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             34        PTH        0.00inch (0.00mm)
+T2      24mil (0.6mm)                                             Slot              4         PTH        0.00inch (0.00mm)
+T3      26mil (0.66mm)                                            Round             5         PTH        0.00inch (0.00mm)
+T4      28mil (0.71mm)                                            Round             12        PTH        0.00inch (0.00mm)
+T5      83mil (2.1mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T6      28mil (0.7mm)                                             Slot              8         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              67
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,29 @@
+Altium Designer Pick and Place Locations
+D:\shodges\TFS-MSR\SenDev\Projects\JacDapters\Altium\JacdacPinHeader 45\.\JacdacPinHeader 45-0.3\Pick Place\JacdacPinHeader 45-0.3.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/01/22
+Time:       18:20
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer    Center-X(mm) Center-Y(mm) Rotation 
+C1         TopLayer 1.4314       -5.2157      180      
+C2         TopLayer -0.3109      -1.9712      90       
+C3         TopLayer -0.7434      -4.3256      270      
+D1         TopLayer 2.3000       0.3000       180      
+D2         TopLayer -2.9906      -1.1750      180      
+D3         TopLayer 1.7491       -7.3760      180      
+D4         TopLayer -1.6023      -7.2904      0        
+FB1        TopLayer -2.0234      -5.2641      90       
+J1         TopLayer 0.0000       -10.1875     180      
+J2         TopLayer -0.0800      2.6750       180      
+MH1        TopLayer 5.0000       6.2500       0        
+MH2        TopLayer -5.0000      6.2500       180      
+MH3        TopLayer -5.0000      -6.2500      270      
+MH4        TopLayer 5.0000       -6.2500      270      
+R1         TopLayer -2.5250      -3.4000      0        
+U1         TopLayer 1.8552       -2.6750      90       

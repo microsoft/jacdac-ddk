@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacEdgeConnectorSlotsTest 93.PcbDoc   14/03/2022  01:27:41
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacEdgeConnectorSlotsTest 93-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacEdgeConnectorSlotsTest 93-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             10        PTH        105.85mm (4.17inch)
+T2      0.71mm (28mil)                                            Round             30        PTH        107.72mm (4.24inch)
+T3      0.7mm (28mil)                                             Round             8         NPTH       50.08mm (1.97inch)
+T4      0.7mm (28mil)                                             Slot              14        NPTH       230.55mm (9.08inch)
+T5      1mm (39mil)                                               Slot              4         NPTH       42.42mm (1.67inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              66
+
+Total Processing Time (hh:mm:ss) : 00:00:00

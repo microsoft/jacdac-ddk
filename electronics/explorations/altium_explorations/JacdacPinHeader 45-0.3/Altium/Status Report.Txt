@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 18:18:43 On 10/01/2022
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [JacdacPinHeaders 45.PrjPCB]
+   Generated File[BOM (complete design) JacdacPinHeader 45-0.3.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 18:18:44 On 10/01/2022

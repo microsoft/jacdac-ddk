@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 21:07:03 On 29/01/2022
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [JacdacRgbLed1Ec30 77.PrjPCB]
+   Generated File[BOM (complete design) JacdacRgbLed1Ec30 77-0.2.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:07:04 On 29/01/2022

@@ -1,0 +1,26 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 15:07:54 On 05/12/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacBreadboardRingsWasherG 109.PrjPCB]
+   Generated File[JacdacBreadboardRingsWasherG 109 D-shaped-panel.OutJob]
+   Generated File[JacdacBreadboardRingsWasherG 109 D-shaped-panel.PcbDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109 D-shaped.PcbDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109 oblong-panel.OutJob]
+   Generated File[JacdacBreadboardRingsWasherG 109 oblong-panel.PcbDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109 oblong-single.PcbDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109 oblong.PcbDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109.BomDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109.PcbDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109.PrjPCB]
+   Generated File[JacdacBreadboardRingsWasherG 109.PrjPCBStructure]
+   Generated File[JacdacBreadboardRingsWasherG 109.SchDoc]
+   Generated File[JacdacBreadboardRingsWasherG 109Q.PcbDoc]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 15:07:54 On 05/12/2022

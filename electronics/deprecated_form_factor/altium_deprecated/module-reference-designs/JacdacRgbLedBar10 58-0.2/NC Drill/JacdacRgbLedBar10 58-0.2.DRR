@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacRgbLedBar10 58.PcbDoc   10/11/2021  10:50:59
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacRgbLedBar10 58-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacRgbLedBar10 58-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             28        PTH        4.28inch (108.78mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.23inch (5.91mm)
+T3      28mil (0.71mm)                                            Round             6         PTH        3.06inch (77.63mm)
+T4      83mil (2.1mm)                                             Round             4         PTH        3.64inch (92.50mm)
+T5      28mil (0.7mm)                                             Slot              4         NPTH       7.00inch (177.79mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              47
+
+Total Processing Time (hh:mm:ss) : 00:00:00

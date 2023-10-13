@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacBreadboardRingsWasherG 109 oblong-panel.PcbDoc   05/12/2022  15:07:50
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacBreadboardRingsWasherG 109-0.6.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             96        PTH        424.10mm (16.70inch)
+T2      2.93mm (115mil)                                           Round             4         PTH        86.01mm (3.39inch)
+T3      3.99mm (157mil)                                           Round             4         PTH        86.01mm (3.39inch)
+T4      4.04mm (159mil)                                           Round             4         PTH        86.01mm (3.39inch)
+T5      4.09mm (161mil)                                           Round             4         PTH        86.01mm (3.39inch)
+T6      2.93mm (115mil)                                           Round             8         NPTH       156.02mm (6.14inch)
+T7      3.99mm (157mil)                                           Round             8         NPTH       156.02mm (6.14inch)
+T8      4.04mm (159mil)                                           Round             8         NPTH       156.02mm (6.14inch)
+T9      4.09mm (161mil)                                           Round             8         NPTH       156.02mm (6.14inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              144
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacMotionDetection 54.PcbDoc   10/11/2021  15:59:11
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacmotionDetection 54-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacmotionDetection 54-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             11        PTH        2.03inch (51.66mm)
+T2      28mil (0.71mm)                                            Round             6         PTH        0.72inch (18.28mm)
+T3      43mil (1.1mm)                                             Round             3         PTH        0.20inch (5.08mm)
+T4      83mil (2.1mm)                                             Round             4         PTH        1.77inch (45.00mm)
+T5      28mil (0.7mm)                                             Slot              4         NPTH       2.33inch (59.09mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              28
+
+Total Processing Time (hh:mm:ss) : 00:00:00

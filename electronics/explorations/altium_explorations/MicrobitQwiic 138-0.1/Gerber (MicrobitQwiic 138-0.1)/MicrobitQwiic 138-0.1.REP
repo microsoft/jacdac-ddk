@@ -1,0 +1,116 @@
+*************************************************************
+FileName = MicrobitQwiic 138-0.1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Layer
+      File : MicrobitQwiic 138-0.1.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : MicrobitQwiic 138-0.1.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : MicrobitQwiic 138-0.1.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : MicrobitQwiic 138-0.1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : MicrobitQwiic 138-0.1.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : MicrobitQwiic 138-0.1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Fabrication Notes [3]
+      File : MicrobitQwiic 138-0.1.GM3
+
+    Adding Layer      : Fabrication Notes [3]
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Board Outline [11]
+      File : MicrobitQwiic 138-0.1.GM11
+
+    Adding Layer      : Board Outline [11]
+
+
+Used DCodes :
+    D29
+*************************************************************
+

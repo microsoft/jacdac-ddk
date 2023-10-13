@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacTBlockButton 62.PcbDoc   03/09/2021  15:07:01
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacTBlockButton 62-0.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacTBlockButton 62-0.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             2         PTH        0.92inch (23.35mm)
+T2      18mil (0.45mm)                                            Round             6         PTH        0.87inch (22.09mm)
+T3      28mil (0.71mm)                                            Round             6         PTH        0.89inch (22.68mm)
+T4      51mil (1.3mm)                                             Round             2         PTH        0.20inch (5.00mm)
+T5      83mil (2.1mm)                                             Round             4         PTH        1.28inch (32.50mm)
+T6      28mil (0.7mm)                                             Slot              4         NPTH       2.67inch (67.89mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              24
+
+Total Processing Time (hh:mm:ss) : 00:00:00

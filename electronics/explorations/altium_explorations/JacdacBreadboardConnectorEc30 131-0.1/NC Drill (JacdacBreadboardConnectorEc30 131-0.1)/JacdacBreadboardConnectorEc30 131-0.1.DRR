@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacBreadboardConnectorEc30 131.PcbDoc   04/09/2022  19:20:14
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacBreadboardConnectorEc30 131-0.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacBreadboardConnectorEc30 131-0.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             7         PTH        17.76mm (0.70inch)
+T2      0.3mm (12mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T3      0.71mm (28mil)                                            Round             3         PTH        2.54mm (0.10inch)
+T4      0.7mm (28mil)                                             Slot              2         NPTH       11.45mm (0.45inch)
+T5      2.93mm (115mil)                                           Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              14
+
+Total Processing Time (hh:mm:ss) : 00:00:00

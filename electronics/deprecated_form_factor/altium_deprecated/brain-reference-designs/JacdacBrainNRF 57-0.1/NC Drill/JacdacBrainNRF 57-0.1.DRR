@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacBrainNRF 57.PcbDoc   05/11/2021  10:37:02
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacBrainNRF 57-0.1-RoundHoles.TXT
+ASCII SlotHoles File : JacdacBrainNRF 57-0.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             60        PTH        7.49inch (190.30mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.22inch (5.49mm)
+T3      28mil (0.7mm)                                             Slot              4         PTH        1.80inch (45.81mm)
+T4      28mil (0.71mm)                                            Round             12        PTH        1.88inch (47.76mm)
+T5      83mil (2.1mm)                                             Round             4         PTH        2.26inch (57.50mm)
+T6      26mil (0.65mm)                                            Round             2         NPTH       0.23inch (5.78mm)
+T7      28mil (0.7mm)                                             Slot              8         NPTH       4.78inch (121.50mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              95
+
+Total Processing Time (hh:mm:ss) : 00:00:00

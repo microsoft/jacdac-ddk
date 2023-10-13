@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacKeycapButtonBc30 135 panel.PcbDoc   15/09/2023  17:54:44
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacKeycapButtonBc30 135-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacKeycapButtonBc30 135-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             66        PTH        11.25inch (285.79mm)
+T2      22mil (0.559mm)                                           Round             30        PTH        5.66inch (143.82mm)
+T3      28mil (0.71mm)                                            Round             18        PTH        4.87inch (123.62mm)
+T4      28mil (0.72mm)                                            Round             102       PTH        20.19inch (512.92mm)
+T5      36mil (0.92mm)                                            Round             126       PTH        22.46inch (570.39mm)
+T6      59mil (1.499mm)                                           Round             12        PTH        8.58inch (217.99mm)
+T7      28mil (0.7mm)                                             Slot              12        NPTH       10.24inch (260.05mm)
+T8      67mil (1.702mm)                                           Round             12        NPTH       8.34inch (211.84mm)
+T9      157mil (4mm)                                              Round             6         NPTH       5.43inch (138.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              384
+
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -9,8 +9,11 @@ Please also refer to discussions at https://github.com/microsoft/jacdac/discussi
 ## Repository structure
 
 -   `/connector`: specification of the Jacdac PCB connector, cable connector and cable assemblies;
--   `/electronics`: reference materials and implementations of different types of device in the form of schematics, layouts and parts libraries for various electronics CAD packages; and
+-   `/electronics`: reference materials and implementations of different types of device in the form of schematics, layouts and parts libraries for various electronics CAD packages;
+-   `/enclosures`: files relating to enclosures for Jacdac modules and devices; and
 -   `/graphics`: image files that might be useful for device design, packaging and/or marketing materials.
+
+Note that the contents of any files under a `deprecated_form_factor` or `explorations` folder are provided for interest only, these should not be considered reference material relating to the Jacdac standard.
 
 ## Contributing to Jacdac
 

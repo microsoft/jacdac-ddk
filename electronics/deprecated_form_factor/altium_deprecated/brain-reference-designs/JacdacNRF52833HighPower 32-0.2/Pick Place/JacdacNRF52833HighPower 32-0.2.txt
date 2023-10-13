@@ -1,0 +1,64 @@
+Altium Designer Pick and Place Locations
+C:\development\sendev\SenDev\Projects\JacdacBrains\NORDIC\JacdacNRF52833HighPower\.\JacdacNRF52833HighPower 32-0.2\Pick Place\JacdacNRF52833HighPower 32-0.2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       09/04/21
+Time:       08:45
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Layer       Center-X(mm) Center-Y(mm) Rotation 
+C1         TopLayer    10.8728      6.4870       270      
+C2         TopLayer    7.8910       4.7953       180      
+C3         TopLayer    5.1376       11.8559      90       
+C4         TopLayer    10.2750      12.7809      270      
+C5         TopLayer    6.6599       10.8500      360      
+C6         TopLayer    2.9430       14.2075      360      
+D1         TopLayer    16.4424      2.9532       180      
+D2         TopLayer    5.0798       16.8604      270      
+D3         TopLayer    -5.8193      25.7084      90       
+D4         TopLayer    16.4344      4.2683       180      
+D5         TopLayer    11.3569      12.9776      90       
+D6         TopLayer    4.2607       25.2080      270      
+D7         TopLayer    -0.0913      13.9776      90       
+D8         TopLayer    0.9753       26.8168      180      
+D9         TopLayer    14.3280      22.3701      150      
+D10        TopLayer    -12.3499     23.4156      210      
+D12        TopLayer    12.6907      23.3808      330      
+D13        TopLayer    -14.0392     22.4182      30       
+D14        TopLayer    -1.0754      26.8471      360      
+FB1        TopLayer    3.2998       16.0978      270      
+J1         BottomLayer -16.0999     3.0000       180      
+J2         TopLayer    14.9300      10.4250      90       
+J3         TopLayer    15.5752      25.7068      330      
+J4         TopLayer    0.0000       29.7605      0        
+J6         TopLayer    -15.4020     25.5960      30       
+MH1        TopLayer    -9.9500      18.0000      90       
+MH2        TopLayer    10.0500      18.0000      90       
+MH3        TopLayer    -9.9500      2.3750       270      
+MH4        TopLayer    10.2750      2.3750       360      
+R1         TopLayer    8.5319       10.8500      180      
+R2         TopLayer    13.9220      2.9281       180      
+R3         TopLayer    7.0201       3.6330       360      
+R4         TopLayer    7.0369       2.4897       360      
+R5         TopLayer    3.2998       11.8559      90       
+R6         TopLayer    4.2700       11.8559      90       
+R7         TopLayer    13.9201      4.2976       180      
+R8         TopLayer    -4.7393      22.7327      270      
+R9         TopLayer    -7.1160      22.7327      270      
+R10        TopLayer    -5.9084      22.7327      270      
+R13        TopLayer    2.7943       25.5890      90       
+R14        TopLayer    2.0161       15.8647      270      
+SW1        TopLayer    -10.6250     10.7750      180      
+TP1        BottomLayer 4.3354       1.7770       180      
+TP2        BottomLayer 2.5357       1.7770       180      
+TP3        BottomLayer 0.7357       1.7770       180      
+TP4        BottomLayer -1.0643      1.7770       180      
+TP5        BottomLayer -2.8643      1.7770       180      
+TP6        BottomLayer -4.6643      1.7770       180      
+U1         TopLayer    8.4819       7.0520       180      
+U2         TopLayer    7.6569       13.2809      180      
+U4         TopLayer    -0.0646      4.8020       180      

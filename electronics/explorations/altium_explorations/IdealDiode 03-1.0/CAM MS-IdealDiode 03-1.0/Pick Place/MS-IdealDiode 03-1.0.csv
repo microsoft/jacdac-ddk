@@ -1,0 +1,16 @@
+Altium Designer Pick and Place Locations
+D:\shodges\TFS-MSR\SenDev\Projects\EduBoards - MS\ArcadeDev\Altium\IdealDiode v1.0\.\CAM MS-IdealDiode 03-1.0\Pick Place\MS-IdealDiode 03-1.0.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       28/08/19
+Time:       19:28
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Center-X(mm)","Center-Y(mm)","Rotation"
+"C1","TopLayer","0.8128","-5.9690","270"
+"Q1","TopLayer","3.2512","-2.9587","180"
+"Q2","TopLayer","3.3020","-6.8072","360"

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Dev\MSR\SenDev\Projects\JacdacBrains\ESP32\JacdacBrainESP32 48\JacdacIoT 48-0.2\Altium\Panelized JacdacIoT 48.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=jacdacbrainesp32 48-0.3-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=jacdacbrainesp32 48-0.3-slotholes.txt|DrillLayers=gtl,gbl

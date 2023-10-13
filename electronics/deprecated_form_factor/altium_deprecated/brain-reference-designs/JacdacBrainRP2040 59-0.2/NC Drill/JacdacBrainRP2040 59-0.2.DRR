@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: JacdacBrainRP2040 59.PcbDoc   21/12/2021  18:54:37
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacBrainRP2040 59-0.2-RoundHoles.TXT
+ASCII SlotHoles File : JacdacBrainRP2040 59-0.2-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             64        PTH        6.26inch (159.04mm)
+T2      26mil (0.66mm)                                            Round             5         PTH        0.22inch (5.49mm)
+T3      28mil (0.7mm)                                             Slot              4         PTH        1.49inch (37.92mm)
+T4      28mil (0.71mm)                                            Round             3         PTH        0.10inch (2.54mm)
+T5      83mil (2.1mm)                                             Round             4         PTH        2.46inch (62.50mm)
+T6      26mil (0.65mm)                                            Round             2         NPTH       0.23inch (5.78mm)
+T7      28mil (0.7mm)                                             Slot              2         NPTH       0.46inch (11.74mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              84
+
+Total Processing Time (hh:mm:ss) : 00:00:00

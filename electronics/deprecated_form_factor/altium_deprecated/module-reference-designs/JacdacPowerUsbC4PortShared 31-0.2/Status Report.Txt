@@ -1,0 +1,18 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:59:18 On 13/10/2023
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacPowerUsbC4PortShared 31.PrjPCB]
+   Generated File[JacdacPowerUsbC4PortShared 31.OutJob]
+   Generated File[JacdacPowerUsbC4PortShared 31.PcbDoc]
+   Generated File[JacdacPowerUsbC4PortShared 31.PrjPCB]
+   Generated File[JacdacPowerUsbC4PortShared 31.PrjPCBStructure]
+   Generated File[JacdacPowerUsbC4PortShared 31.SchDoc]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 11:59:18 On 13/10/2023

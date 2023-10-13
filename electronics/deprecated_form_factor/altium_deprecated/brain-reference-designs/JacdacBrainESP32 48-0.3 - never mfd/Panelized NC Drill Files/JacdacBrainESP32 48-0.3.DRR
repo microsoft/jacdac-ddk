@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panelized JacdacIoT 48.PcbDoc   17/08/2021  18:17:30
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JacdacBrainESP32 48-0.3-RoundHoles.TXT
+ASCII SlotHoles File : JacdacBrainESP32 48-0.3-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             930       PTH        124.56inch (3163.76mm)
+T2      26mil (0.66mm)                                            Round             120       PTH        26.40inch (670.49mm)
+T3      28mil (0.7mm)                                             Slot              40        PTH        46.20inch (1173.39mm)
+T4      28mil (0.71mm)                                            Round             120       PTH        31.55inch (801.45mm)
+T5      83mil (2.1mm)                                             Round             40        PTH        31.60inch (802.73mm)
+T6      118mil (3mm)                                              Round             6         PTH        24.54inch (623.42mm)
+T7      20mil (0.5mm)                                             Round             480       NPTH       55.32inch (1405.12mm)
+T8      26mil (0.65mm)                                            Round             20        NPTH       14.53inch (369.09mm)
+T9      28mil (0.7mm)                                             Slot              80        NPTH       67.81inch (1722.39mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1836
+
+Total Processing Time (hh:mm:ss) : 00:00:08

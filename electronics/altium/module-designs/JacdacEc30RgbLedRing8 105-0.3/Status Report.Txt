@@ -1,0 +1,20 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 16:59:10 On 27/05/2022
+
+Output: Backup Altium source
+Type  : Copy Files
+From  : Project [JacdacEc30RgbLedRing8 105.PrjPCB]
+   Generated File[JacdacEc30RgbLedRing8 105-0.2 AAAABI.txt]
+   Generated File[JacdacEc30RgbLedRing8 105.OutJob]
+   Generated File[JacdacEc30RgbLedRing8 105.PcbDoc]
+   Generated File[JacdacEc30RgbLedRing8 105.PcbDwf]
+   Generated File[JacdacEc30RgbLedRing8 105.PrjPCB]
+   Generated File[JacdacEc30RgbLedRing8 105.PrjPCBStructure]
+   Generated File[JacdacEc30RgbLedRing8 105.SchDoc]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 16:59:10 On 27/05/2022
