@@ -34,7 +34,9 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
 see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
+[LICENSE-CODE](LICENSE-CODE) file, and grant you a license to any hardware designs in the repository under the [CERN Open License v2](https://opensource.org/license/cern-ohl-p), see the [LICENSE-HARDWARE](LICENSE-HARDWARE) file.
+
+Use of this open hardware project, as well as any physical hardware created using it, carries risks of malfunction or failure. It is not subject to the same testing and quality control as designs created for products to be put into commerce and may not be suitable for mission-critical, high-risk applications, or other uses where failure could result in personal injury, death, property damage, other harm or loss including but not limited to data loss or corruption. By using this project or any hardware created using it, you assume all risks and agree to not hold its creators or distributors responsible for any damages or losses resulting from that use.
 
 Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
 may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
