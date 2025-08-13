@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has moved to https://github.com/jacdac/jacdac-ddk 
+
 # Jacdac Device Development Kit (DDK) Reference Materials
 
 ## Introduction
